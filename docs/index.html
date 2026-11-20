@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#172422">
+<meta name="description" content="Historical miniature wargaming from independent blogs and public communities.">
+<title>Wargaming Hub</title>
+<link rel="stylesheet" href="./assets/style.css">
+<script src="./assets/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <div class="shell head">
+    <a href="#feed" class="brand"><span class="mark" aria-hidden="true">✥</span> Wargaming <em>Hub</em></a>
+    <nav aria-label="Main navigation" id="navigation">
+      <a href="#feed">Feed</a><a href="#discover">Discover</a><a href="#saved">Saved</a><a href="#sources">Sources</a>
+    </nav>
+  </div>
+</header>
+<main class="shell" id="main">
+  <section class="hero" id="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow">HISTORICAL MINIATURE WARGAMING</p>
+      <h1 id="hero-title">Dispatches from <em>the tabletop.</em></h1>
+      <p>Battle reports, painting benches and fresh scenario ideas from independent wargamers.</p>
+      <a href="#discover" class="hero-link">Explore Discover</a>
+    </div>
+    <div class="hero-image" role="img" aria-label="Illustrative tabletop scene with painted Renaissance miniatures"></div>
+  </section>
+  <section class="main-section" aria-labelledby="view-title">
+    <div class="section-heading">
+      <div><h2 id="view-title" tabindex="-1">The latest dispatches</h2><p id="view-description">Historical wargaming from across the web.</p></div>
+      <p id="updated" class="updated"></p>
+    </div>
+    <div id="filters" class="filters" hidden>
+      <div class="selects">
+        <label><span>Historical period</span><select id="period"></select></label>
+        <label><span>Content type</span><select id="kind"></select></label>
+      </div>
+      <div class="toggles">
+        <label><input type="checkbox" id="following"> Following only</label>
+        <label><input type="checkbox" id="fresh"> New only</label>
+      </div>
+    </div>
+    <div class="results-meta"><p id="count" aria-live="polite"></p><button id="mark-read" type="button" hidden>Mark new items as seen</button></div>
+    <p id="storage-note" role="status" hidden>Browser storage is unavailable. Changes will last for this visit.</p>
+    <div id="results" class="results"><p>Loading dispatches…</p></div>
+    <button type="button" id="more" class="more" hidden>Show more</button>
+    <noscript>Enable JavaScript to browse the feed.</noscript>
+  </section>
+</main>
+<footer><div class="shell"><a href="#feed" class="footer-title">Wargaming Hub</a><p>Independent historical miniature wargaming. Saves and follows stay in this browser.</p></div></footer>
+<template id="article-template">
+  <article class="card">
+    <div class="card-top"><div class="tags"></div><button type="button" class="save" aria-label="Save article" aria-pressed="false"><span aria-hidden="true">☆</span> <span class="save-label">Save</span></button></div>
+    <p class="byline"></p>
+    <h3><a rel="noreferrer"></a></h3>
+    <p class="summary"></p>
+    <div class="card-footer"><span class="context"></span><a class="outbound" rel="noreferrer">Read original</a></div>
+  </article>
+</template>
+</body>
+</html>

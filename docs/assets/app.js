@@ -1,0 +1,254 @@
+"use strict";
+
+const $ = (id) => document.getElementById(id);
+const periods = ["Ancients", "Medieval", "Renaissance", "18th Century", "Napoleonic", "American Civil War",
+  "19th Century", "World War I", "Interwar", "World War II", "Modern", "Mixed & general"];
+const kinds = ["Battle report", "Painting & modeling", "Scenario & rules", "Forum discussion", "Hobby news", "Hobby journal"];
+const familiar = new Set(["Ancients", "Medieval", "Renaissance", "Napoleonic", "American Civil War", "World War II"]);
+const views = {
+  feed: ["The latest dispatches", "Historical wargaming from across the web."],
+  discover: ["Discover", "Start with a period beyond your usual projects, or try a recommendation inspired by them."],
+  saved: ["Saved articles", "Your reading list on this device."],
+  sources: ["Source directory", "Follow an independent blog or community to find its posts quickly."]
+};
+const dateLabel = new Intl.DateTimeFormat(undefined, {dateStyle: "medium"});
+const formatDate = (date) => dateLabel.format(new Date(date));
+const STORAGE = "wargaming-hub:v1";
+
+function loadState() {
+  try {
+    const state = JSON.parse(localStorage.getItem(STORAGE)) || {};
+    return {
+      saved: new Map(Object.entries(state.saved || {})),
+      followed: new Set(state.followed || []),
+      seenThrough: typeof state.seenThrough === "string" ? state.seenThrough : ""
+    };
+  } catch {
+    return {saved: new Map(), followed: new Set(), seenThrough: ""};
+  }
+}
+
+const state = loadState();
+let snapshot;
+let sources;
+let limit = 18;
+
+function persist() {
+  try {
+    localStorage.setItem(STORAGE, JSON.stringify({
+      saved: Object.fromEntries(state.saved), followed: [...state.followed], seenThrough: state.seenThrough
+    }));
+  } catch {
+    $("storage-note").hidden = false;
+  }
+}
+
+function buttonState(button, active, label, activeLabel) {
+  button.setAttribute("aria-pressed", String(active));
+  button.querySelector(".save-label").textContent = active ? activeLabel : label;
+}
+
+function fillSelect(select, defaultLabel, options) {
+  select.replaceChildren(...["", ...options].map((option) => new Option(option || defaultLabel, option)));
+}
+
+function tag(container, label, extra = "") {
+  const element = document.createElement("span");
+  element.className = extra ? "tag " + extra : "tag";
+  element.textContent = label;
+  container.append(element);
+}
+
+function isNew(item) {
+  return item.discovered > state.seenThrough &&
+    (state.seenThrough || Date.parse(item.date) >= Date.parse(snapshot.updated) - 7 * 86400000);
+}
+
+function articleCard(item, discover, featured) {
+  const node = $("article-template").content.cloneNode(true);
+  const tags = node.querySelector(".tags");
+  if (featured) {
+    node.querySelector(".card").classList.add("featured");
+    tag(tags, "Editor’s pick", "editor-pick");
+  }
+  for (const period of item.periods) tag(tags, period);
+  tag(tags, item.type);
+  if (isNew(item)) tag(tags, "New", "new");
+  node.querySelector(".byline").textContent = (sources.get(item.source)?.name || item.sourceName || item.source) + " · " + formatDate(item.date);
+  const title = node.querySelector("h3 a");
+  title.textContent = item.title;
+  for (const link of [title, node.querySelector(".outbound")]) {
+    link.href = item.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  }
+  node.querySelector(".summary").textContent = item.summary;
+  if (item.image && /^https:\/\//i.test(item.image)) {
+    const image = document.createElement("img");
+    image.className = "article-photo";
+    image.alt = "";
+    image.loading = "lazy";
+    image.decoding = "async";
+    image.referrerPolicy = "no-referrer";
+    image.addEventListener("error", () => image.remove(), {once: true});
+    image.src = item.image;
+    node.querySelector(".card").prepend(image);
+  }
+  const outside = item.periods.some((period) => period !== "Mixed & general" && !familiar.has(period));
+  node.querySelector(".context").textContent = discover && outside ? "Outside your usual periods" : item.interests.slice(0, 2).join(" · ");
+  const save = node.querySelector(".save");
+  const updateButton = () => {
+    const saved = state.saved.has(item.id);
+    buttonState(save, saved, "Save", "Saved");
+    save.setAttribute("aria-label", (saved ? "Remove from saved: " : "Save: ") + item.title);
+  };
+  save.onclick = () => {
+    if (state.saved.has(item.id)) state.saved.delete(item.id);
+    else state.saved.set(item.id, {...item, sourceName: sources.get(item.source)?.name});
+    persist();
+    if (activeView() === "saved") {
+      render();
+      ($("results").querySelector(".save") || $("view-title")).focus();
+    } else updateButton();
+  };
+  updateButton();
+  return node;
+}
+
+function sourceCard(source) {
+  const node = $("article-template").content.cloneNode(true);
+  tag(node.querySelector(".tags"), source.kind);
+  node.querySelector(".byline").remove();
+  const title = node.querySelector("h3 a");
+  title.textContent = source.name;
+  title.href = source.site;
+  node.querySelector(".summary").textContent = source.description;
+  const outbound = node.querySelector(".outbound");
+  outbound.textContent = "Visit source";
+  outbound.href = source.site;
+  const save = node.querySelector(".save");
+  const update = () => {
+    const followed = state.followed.has(source.id);
+    buttonState(save, followed, "Follow", "Following");
+    save.setAttribute("aria-label", (followed ? "Unfollow " : "Follow ") + source.name);
+  };
+  save.onclick = () => {
+    if (state.followed.has(source.id)) state.followed.delete(source.id);
+    else state.followed.add(source.id);
+    persist();
+    update();
+  };
+  update();
+  return node;
+}
+
+function activeView() {
+  const view = location.hash.slice(1);
+  return Object.hasOwn(views, view) ? view : "feed";
+}
+
+function discovery(items) {
+  const outside = (item) => item.periods.find((p) => p !== "Mixed & general" && !familiar.has(p));
+  const candidates = [];
+  const remaining = [];
+  const used = new Set();
+  for (const item of items) {
+    const period = outside(item);
+    if (period && !used.has(period)) {
+      candidates.push(item);
+      used.add(period);
+    } else remaining.push(item);
+  }
+  const relevant = (item) => item.interests.length || item.periods.some((period) => familiar.has(period));
+  const recommendations = remaining.filter((item) => !outside(item) && relevant(item));
+  const exploration = remaining.filter((item) => outside(item));
+  return [
+    ...candidates.slice(0, 3),
+    ...recommendations.slice(0, 3),
+    ...candidates.slice(3),
+    ...exploration,
+    ...recommendations.slice(3)
+  ];
+}
+
+function render() {
+  if (!snapshot) return;
+  const view = activeView();
+  for (const link of $("navigation").querySelectorAll("a")) {
+    if (link.hash === "#" + view) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  }
+  $("hero").hidden = view !== "feed";
+  [$("view-title").textContent, $("view-description").textContent] = views[view];
+  $("filters").hidden = view === "sources";
+  $("mark-read").hidden = view !== "feed" || !snapshot.items.some(isNew);
+  const failed = snapshot.failures.length;
+  $("updated").textContent = "Feed checked " + formatDate(snapshot.updated) +
+    (failed ? " · " + failed + " unavailable" : "");
+  const filtered = (view === "saved" ? [...state.saved.values()].reverse() : snapshot.items).filter((item) =>
+    (!$("period").value || item.periods.includes($("period").value)) &&
+    (!$("kind").value || item.type === $("kind").value) &&
+    (!$("following").checked || state.followed.has(item.source)) &&
+    (!$("fresh").checked || isNew(item))
+  );
+  let records = view === "sources" ? snapshot.sources : view === "discover" ? discovery(filtered) : filtered;
+  if (view === "feed" && !$("kind").value && !$("following").checked) {
+    const forums = records.filter((item) => sources.get(item.source)?.kind === "Forum");
+    const journals = records.filter((item) => sources.get(item.source)?.kind !== "Forum");
+    records = [...journals, ...forums].sort((a, b) => {
+      const priority = (item) => Date.parse(item.date) - (sources.get(item.source)?.kind === "Forum" ? 43200000 : 0);
+      return priority(b) - priority(a);
+    });
+  }
+  const filterActive = $("period").value || $("kind").value || $("following").checked || $("fresh").checked;
+  const featured = view === "feed" && !filterActive && records.find((item) =>
+    item.featured && item.image && Date.parse(item.date) >= Date.parse(snapshot.updated) - 14 * 86400000
+  );
+  if (featured) records = [featured, ...records.filter((item) => item !== featured)];
+  const label = view === "sources" ? "source" : "article";
+  $("count").textContent = records.length + " " + label + (records.length === 1 ? "" : "s");
+  $("more").hidden = records.length <= limit;
+  const results = $("results");
+  results.replaceChildren(...records.slice(0, limit).map((item) =>
+    view === "sources" ? sourceCard(item) : articleCard(item, view === "discover", item === featured)));
+  if (!records.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty";
+    empty.textContent = view === "saved" && !state.saved.size
+      ? "Save an article from the feed to start your reading list."
+      : "No articles match. Try changing the filters.";
+    results.append(empty);
+  }
+}
+
+async function initialize() {
+  try {
+    snapshot = window.WARGAMING_SNAPSHOT || await fetch("./assets/feed.json").then((response) => {
+      if (!response.ok) throw new Error("Feed unavailable");
+      return response.json();
+    });
+    sources = new Map(snapshot.sources.map((source) => [source.id, source]));
+    fillSelect($("period"), "All periods", periods);
+    fillSelect($("kind"), "All types", kinds);
+    for (const input of $("filters").querySelectorAll("input,select")) input.onchange = () => { limit = 18; render(); };
+    $("more").onclick = () => {
+      const next = limit;
+      limit += 18;
+      render();
+      $("results").children[next]?.querySelector("h3 a")?.focus();
+    };
+    $("mark-read").onclick = () => { state.seenThrough = snapshot.updated; persist(); render(); $("view-title").focus(); };
+    window.addEventListener("hashchange", () => {
+      limit = 18;
+      for (const field of $("filters").querySelectorAll("select")) field.value = "";
+      for (const field of $("filters").querySelectorAll("input")) field.checked = false;
+      render();
+      $("view-title").focus();
+    });
+    render();
+  } catch {
+    $("results").textContent = "The feed couldn’t be loaded. Reload the page to try again.";
+  }
+}
+
+initialize();

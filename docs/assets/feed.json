@@ -1,0 +1,3410 @@
+{
+  "updated": "2026-11-20T02:40:26+00:00",
+  "sources": [
+    {
+      "id": "palouse",
+      "name": "Palouse Wargaming Journal",
+      "site": "https://palousewargamingjournal.blogspot.com/",
+      "description": "Battle reports, historical scenarios and painting projects.",
+      "kind": "Independent blog"
+    },
+    {
+      "id": "grid",
+      "name": "Grid Based Wargaming",
+      "site": "https://gridbasedwargaming.blogspot.com/",
+      "description": "Experimental rules, campaigns and compact tabletop battles.",
+      "kind": "Independent blog"
+    },
+    {
+      "id": "misc",
+      "name": "Wargaming Miscellany",
+      "site": "https://wargamingmiscellany.blogspot.com/",
+      "description": "Portable wargames, campaigns and reflections on the hobby.",
+      "kind": "Independent blog"
+    },
+    {
+      "id": "battlefields",
+      "name": "Battlefields & Warriors",
+      "site": "https://battlefieldswarriors.blogspot.com/",
+      "description": "Tabletop play reports, rules discussions and hobby projects.",
+      "kind": "Independent blog"
+    },
+    {
+      "id": "grownups",
+      "name": "Wargaming for Grown Ups",
+      "site": "https://wargaming4grownups.blogspot.com/",
+      "description": "Historical games, rules design and battle reports.",
+      "kind": "Independent blog"
+    },
+    {
+      "id": "fritz",
+      "name": "Der Alte Fritz Journal",
+      "site": "https://altefritz.blogspot.com/",
+      "description": "Eighteenth-century figures, large battles and painting.",
+      "kind": "Independent blog"
+    },
+    {
+      "id": "flintlock",
+      "name": "Flintlock & Tomahawk",
+      "site": "https://flintlockandtomahawk.blogspot.com/",
+      "description": "Eighteenth-century frontier warfare and hobby links.",
+      "kind": "Independent blog"
+    },
+    {
+      "id": "aj",
+      "name": "AJ’s Wargaming Table",
+      "site": "https://ajstable.blogspot.com/",
+      "description": "Historical miniatures and tabletop hobby projects.",
+      "kind": "Independent blog"
+    },
+    {
+      "id": "pendraken",
+      "name": "Pendraken Forum",
+      "site": "https://www.pendrakenforum.co.uk/",
+      "description": "Public community threads on miniature gaming, painting and scenarios.",
+      "kind": "Forum"
+    }
+  ],
+  "failures": [],
+  "items": [
+    {
+      "id": "https://www.pendrakenforum.co.uk/index.php/topic,11143.0.html",
+      "url": "https://www.pendrakenforum.co.uk/index.php/topic,11143.msg381239.html",
+      "title": "The Adventures of Kampfgruppe Klink",
+      "source": "pendraken",
+      "summary": "A reader asks what happened to the lead German motorcycle squad in a Soviet ambush. The reply fills in a missing detail from the battle report as the squad moves through a village toward the bridge.",
+      "date": "2026-11-20T01:20:02+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Forum discussion",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:20:43+00:00"
+    },
+    {
+      "id": "https://www.pendrakenforum.co.uk/index.php/topic,24513.0.html",
+      "url": "https://www.pendrakenforum.co.uk/index.php/topic,24513.msg381238.html",
+      "title": "20mm Spanish Civil War Crossfire",
+      "source": "pendraken",
+      "summary": "A Pendraken member shares a Spanish Civil War game played with 20mm figures and Crossfire rules. The thread links to the full battle report on Mad Lemmey’s blog.",
+      "date": "2026-11-19T22:52:05+00:00",
+      "periods": [
+        "Interwar"
+      ],
+      "type": "Forum discussion",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:20:43+00:00"
+    },
+    {
+      "id": "https://www.pendrakenforum.co.uk/index.php/topic,4120.0.html",
+      "url": "https://www.pendrakenforum.co.uk/index.php/topic,4120.msg381236.html",
+      "title": "Warflag - Free flags site",
+      "source": "pendraken",
+      "summary": "Readers trade tips on finding printable miniature flags. One reply points to archived NapFlags pages in the Wayback Machine for material from the old site.",
+      "date": "2026-11-19T21:25:36+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Forum discussion",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:20:43+00:00"
+    },
+    {
+      "id": "https://www.pendrakenforum.co.uk/index.php/topic,24494.0.html",
+      "url": "https://www.pendrakenforum.co.uk/index.php/topic,24494.msg381234.html",
+      "title": "Warfare 2026, Farnborough UK, 14-15 November",
+      "source": "pendraken",
+      "summary": "Attendees compare impressions of the Farnborough show over the weekend, including a quieter Sunday and reports from vendors about Saturday’s trade.",
+      "date": "2026-11-19T16:56:47+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Forum discussion",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:20:43+00:00"
+    },
+    {
+      "id": "https://www.pendrakenforum.co.uk/index.php/topic,24511.0.html",
+      "url": "https://www.pendrakenforum.co.uk/index.php/topic,24511.msg381233.html",
+      "title": "Roman Marching Camp in 10mm and 28mm!",
+      "source": "pendraken",
+      "summary": "A community thread on a Roman marching camp offered in two scales. It is a lead for anyone looking for a fortified camp to go with either a 10mm or 28mm ancient army.",
+      "date": "2026-11-19T16:54:59+00:00",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Forum discussion",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:20:43+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/nineteen-million-hits.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/nineteen-million-hits.html",
+      "title": "Nineteen million hits!",
+      "source": "misc",
+      "summary": "Bob Cordery marks 19 million recorded visits to Wargaming Miscellany. He also wonders how much of the recent traffic comes from automated visitors, a question that puts the site’s next readership milestone in perspective.",
+      "date": "2026-11-19T15:22:46.502000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/11/remote-wargame-second-battle-of.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/11/remote-wargame-second-battle-of.html",
+      "title": "Remote wargame - Second Battle of Azukizaka, 1548",
+      "source": "grid",
+      "summary": "Peter refights Azukizaka over a remote tabletop using Daniel Mersey’s Arrowstorm. His Sengoku house rules bind arquebusiers, ashigaru and samurai into a single formation, giving the medieval rules a distinct feel for this matchup.",
+      "date": "2026-11-18T22:44:17.450000+00:00",
+      "periods": [
+        "Renaissance"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvgM4hbo1NSVxttRtS71fNa21tXuZghubEIqQe6XQ6Srdj0gZLoM5Q2O6F6oLnqwqLzz39kzKGR5mAI66OnM04BzGovd-79YDclSoZ-QknUkx9LX4T0KsyNdxCEVNYTRiXFZFq8eUr1xXlaTD5gUMLBolb1FV7QQ5dkBqab2NbM5L78jy4pNldCPNVSmOp/w400-h211/IMG_3972.jpeg",
+      "featured": true,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/11/got-this-from-library-1977-lovely-old.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/11/got-this-from-library-1977-lovely-old.html",
+      "title": "Got this from the Library. 1977. Lovely old school.",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution.",
+      "date": "2026-11-18T14:47:53.856000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3xQEdtbaPlz3BneQTr7RMnI6in5la5KTX_ua6U1SUZmoDvRNwKAaCloZyweggoMIdGLSHXwNoPBMXjx5IWCs_qwxUd5rJGl1gZQDolROuJYUeGTcSuZ_g7ijzi4LW706VC2f9XYzQPJGFpw31JBY2hRGPiU33km9foAaFJf3cLlKwNCkksYbSN1NoKi45/s320/wwarg.jfif",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/stalled-and-im-not-sure-how-to-get-my.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/stalled-and-im-not-sure-how-to-get-my.html",
+      "title": "Stalled ... and I'm not sure how to get my project restarted",
+      "source": "misc",
+      "summary": "After writing Portable Wargame rules and creating twelve fictional nations, Bob Cordery has stalled on his Belle Époque project. He takes inventory of the work already done, including flags and army backstories, as he thinks through how to resume.",
+      "date": "2026-11-18T09:02:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkDOL8veb7RlzIkbNpq7MD26iL4FLWuAs7BTKAIAMyK-YNKMa9U5__r3UhhXpEwJk9BoJQiYmVq8PzgtVNwATicW2yl2WQBug6iD7A-w51sj6glfDd-D4v1qj-FdGgy80_NOxpKCBCP7t_q6FkJ94OdognGapb2K2sTC9k28xARxARzsaHKRp0fhsIFLY/s400/WorkingBelleEpoqueWorldMap.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/friday-night-at-fights.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/friday-night-at-fights.html",
+      "title": "Friday Night at the Fights",
+      "source": "palouse",
+      "summary": "Jonathan Freitag puts his 28mm Punic Wars collection on the table to introduce Austin to Basic Impetvs. It follows a run of Commands & Colors: Ancients games and offers a look at the same period through another ruleset.",
+      "date": "2026-11-17T14:08:23.420000+00:00",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6x2uph9Vjx85BPi_hvYmeWTSrFBAqzbUSBs-Yc2OJKPbG6qyw21-5v553cYDvCx4FLNgvRa5FqSvO4dZ6fsBYwG3NdzuSEQRe5nD_Dab2locMYytYFGJeHeF7SVaIm_J2jOcP4-IHnliD4o_CvdHZzttyW2ENyajpkEHGGlw7UNOnswAdSRgO7TzO7Naz/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/scenarios-for-wargames-forty-five-years.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/scenarios-for-wargames-forty-five-years.html",
+      "title": "Scenarios for Wargames: Forty-five years late!",
+      "source": "misc",
+      "summary": "Bob Cordery finally picks up Charles Stewart Grant’s 1981 scenario book through a secondhand listing. Its 52 tabletop situations are the draw, and he plans to try some of them in the coming months.",
+      "date": "2026-11-16T09:12:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXnI4dxTs1zc5VnSZb5Vr6riuDErScoBlLCF-rwxCxqr1P396ywdHGamyRQL1NrbCiFKq5WrKnLYSB0GW_CMEJfQ42smMsNgUrWXvHnor4iB0SNt_PeoFM9qACgAOCviGJy6NDyXN3jB0abbPdVFQx7KoI9ihfp8WZT52PrVcY_WNypINI7X5loSkNOmQ/s400/Book16-11-26-01.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/new-youtube-video-portable-wargame-in.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/new-youtube-video-portable-wargame-in.html",
+      "title": "New YouTube video: The Portable Wargame in action: The hunt for the Mahdi",
+      "source": "misc",
+      "summary": "This 17-minute video revisits a solo battle from the original Portable Wargame book. The action takes place on a square grid and uses an early version of the rules later developed for The Portable Colonial Wargame.",
+      "date": "2026-11-15T09:00:00+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Small tables"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFMqZM5hCrhXIoObeFJetc0VqCk-QztwzaI33SrLiYyR_ZGrHJcDFjYelACBgF-N-EC7iFgFYGU7sGwi9mj0JZPQ7ZctmE0DfDucZjI-ez0PPtzrl_jsX6yai1GXIku29J0Z-N-uZfVNVYROzeJeNlDp-qZ8_VE85DHxIciOZIYRd4Fai5DsO6j0nLh9o/s400/The%20Portable%20Wargame%20in%20action%20-%20The%20hunt%20for%20the%20Mahdi.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/11/wrapping-up-anglo-zulu-project.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/11/wrapping-up-anglo-zulu-project.html",
+      "title": "Wrapping up the Anglo-Zulu project",
+      "source": "grid",
+      "summary": "The British and Zulu armies are ready for their first game. The final painting batch adds Natal Native Contingent infantry and horse, British command stands, camp tents and a rocket launcher built from wire and plastic.",
+      "date": "2026-11-15T01:40:57.368000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijgd4bKjub1PDJNbb7b1vJrJbRzNNoDQwtFmzT46xDIJvfZOWhQJnPcO-J-YeAk2UYNb0Ng0BLUmzPvVLBx-6oAGSiMRuXI9JRihyphenhyphenaoWZjIhfIaXVAUJyta1JD6MQrFqofCfOOv9HiCfQ739_7ykp6tJ9hINKyOHoo4EIr8vTphG3RRLopBu4naA87G5qI/w400-h195/IMG_3970.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/the-next-portable-wargame-compendium_0802888886.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/the-next-portable-wargame-compendium_0802888886.html",
+      "title": "The next Portable Wargame Compendium: Another progress report",
+      "source": "misc",
+      "summary": "The next compendium is taking shape around Belle Époque rules, solo club campaigns and a fast-play Peninsular War system. The lineup also includes a boxed 1814–15 campaign and a comparison with the Coffeebreak rules.",
+      "date": "2026-11-14T09:49:00+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Small tables",
+        "Fast play"
+      ],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/picardie-regiment-and-teaching-rules.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/picardie-regiment-and-teaching-rules.html",
+      "title": "Picardie Regiment and Teaching Rules",
+      "source": "palouse",
+      "summary": "The French Picardie Regiment joins Jonathan Freitag’s growing War of the Spanish Succession collection. The photos show Ebor Miniatures infantry with flags from Not By Appointment, a useful pairing for anyone building a French line.",
+      "date": "2026-11-13T13:52:39.376000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQ-A_yNEppcnsmdjYBZLTfsIa3oNuT2L6Yv5huEckWLZXjK7QIgR6g22CDqbZac2Ptw8b9vkRLxcL_5KeGVxsmlyBPWtS7DPAm-BDkw520hWXg18FvGi3V-lNSKas0ztQo3JWl6mj9B5lYKAVzD83jAyCDXJSKdWIJHdw6gtiAbTHj8EjjrCzaHiUxKKK_/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/nugget-385_0472532123.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/nugget-385_0472532123.html",
+      "title": "Nugget 385",
+      "source": "misc",
+      "summary": "Issue 385 of Wargame Developments’ newsletter has come back from the printer and is heading to members. It is the third issue of the 2026–27 subscription year, and Bob Cordery also plans to send a PDF to the group’s webmaster.",
+      "date": "2026-11-13T10:03:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieXqjwFcqkzAFqDvuVxjB86XYA26IoDVAcOer68yprJ2GB4a88fKUh6j6rYVgNq3uICb8XjFfHpUOYvPCfg6BmxZOi3Eumne3cibpY9BPju4V2vvWiYOtFuPZQSgeDZZCOqcAOIlFyzerQVZAU2zlimksAIFX784bmoNbTT_7To6-8ydeGBYTWCQ_tHAY/s400/Nug385.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/hms-dreadnought.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/hms-dreadnought.html",
+      "title": "HMS Dreadnought",
+      "source": "misc",
+      "summary": "This naval history note follows Edward Reed’s earlier ironclad HMS Dreadnought through Mediterranean service, a Chatham refit and coastguard duty at Bantry Bay.",
+      "date": "2026-11-12T09:09:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwTAjRPSKVOP12IMELArgh1zg2yul2aXlCBYsnuAHBVznQKoYEft59RG4Yknnemk-XAm8-1z6KiJAUvoKAZ-QfYAQs-zcoRVihGW10KSwQduw2YoTYRBDIa8upo582A0HGSO-UvUku9_1VzChaB6lzLp6PZvwoIX3ye9jXAsjE-b9MDXdw2eyvEBQG4KE/s400/HMSDreadnought2.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/the-eleventh-hour-of-eleventh-day-of.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/the-eleventh-hour-of-eleventh-day-of.html",
+      "title": "The eleventh hour of the eleventh day of the eleventh month",
+      "source": "misc",
+      "summary": "Bob Cordery records two local acts of remembrance, including a Shrewsbury House performance that used readings and poetry to bring out the voices of people who lived through the First World War.",
+      "date": "2026-11-11T11:11:00+00:00",
+      "periods": [
+        "World War I"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUvmWhE16p6k9HDHmvTFuLiv7NDU72CNxGwpxsY751hmRCwIX2GBuUoMKo61m7GusJrMzbpoUXPtq41dHsvmAWVoXcm3TMO2pFT3emQrqJ3HESGpuU14VrWtvH5Xpp3a_zKVF0rykxf4lVxwGisvDlf6F85ipZqw_3ZANxapT9lYLBCX0esW1a1mOEWDY/s400/Poppy11-11-26.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/another-british-ironclads-in-11200th.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/another-british-ironclads-in-11200th.html",
+      "title": "Another British ironclads in 1/1200th-scale",
+      "source": "misc",
+      "summary": "A secondhand model of HMS Dreadnought brings Bob Cordery’s 1:1200 ironclad collection to nine vessels. The post is a quick look at the latest addition to a growing late-Victorian naval collection.",
+      "date": "2026-11-10T09:25:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih4TfA3mnBpPbokC9wQHMpWumd4sAyc8yeblqI9Z9F94AEop1DvGnMiT0VMDVY_Wk_GpAfVHALa5uLAWlW7xhOTkgUNR8RINQT_reicDZfOFoT9I3aVNoVbiFmBmKKKjpeM-CujtNFUJQaNwQPqEM-dmuwW6HMVw6lFKtO8IWgvdmVX7TnaJu4M5pk1Xs/s400/HMSDreadnought.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/last-stand-at-salem-church.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/last-stand-at-salem-church.html",
+      "title": "Last Stand at Salem Church",
+      "source": "palouse",
+      "summary": "Jonathan Freitag closes a six-game series of Salem Church refights with his account of the October 27 remote game. The companion report at Grid Based Wargaming gives the Union player’s view of the same fight.",
+      "date": "2026-11-09T21:30:00+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsjBtP8HFS_OXi9GZ8rSXVijk3fOwd6FN3Gqk_l_w3w12u9ZdbB5Iz46BB18BP_de-e53hWWu_pET6CwdRs3I7QR5iD99bzrKtKaxJes2S3Lbghp8dtn6HOqEAJmoKXGXtMoHwY4sCXaskzLcay5MPCTnKbaYqnJOV26U8uuIRl06emjttk3T8w73zi4Wu/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/11/anglo-zulu-war-camp-and-more-units.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/11/anglo-zulu-war-camp-and-more-units.html",
+      "title": "Anglo-Zulu War camp and more units painted",
+      "source": "grid",
+      "summary": "Peter builds a Zulu camp from half-spheres textured to resemble thatch. Painted card walls curve around the huts on the table and store flat between games, a practical way to make an enclosure without adding bulk.",
+      "date": "2026-11-09T00:31:14.702000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Small tables"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmhq2aT5VrnnonNiCEhBpSpIdrbUQqx-UhyWwYvghh84jPhCJOqK0kEMGM36FSZwvXEu46klevvA92afjpz0kn8RaYLWq-ausdPTxj7HPqzFLPxXn2mZyemgTVkWl48hnHIq-pbfMrrPIXbl4hGVjeySNaC9XLwCo_QxkJ9tTME5BsrZPrFqOkTo5rkzH2/w400-h213/IMG_3956.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/11/remembrance-day.html",
+      "url": "https://ajstable.blogspot.com/2026/11/remembrance-day.html",
+      "title": "Remembrance Day",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table.",
+      "date": "2026-11-08T20:57:13.589000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYY1r1s2e-lGRKoV2g8QHjCjIre__YIRVhyphenhyphenCayWmEip2b9ze_uJlGoS-lzKSyGUBrwMY4wYJr8TLO7xYXHcV_DfuG7o0Eoe_Q1GHgkVDMZQLJBemxk5_9RZ7_OD2xf9PNSUXPqO8jLV4CoN17mMTrvRdpG8t1bQoNQ_GGIWuUMZmi_RCO1uUk2YYkEJsBa/w449-h299/Poppies.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/new-youtube-video-aggressor-krasnovia.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/new-youtube-video-aggressor-krasnovia.html",
+      "title": "New YouTube video: Aggressor, Krasnovia, and OPFOR",
+      "source": "misc",
+      "summary": "An 18-minute video looks at fictional opponents used by the US Army in training. It traces the idea from the Second World War through later opposing-force exercises.",
+      "date": "2026-11-08T09:00:00+00:00",
+      "periods": [
+        "Modern"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA0hLlH1SY8GIZ5iR1wnUM_R0XSm56lKeHxpcZIlEprjVVWkPpQFfzzu3T55XLKofMNXtgHuzaoc09y9ohfaupMrAOa-IwE1aOVRK0cFEWtraVD1av-qqCW6sBU8ePURGBsuqK2Q-GtS45OfTxze44cAHrvRhsurgz0WeUNlbfZ6dNIKqGVRgz0tEURWA/s400/Aggressor,%20Krasnovia,%20and%20OPFOR%20Thumbnail.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/11/the-last-of-mohicans-narrative-of-1757.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/11/the-last-of-mohicans-narrative-of-1757.html",
+      "title": "The Last of the Mohicans; A narrative of 1757 by James Fenimore Cooper",
+      "source": "flintlock",
+      "summary": "The blog revisits James Fenimore Cooper’s novel on its bicentenary and links to the Project Gutenberg edition. Its 1757 frontier setting makes it a period read for French and Indian War gamers.",
+      "date": "2026-11-07T14:19:20.890000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcCBxLX8P4QJ9o7m48qd-oC27lgN9SG6YPzn0PyV-wY5t6DD-tPLLEAxSLYeaix1HlkrMwAWXTEul7lZoeL7zsqW6KxeHwRLDYxpj6eZwSR_werdC61ux2osSJttCwwNy9-7c6d7EkL7kVF7tlUdmmrAT0MSfaG0nhEXPV2SoHT4TMolEEOl61uTAxaIBc/s1600/pg940.cover.medium.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/the-shop.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/the-shop.html",
+      "title": "'The Shop'",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under MIscellaneous musings.",
+      "date": "2026-11-07T10:01:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV3TteiZXSXr8bIY66-FnkMAp8jHxCdevhOV9ApyyjG5l8UKXwO4vrF_WSTBt90dfzNvoiQ4lDW7D1rXEfXJQrm7Kf0Bx1NZh_fGQhNjEcb00fiT84tXIBk4TVwTa28VXlaM_AusjOe_HBuY5JSvqeXwJyhGDpYtlCZXpm01FxuqB6tMCakpd-YNQ7LH4/s400/RMAWoolwich1.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/gardes-francaises.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/gardes-francaises.html",
+      "title": "Gardes Francaises",
+      "source": "palouse",
+      "summary": "The first French infantry regiment in this War of the Spanish Succession project uses 17 Ebor figures and flags from Not By Appointment. The project photos follow an earlier look at the Dutch troops, so both sides are taking shape.",
+      "date": "2026-11-07T08:00:00+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZVN2-N6uWwhv1VXiinELRu6CoMvlFT-OC1XCnGjdMcMGn5IDnR4rtxDnSyjVKG-IC8-3YO-QH9f7bYkjOFxpXEy2Bjh1lH0hPE2TMNYjmyOK1lEnCsTi-G9ceKPGfkSlP_gRO5SowKaW6bxo_b2EyQiYrusXxop9WOSP2VTEBVNjzvGMkLrOGlrbk81Ig/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/11/shedquarters-day-q4-2026-crossing-ebro.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/11/shedquarters-day-q4-2026-crossing-ebro.html",
+      "title": "Shedquarters Day Q4 2026 - Crossing the Ebro",
+      "source": "grownups",
+      "summary": "This corps-scale NQM playtest covers the first six days of the Republican offensive in July 1938. With up to 18 turns and enough troops to require a third Republican player, the report looks at both the table logistics and what the offensive was meant to achieve.",
+      "date": "2026-11-06T17:20:13.992000+00:00",
+      "periods": [
+        "Interwar"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqPOJmrzUgiashZ7mKjoCcrHHikC06dDww_UO_cE4biDH3I94Nc02BBjOI4vk9UvKufP1l7lFIfnhyphenhyphenyoTKxvpU4wyGyzjyZLvSfCNTPnBnyB5ZERfejftVKvEPg9XGr1hGjnOn-vLHEvesdFLRbyjkEQGCIbkzuI8S_VfXLJr8Nyc71e268nQ4PSaNrEEJ/w640-h426/IMG_1050.JPG",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/with-you-i-will-letter-it.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/with-you-i-will-letter-it.html",
+      "title": "'With you, I will letter it ...'",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under MIscellaneous musings.",
+      "date": "2026-11-05T09:56:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/rematch-with-vol-at-salem-church.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/rematch-with-vol-at-salem-church.html",
+      "title": "Rematch With Vol at Salem Church",
+      "source": "palouse",
+      "summary": "A hobby news update covering American Civil War from Palouse Wargaming Journal. Filed under 10mm ACW, Battle Report, COMBAT. Topics include small scale.",
+      "date": "2026-11-04T12:00:00+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Hobby news",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmUja7XQ4UDYadIfl6Tq3ET3bBdjPQkls0JKbgzoEp8GJFzXkWhD5SW5-h70zNPAcFRGStybDtNZoaqETDJVJD_8gmRR2WjRflCuPJOz-UhmOJnfx-jJ8Kk_3M6SSTCY3aZ-k5E8FS4atTRi5WyRV5gm9wrBSVr6b02sGLM2wPJs3AYjIxaFEIBRqWliZp/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/the-next-portable-wargame-compendium.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/the-next-portable-wargame-compendium.html",
+      "title": "The next Portable Wargame Compendium: A progress report",
+      "source": "misc",
+      "summary": "A post on tabletop scenarios or rules covering Napoleonic from Wargaming Miscellany. Filed under Dominion of ..., La Belle Époque, Portable Wargame Compendium. Topics include small tables, scenario design, fast play.",
+      "date": "2026-11-03T09:58:00+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Small tables",
+        "Scenario design",
+        "Fast play"
+      ],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/11/battle-of-britain-campaign-game-9.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/11/battle-of-britain-campaign-game-9.html",
+      "title": "Battle of Britain Campaign – Game 9",
+      "source": "grid",
+      "summary": "A Luftwaffe raid on a September 1940 convoy gives the Boulton Paul Defiant its campaign debut. The report lists both sides’ aircraft and pilot ratings, then returns to the wider campaign to assess the result.",
+      "date": "2026-11-03T09:45:26.250000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDiRobRmsMcnf8q1-FfqDv0yhWip-sEbhcBjrP376fuxIsgwqoeLjxclIEzXf-wK-XymnnpoBZoA3doO7olowj3I9FTEYq5UdcvHjReX8eh_8NYh2xlWd1qna7KuuuzxF5-zOFLp36xJfI5fSitL8aHJHSSWsT-GCcneAaEx5nHLP4v1iSbLQh_4V_XPy/w314-h400/Vintage%20Air%20War%20Convoy%20Cover.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/is-portable-wargame-portable-wargame.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/is-portable-wargame-portable-wargame.html",
+      "title": "Is the Portable Wargame a portable wargame ... and why is it The Portable Wargame?",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under MIscellaneous musings, The Portable Wargame, YouTube. Topics include small tables.",
+      "date": "2026-11-02T09:57:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Small tables"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ_0-JmNkCHQ8SYPhV6RdMENLCwpl7nouAsCpWLOJeZ3dckkvPWxBAE-gVt2Lmpelpch2XGLy-B8Shkk0On_WkLSAgmRHZt_t1AXPRvavMh2dT0XRPqCHKkNq0vJ_zDj7cqU6rnkXrGm8rTpTEuLhbFh62KWV8fUHhcNXQV4SQRYobgbafW61a98JBIgI/s400/IBMPC5155.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/two-dozen-akkadian-spearmen.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/two-dozen-akkadian-spearmen.html",
+      "title": "Two Dozen Akkadian Spearmen",
+      "source": "palouse",
+      "summary": "A hobby bench update from Palouse Wargaming Journal. Filed under 28mm Sumeria, Newline Designs.",
+      "date": "2026-11-01T23:56:06.358000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj13_FxFIRtCjwwv9UP1vDdZ8a-93kllIHAcvdgWypaGB7_pYq11GrHqEG44RQAJdiZ4ga1tsihquQ7Y6fSIM7V2JmilXKvCriL2nhOQKwJ9TndOxnWq1Y_8s4LApMcqvHkdZAIQkgkP4Ultw3bgW5A_L9Sv2Hd2sQSwLNPYSrlXipdgUvXpZz5Vo7qIRvy/s72-w400-h261-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/11/a-note-of-caution.html",
+      "url": "https://ajstable.blogspot.com/2026/11/a-note-of-caution.html",
+      "title": "A Note of Caution",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table. Filed under Spammer.",
+      "date": "2026-11-01T21:36:26.163000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/restless-natives-one-of-my-earlier.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/restless-natives-one-of-my-earlier.html",
+      "title": "Restless Natives: One of my earlier attempts to write a set of Colonial wargame rules",
+      "source": "misc",
+      "summary": "A hobby journal entry covering 19th Century from Wargaming Miscellany. Filed under Colonial, Restless Natives.",
+      "date": "2026-11-01T09:35:00+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS69wM-ximdyXZoOXsjvtZpfKm4XyKL4pG_uAz6b9v4ePUNtMvtzMrunLy9VLYVZXIflHSCxYhULUyCEUdPMT1Hzp3ZCab2NAoakM9CSVa5Ne1Z_Waly58ZgSYcCln5DgUAxI8vA472jA52HKx19KRpdJT1syzoyBZKk_hwksxzQWCIPgMkLj8EYIS_Zw/s400/Salute2003-01.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/restless-natives-mea-culpa.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/restless-natives-mea-culpa.html",
+      "title": "Restless Natives: Mea culpa",
+      "source": "misc",
+      "summary": "A post on tabletop scenarios or rules covering 19th Century from Wargaming Miscellany. Filed under Colonial, Restless Natives. Topics include scenario design.",
+      "date": "2026-10-31T09:36:00+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCYqm1npixKvIolHvvnRkzf1TXvh69Y4QhTiLeF22RUBSjjJBXPCx11zSwJ1NFgZusSRCQmvtKrDMGzamkyzcB1YWeSrcT5VNKs1gUj25qedjW5ArXEdc4TBcj3-rgKX0QANTJc5J5JzFwhxdyoYioVYZ7Z4eZUNh4pSRfI0SvBMRFUqglK-WQxZNFep0/s400/RestlessNativesKindleCover.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/10/light-troops-in-seven-years-war.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/light-troops-in-seven-years-war.html",
+      "title": "Light Troops in the Seven Years War Irregular Warfare in Europe and North America, 1755-1763",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under seven years war.",
+      "date": "2026-10-30T16:36:18.991000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLHZ2uy0jskKzhIODEvHkXN08FFg0kz1eRwXF0QtLjMpL2b-_lWwJFjOO6aPQwQkGG0gug_sXGurno0PsP-LNhfqSIFBtYzSggMTWlMDEcLhd3UoX5R38yCmSa89UEaAeSVndx9pzzyVmk_50emshjStKPdQeL2aGh2Yx1bEIq5SFFJTxZ9X4utIfHh2P/s320/helion1001436.jpg.pagespeed.ce.HaWYbpJXCt.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/10/more-white-plains.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/more-white-plains.html",
+      "title": "More White Plains",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution.",
+      "date": "2026-10-30T16:32:25.361000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/10/battle-of-salem-church-1863-remote-game.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/10/battle-of-salem-church-1863-remote-game.html",
+      "title": "Battle of Salem Church 1863 - Remote Game",
+      "source": "grid",
+      "summary": "Peter takes Sedgwick’s Union command in a remote refight on a hex grid with 10mm figures. His account includes brigade and artillery strengths and explains how colored dice drawn from a tin control activation.",
+      "date": "2026-10-30T08:44:31.652000+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFcKkHKcMyr-DE1DZhRBWCtOQif7N7TayWMo08g-CukfNQVGgdeKAdCjxvr4g6SzA2oBFb0lsxxwon2zE_A1pFvDjR1rrE8nW2sy-Cf_YSqNoBkAb8cZBns7fAOBZLTAamF2fIesJ6ZVbmFwYOJ7lVNBNBGHJ09Y74NcqleGpnCqDWrbuaHEjxeM7cwYAw/w400-h396/IMG_1002.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/10/giving-luigi-upgrade.html",
+      "url": "https://ajstable.blogspot.com/2026/10/giving-luigi-upgrade.html",
+      "title": "Giving 'Luigi' an upgrade.",
+      "source": "aj",
+      "summary": "A hobby bench update from AJ’s Wargaming Table.",
+      "date": "2026-10-29T19:25:11.560000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAwc26YPI5bSHT8eRlhF7n-Has-s8O526I6phbzno7h7t25hs1bVtBRdsM633Cqatic4vTqKO_a5bFXQdtgtzebloRbuDA6ywgEDstayOtuJxgZfRChMRDMOp9S-Y3Y-dKtiIb1ueNWM62a1tbNHM-HD4lvkVS3S5a3dGrO9xmIaFLCXPGiApq2PeCB-8D/s320/Luigi.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/rematch-with-matt-at-salem-church.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/rematch-with-matt-at-salem-church.html",
+      "title": "Rematch with Matt at Salem Church",
+      "source": "palouse",
+      "summary": "A hobby news update covering American Civil War from Palouse Wargaming Journal. Filed under 10mm ACW, Battle Report, COMBAT. Topics include small scale.",
+      "date": "2026-10-29T15:11:04.136000+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Hobby news",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYlkeZoYiGuisP78K5aOJ9zIDhz_nSoIET1nndSC0bnYx3FDwMo9YexSrDmceLNbGtRCPhBCBIGvdK-Ue1VBDGWWpp10ttWt41cXLk8-NVsshHQP1eCvE1pxwtwNq1GX6WebcdaCeHuRwfQdOucn6rV11A-LDwphM03nibB73Ff7E9tpuYeENw9yDB9Lh0/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/well-go-no-more-reaving.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/well-go-no-more-reaving.html",
+      "title": "We'll go no more a reaving",
+      "source": "grownups",
+      "summary": "A kitchen-table test puts Early Vikings against Middle Saxons defending a model burg. The Viking player sends blades through the woods to pressure the flank, where movement costs rise once the troops are out of sight of their general.",
+      "date": "2026-10-28T12:02:33.380000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRKtqyYFYJ2DyPOBaziBzqsGK3Ubbk4HK3fN4UqR2vpvs6d9UZkaskx_n8C2C0NIT35CiA0ZMiDJVWCiuE4s2EX94I9RPwO-9cef4ocbOOxarEHmdSdG84zlxgYMS5Ff7MsPc1fAqJY-Ppd1yen92sJ5XfwtbAbsnHJoQiiX5wWVvS8vb3-qi2uXp0H8p_/w640-h360/20261027_195913.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/even-more-thinking-about-hexes.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/even-more-thinking-about-hexes.html",
+      "title": "Even more thinking about hexes",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under Terrain, The Portable Wargame, Wargame Map Tool. Topics include small tables.",
+      "date": "2026-10-27T10:06:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Small tables"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4HNLfciiYH2vIodED0IkJRefnJRxbOaVtGy-fNwKdFX96UMaHXHMlg81NW6cAbxmNqF0htaAabg5QtMm5L0w7VXPII0MGF8Iju5u7yhPTgdNqieK2sD6Lg3W9gB7YvEu0OOBrRrHaGAHYHrWLXXaXWlSN-rB1jdSGE1psUraPtVhD8PLh4-5FSlXeaIo/s400/6%20x%208%20Copy1.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/10/white-plains-250th.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/white-plains-250th.html",
+      "title": "White Plains 250th",
+      "source": "flintlock",
+      "summary": "A hobby journal entry from Flintlock & Tomahawk.",
+      "date": "2026-10-26T15:13:55.505000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/wargame-developments-autumn-virtual.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/wargame-developments-autumn-virtual.html",
+      "title": "Wargame Developments Autumn Virtual Gathering: The programme",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under AVG (Autumn Virtual Gathering), Wargame Developments.",
+      "date": "2026-10-26T09:09:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3VBenz6qRlBHQFGp5KSU8XKX1njWZFWwo6smEBcylIN4bidck5QCrsl-WWTiFzdY0yRhhhjl0ciEKx7xo_LVOn74xMlMLBBfcQjMGJYaxx3Mg_kk7f4-DuUF-TgIAFdPEg0yPWhit95fqR9ttMZHh06_Jf0TLcKWSxOO7ZX-x8WZ9AQfP_-ARroBEjpM/s400/WDLogo.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/more-from-not-dark-ages.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/more-from-not-dark-ages.html",
+      "title": "More from the not Dark Ages",
+      "source": "grownups",
+      "summary": "A hobby bench update covering Medieval from Wargaming for Grown Ups. Filed under DBA, Vikings.",
+      "date": "2026-10-25T17:43:20.571000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCsgJJEWc_IpL_II1K2kIabTi5Wf7Uxa9SCfvziyt1ZQSrj2EXG9NmJYqkzrnO9lYBuyev9kjyKkT8Sqd40hJqofIOginUD27ipSwJMQ_A1iak1Zr8cl8QRP5HPUgLfv-EZIb9UXuDjurIHryyz4qqQ9XAYZnGB-l37x5TiL3-YxK2ikHDyalofMClEP9R/w640-h192/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/beaumonts-battle-and-acw-preview.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/beaumonts-battle-and-acw-preview.html",
+      "title": "Beaumont's Battle and an ACW Preview",
+      "source": "palouse",
+      "summary": "A hobby bench update covering Medieval and American Civil War from Palouse Wargaming Journal. Filed under 28mm Medieval, 28mm Wars of the Roses, Perry Miniatures.",
+      "date": "2026-10-25T13:00:00+00:00",
+      "periods": [
+        "Medieval",
+        "American Civil War"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy5S4BtM8RUMBYcqKkiDTtqL1MPJtouqGEcW59Mp9FL5Tzr2Yei9WSu7dtr7t6-YXVA6P9jk5ixPjxqmzmsKszljeZ5UE0OjLSTHLRktbzRaA9c_FKy5FjkZ3kzF1LcsmvMywNTa9_NlyDkha5SmA9XKBFqYDop_x0-VvK2FAy9Omr6OLTYTGD9UPwojge/s72-w400-h290-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/10/blog-post.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/blog-post.html",
+      "title": "Germans at White Plains 250th",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, Hessian.",
+      "date": "2026-10-25T11:30:28.132000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/preparing-for-big-one-ebro-in-shq.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/preparing-for-big-one-ebro-in-shq.html",
+      "title": "Preparing for the big one - Ebro in SHQ",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering Interwar from Wargaming for Grown Ups. Filed under Ebro, SCW, Spanish Civil War.",
+      "date": "2026-10-25T10:20:53.575000+00:00",
+      "periods": [
+        "Interwar"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNvmpe3N4yo3s6_DjP3SuyflozaC4AjE8DNi4L9UMRjJuRnKr5F5UcrWGEyqwqeXJ9iIV6talkt65zAatZxmARVZ9QooGkF4CHTRmAMjo67_dSA8wlgwtc1lqscjoOLpqGsdQu6y6TI8UpSctnsDQGbi0xNpmRXFaJF3QL-zEjAqLpao8H_qQk_IneRsqU/w640-h360/20261019_164606.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/new-youtube-video-portable-wargame-in.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/new-youtube-video-portable-wargame-in.html",
+      "title": "New YouTube video: The Portable Wargame in action: A Soviet combined arms assault",
+      "source": "misc",
+      "summary": "A tabletop game report covering World War II from Wargaming Miscellany. Filed under Battle Report, The Portable Wargame, World War II. Topics include small tables.",
+      "date": "2026-10-25T09:00:00+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Small tables"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio2j5pbCKxbdmLoisCdhQgIhRANA4_I-E0fLXjCShyxL_cOXm5LTPPHrmqT_zgTdQxKXUJ4tB4LNlb7cXKrFBuvxFZsvvi3FPiKIaMd2Vax2gBq8shMUrv_3lLA8gwbgIYTRtIj4hSk5Egwn6mwRzUd94lBQSQePzPk_1Hzf-77bvYEOVBZMwhsqnzwis/s400/The%20Portable%20Wargame%20in%20action%20A%20Soviet%20combined%20arms%20assault.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/10/returning-to-painting-anglo-zulu-war.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/10/returning-to-painting-anglo-zulu-war.html",
+      "title": "Returning to painting Anglo-Zulu war units",
+      "source": "grid",
+      "summary": "A hobby bench update covering Napoleonic and 19th Century from Grid Based Wargaming. Filed under Anglo-Zulu War, Napoleonic, Painting.",
+      "date": "2026-10-24T23:20:31.428000+00:00",
+      "periods": [
+        "Napoleonic",
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTNFAq8PUVXAcsAaRK2HarscEA1JEidasuBe3B1kovgvNV9fMZoYGrAU8WzwwduDXy7SSGj1DZuo873fWfdF0qcGddIv7S0yUOIsdFYhSBHp0eigFsU4dNyGpxLvbV38BJ1KJ4EfyZZStDipoBlhf8eEtFuii0GhymWSTyzVlzFRCNfB-YglEsPRkNvl_o/w400-h88/IMG_3935.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/the-wargame-developments-autumn-virtual.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/the-wargame-developments-autumn-virtual.html",
+      "title": "The Wargame Developments Autumn Virtual Gathering takes place today!",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under AVG (Autumn Virtual Gathering), COW (Conference of Wargamers), Wargame Developments.",
+      "date": "2026-10-24T08:30:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXq0RD9DbV81TPMFl6Jaj-A8rR9n8sedY6JPh3D1_4_Fm3sx-MjktF-OKj-1IEf4OEXslGkNjoLh8TwHD9gZevewpJfLZVNGMuTPAt-0fI0qtmsw_-4WGlnHzVM5iRpaam1mpgv7KOWCdAZxQsbinUI9535d7MtWfxevnUemWLjuKl6QpyJtiDmfICVOg/s400/WATUTalk.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/some-more-thinking-about-hexes.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/some-more-thinking-about-hexes.html",
+      "title": "Some more thinking about hexes",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under Terrain, The Portable Wargame, Wargame Map Tool. Topics include small tables.",
+      "date": "2026-10-23T08:17:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Small tables"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw_-VGQ15Akk8xfOXVvHB78cwqvN5BkSAbpAb2Ue4txtN3mUOdMQIo_wXmIaIaTVllRWc8UkVbn9lwhmZpd9XibIthIQEbMy0fpF5DQhQ0Ljwanwb_RRr9R_DbQ_DLkoxsGRoKrNY_1yIZUoN2MPBLPMWGtIUuIafsMwjr_cxSWm3nI9-26OTtKOYBRbQ/s400/73-hex.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/10/big-game-at-man-cave-this-weekend.html",
+      "url": "https://altefritz.blogspot.com/2026/10/big-game-at-man-cave-this-weekend.html",
+      "title": "Big Game At The Man Cave This Weekend",
+      "source": "fritz",
+      "summary": "A hobby news update covering 18th Century from Der Alte Fritz Journal.",
+      "date": "2026-10-22T21:01:44.227000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio4KZfVy3oURhjiRrZGVvS1GfjhvuHs1YxE7wPoLfImKlJm6VdJvCnqQ0zF33Vv7AqNwnOj1BxmZQmSQ6qvqvuHluf-dE-xd4-OadyGWW-VXj8wzo8MdGgca4ttpaArvqp3gPmet0XQFZOGH3jJPgVWIrzmTUCgZwFYJFbqEqyDOJLbX3wIKmkJRZl0gs/w400-h299/Traffic%20Jam%20photoshoppped%20version%20copy.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/thoughts-on-inputoutput-uncertainty.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/thoughts-on-inputoutput-uncertainty.html",
+      "title": "Thoughts On Input/Output Uncertainty",
+      "source": "palouse",
+      "summary": "A hobby journal entry from Palouse Wargaming Journal. Filed under Design Notes, Ramblings, Wargame Theory.",
+      "date": "2026-10-22T11:23:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZi-JBr9Vctzg3KzuOSmdYLoAE1bmG4A9N6_S8k_uh1tT6hrGJh9PGj322cNtywXZsiFFCvtZTooi_nyusgSpMZj2NhhN-8zqH5bQrZV6BWgmB_hYQtCz7BsIev-e4Jvybe2qa_sZ6doQ21_D9dCd0e57IWc-5AD8mn3vfCd9nZqGjWhJA6RtzuKYD2-TE/s72-w312-h400-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/what-is-wrong-with-this-map-and-other.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/what-is-wrong-with-this-map-and-other.html",
+      "title": "What is wrong with this map. And other things",
+      "source": "grownups",
+      "summary": "A hobby journal entry from Wargaming for Grown Ups. Filed under Battle of Northampton.",
+      "date": "2026-10-21T16:43:11.509000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSpdq-CeVhyBXiuJCZuut3SW1hMPDzt78S-p7K0QgqIteKJcjJe8cWzx1Zy-zzFMwS6b78ExbnnioEpuane0b8oShXFih8qMQHbXTICy08AhOvNq3zLY4VpYxUoOfYLCkMOKMPu35i_tJCu_xL5DfzYLYNLgA3D1VeTOuR1LRDTV9MqqrerP5jhp2O04kA/w469-h640/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/10/white-plains-250th-event-details.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/white-plains-250th-event-details.html",
+      "title": "White Plains 250th event details.",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution.",
+      "date": "2026-10-21T14:49:31.818000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/10/infanterie-regiment-von-bose.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/infanterie-regiment-von-bose.html",
+      "title": "Infanterie Regiment von Bose",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, Hessian.",
+      "date": "2026-10-21T11:40:11.085000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/just-one-for-records.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/just-one-for-records.html",
+      "title": "Just one for the records",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering Ancients from Wargaming for Grown Ups. Filed under DBA.",
+      "date": "2026-10-21T09:41:00.304000+00:00",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNOvIobfJd970oEyzcJsRXWJFUR5iduIQaJhFvPpLNkgLvC_gRDsuC7k8l7TFeZmwMcv5WeoUA7AH-kcrOheL-577zuF4o4KM2zmzzG1zUtuoqSvrA_vGlbc27QzV1hD6mlfZdHy3DfDI0miFfw6cLJDUC4vfJq68P0t_gxwSMCJOG1UdUPBUMVOI8-zLB/s1600/20261020_200332.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/what-i-am-currently-working-on.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/what-i-am-currently-working-on.html",
+      "title": "What I am currently working on",
+      "source": "misc",
+      "summary": "A hobby journal entry covering World War II from Wargaming Miscellany. Filed under AVG (Autumn Virtual Gathering), COW (Conference of Wargamers), Freemasonry. Topics include small tables.",
+      "date": "2026-10-21T08:37:00+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Small tables"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXq0RD9DbV81TPMFl6Jaj-A8rR9n8sedY6JPh3D1_4_Fm3sx-MjktF-OKj-1IEf4OEXslGkNjoLh8TwHD9gZevewpJfLZVNGMuTPAt-0fI0qtmsw_-4WGlnHzVM5iRpaam1mpgv7KOWCdAZxQsbinUI9535d7MtWfxevnUemWLjuKl6QpyJtiDmfICVOg/s400/WATUTalk.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/achtung-schweinehund.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/achtung-schweinehund.html",
+      "title": "Achtung Schweinehund!",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under Book Review.",
+      "date": "2026-10-20T09:01:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjr7nRgDTRyLqdVHOzqJuVHzAgL8PCg0iL7VCc2CSB4hw6J8X-n03OU5kTQv9PNS6NiR2w5QPewzQvSWFuxhJoGf53VOIYgpGJENFzlDucwVTeTI2bIghdx6hjDrA1vmrZfNDCTN1lSr6dvh-wzF4kOnKrxeLDCIM76ZwDbYAI0gNnhU3thb6fyIdmf9X4/s400/Book20-10-26-01.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/10/picture-of-day-vignette-in-saxony.html",
+      "url": "https://altefritz.blogspot.com/2026/10/picture-of-day-vignette-in-saxony.html",
+      "title": "Picture of the Day: A Vignette in Saxony",
+      "source": "fritz",
+      "summary": "A hobby journal entry from Der Alte Fritz Journal.",
+      "date": "2026-10-19T18:26:37.283000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHe_7Uf66830R3JI9dZiXdM-phTIxKIXnKfAY-h7dYqoghJun_2yLk-sDYVZ3EIc5uKkMb6QpfaOT34sejg3GtRldjhKStm0-dN9ubmn15y3RHeIW8Sqj4F_1cn0pw8_9tO_Mc_0PoG7awCi2xJe9JCs0jMq1EDFpSNQphc3ldtsz5N37OIVCEYBtrzz0/w400-h300/IMG_4206.JPG",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/10/eighteen-million-hits.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/10/eighteen-million-hits.html",
+      "title": "Eighteen million hits!",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under Million Hits!.",
+      "date": "2026-10-19T16:28:45.198000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/back-to-cranfield-soac-2026.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/back-to-cranfield-soac-2026.html",
+      "title": "Back to Cranfield: SOAC 2026",
+      "source": "grownups",
+      "summary": "A hobby news update covering Ancients from Wargaming for Grown Ups. Filed under SoA, Society of Ancients.",
+      "date": "2026-10-19T13:12:36.299000+00:00",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguRA27_yQl8NVdDSk35tYuY0W1eUVHGGWk2Vv1f7Y1nnDx8of1DYATb8AlEQs5e9aS3S58PbWjhM1NrKpAueBLqwJuqw-tWWEBREMJ-BxU8_YVkbPTVS1OV62d6BRahyphenhyphenSgZwaEAvQCc0Nph3y4vY4X1Ato7G5203kmUbGtUim5PWFV3itm_eoOgR0xtQCE/s1600/20261016_165101.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/10/an-action-at-jena-1806-played-out-with.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/10/an-action-at-jena-1806-played-out-with.html",
+      "title": "An action at Jena 1806 played out with DBN",
+      "source": "battlefields",
+      "summary": "A tabletop game report covering Napoleonic from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, DBN, napoleon at war. Topics include scenario design.",
+      "date": "2026-10-19T12:27:54.888000+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyLkvp9GhO3Zy3tbPU_NRieJWMr8WpVx5N4v0Dsp9x_6EuQ0wlgHSRQx3hsEvAoYtXPwbgCxkFU3qBl_0YTkuediKpy6LiCiKF9WdHg9JwbYRwEa4rpEClyQawnSM9HRSjPOsPGgtx8hvW6fmlUyZX1MqadQNsCcwiXIz4FjtGunLDrMAjmJA1vicCVOM/w400-h259/DSCF0940.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/salem-church-game-3.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/salem-church-game-3.html",
+      "title": "Salem Church: A Battle of Attrition",
+      "source": "palouse",
+      "summary": "A hobby news update covering American Civil War from Palouse Wargaming Journal. Filed under 10mm ACW, Battle Report, COMBAT. Topics include small scale.",
+      "date": "2026-10-19T01:25:00+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Hobby news",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQf0QHQVdk24Bp-uz4CLbyJUmflk3imAdcSckutBleEBdGkU6rnVoX5ch3jAEv0sVCARTL5SNgk4SEAqw3OZd9CbZ3ihz7GKnsVH5NMW_zw58cN1dF30Qz6pv__Os79BIsmR1jt04-hTqRkIEZOSCdOZjSFjjpcGS4M2GAvVwZ8srHCpTO8Ml0BxPF0-qb/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/what-hex-am-i-playing-at.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/what-hex-am-i-playing-at.html",
+      "title": "What the hex am I playing at?",
+      "source": "grownups",
+      "summary": "A hobby journal entry from Wargaming for Grown Ups. Filed under terrain. Topics include small scale.",
+      "date": "2026-10-18T18:46:29.828000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbrNO4QQqd9IeT5Ojd1fRIMBhlMfW-9MsXZjj-WjDxUiITaWnJ406gJFoD128yQwnFcVqx_RAEtGlOJo4vwv-TH4CNsegw-UEEvN_Rm86abaHo6nrx_5znfJq__64rm5C74mbTvt0NqbuiYywyWePATxzi8kbLQ-2Zz60O_Sc7Ddma0i-lgLKtKUlLHIBj/w640-h360/20261009_103438.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/goors-dutch-regiment-1704.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/goors-dutch-regiment-1704.html",
+      "title": "Goor's Dutch Regiment 1704",
+      "source": "palouse",
+      "summary": "A hobby journal entry covering 18th Century from Palouse Wargaming Journal. Filed under 28mm WSS, Warlord Games.",
+      "date": "2026-10-17T00:25:00+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE-eIZYXC79XhHn238xFHYAk-P8hUF_D7m8FZRb1Np_V8mIRoDvTV21W0UTzMmH-rNnbmITzsgUOkEP-9uRUsgsmuJuvcFwDZiyH6rhMdPusqB-Gb8Y2knj8LZwiNLxf_3vxbDd0rpXAdW-W8doWTto7ofokJULipLXerifPZJMnqGKtRJd7cYlK2mq0Fv/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/10/dragon-ships-and-iron-knights.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/10/dragon-ships-and-iron-knights.html",
+      "title": "Dragon Ships and Iron Knights (1066)",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering Medieval from Battlefields & Warriors. Filed under Dragon Ships & Iron Knights.",
+      "date": "2026-10-16T12:33:45.153000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6CyIWuNm3NBbQW8MAmPFtt57KhkU0acHR-72MUN3d6_KrVuzuxy0kreK5OhbdgWfDClZ5H2MBCEPX1rLLnVGHI_a3mXEmXXmVfckyOgYBALyqO_gwQsjOBkvXCf4ofpAzjA2EWIcqYNUG9SEGpFM3giKctKVNYMQ7h_vteM53dnR-hn5ZAPRkm8KCcgQ/w311-h400/IMG_0505.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/10/battle-of-britain-campaign-game-8.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/10/battle-of-britain-campaign-game-8.html",
+      "title": "Battle of Britain Campaign – Game 8",
+      "source": "grid",
+      "summary": "A tabletop game report from Grid Based Wargaming. Filed under Air Wargames, Battle Report, Campaign.",
+      "date": "2026-10-16T02:21:13.140000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicR5VTq7Y9Sf44M2966ZwCE6_k0uvEMrjOLJCwz6a85nHBjD8XnPj4FjsCq_H4FLYQDDrX1FKCSELh3dhHxNmTdnCFr9XS8Wn_IpBiVufQqYJajWKm7VtcTv4v87_xavhbqraLOZs5_mp27glc7YthH3VvVNc03Y02XXMO4R-gMZg1oCtJRf7ZRwTI0EAS/w345-h400/Air%20Wargames_%20Scramble!.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/arab-horse-archers-and-campaign.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/arab-horse-archers-and-campaign.html",
+      "title": "Arab Horse Archers and a Campaign",
+      "source": "palouse",
+      "summary": "A hobby bench update covering Medieval from Palouse Wargaming Journal. Filed under 28mm Medieval, 28mm Reconquista, Black Tree Design.",
+      "date": "2026-10-14T16:55:00+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgChs3cFS5NAlp0j4mXMX1jBPEBVGXjgruRgyLVNWpaXnAPzDUbXINu45BFGMXMCBkrSRNVwOLrunb2dMFybuya-O01JiKt-PPGEfzo2gcexHrcaaS91RsehzgvQflS8qJc-yDOU5lmRkLO3tIesqDP6qQgFyYYS8pf_EvboihgueLF51rSsxzkwnGEY7hT/s72-w400-h280-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/monday-knight-group-does-1066-and-all.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/monday-knight-group-does-1066-and-all.html",
+      "title": "Monday Knight Group does 1066 and all that. Sort of.",
+      "source": "grownups",
+      "summary": "A hobby bench update from Wargaming for Grown Ups. Filed under DBA, Normans.",
+      "date": "2026-10-14T13:28:12.470000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg69NKg-cAlyJMNiE6hTfHxgnnNsjHT_YETogWRjhOyjS4u-Sc-JtADgAdb7h_phDU9PPXZqcMjYf8V-vRr7qF5FrAtlQkXZBwnVuY_qnyxVwNjdm82CctCYY7eeeMnN9MhCpoazUrg9lKR7_A0Ao3rDoC_SwAB4mOCgzFMRO9dna2rrion0QYBa0vKmkhU/w640-h360/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/10/the-crossing-ukraine-late-1943.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/10/the-crossing-ukraine-late-1943.html",
+      "title": "The Crossing: Ukraine, Late 1943",
+      "source": "battlefields",
+      "summary": "A post on tabletop scenarios or rules covering World War II from Battlefields & Warriors. Filed under GMT Panzer. Topics include scenario design.",
+      "date": "2026-10-14T04:00:00+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgISZR2bgnFzpUnw3PEjagxBiPO2KfStpAY0OiJMb-c3-OCKIOej2r5EgVexkKbhjUayIqijOQwe8BfH2y5MnaLXZTfvaPJ0MHS2OnbYUP46JIHCGkG_kbgx5NpOJKOrOE6vAw4jYW-1vYVMTb7sdASRcF4y9oUifPeksyymacIAw9aCuMLIaAbFoUfGlM/w400-h385/IMG_0627.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/the-other-partizan-newark-october-2026.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/the-other-partizan-newark-october-2026.html",
+      "title": "The Other Partizan, Newark October 2026",
+      "source": "grownups",
+      "summary": "A hobby journal entry from Wargaming for Grown Ups. Filed under Partizan.",
+      "date": "2026-10-11T18:44:38.476000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-GuAzowfNj4dJ9FuMHzxbw3noFouvts2eUS3TZtjzX4vsaPDMK1kxCZC4C4xg1kSysZUg2Qc1F6Q194iXlQnzVqY1924BFXyEDAWJG0o0XjhzHp6-jo8TxJjVreVnRsTzlCv_trgKpoIK03h60ARluGvBqwKjFiolW7axYm_qGTkiaAK7FQ48sV2RADVq/w640-h360/20261011_110738.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/10/making-dice-tower-as-present.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/10/making-dice-tower-as-present.html",
+      "title": "Making a dice tower as a present",
+      "source": "grid",
+      "summary": "A hobby bench update from Grid Based Wargaming. Filed under Fantasy, Painting, Wargaming.",
+      "date": "2026-10-11T08:15:21.312000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYrrV4MRoomZzJgKVDI3ZJtNuegDgabkVYzG1Pw9ElTR5AJ8KJGyUThU_DGxGCG9-v8XiN9-HOKl7k_UUoe5I3quoAmfYaQ6D1Zrj4GD2wCf2La0pDyAGRXRyEYFyepdwiGMcV0cZNdcNSgR8LoJH_u7DBzvD1QTbT-hqQGQGGldO91UQool4IqXzSo9PG/w281-h400/IMG_3906.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/10/across-ocean-into-battle-german.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/across-ocean-into-battle-german.html",
+      "title": "Across the Ocean, Into Battle: German Soldiers, Families, and Communities in the American Revolution",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, Hessian.",
+      "date": "2026-10-10T15:13:47.096000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://img.youtube.com/vi/UCUCInLHfR0/default.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/salem-church-game-2.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/salem-church-game-2.html",
+      "title": "Salem Church Game #2",
+      "source": "palouse",
+      "summary": "A hobby news update covering American Civil War from Palouse Wargaming Journal. Filed under 10mm ACW, Battle Report, COMBAT. Topics include small scale, scenario design.",
+      "date": "2026-10-09T15:42:00+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Hobby news",
+      "interests": [
+        "Small scale",
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1rwxhZ_Ynl77K3ZQl9piuFdx0z4LqpyYDCxA7nu3vO4gRrz4m7fm4qU4cESAhXBQEb8ATLYUrboWwuBPtsM0pe1s2S2fLRhArAVprn0dQz1BOdxKwduZWXVTKko6m-BDXN79RAlQgFiKsVLGcouQw8Xi71qQSh8Ha6-v_zHox05V9MZ6rwrE5HVIbGIdD/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/10/converting-boardgame-to-figures-jena.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/10/converting-boardgame-to-figures-jena.html",
+      "title": "Converting boardgame to figures - Jena",
+      "source": "battlefields",
+      "summary": "A tabletop game report covering Napoleonic from Battlefields & Warriors. Filed under DBN, napoleon at war. Topics include scenario design.",
+      "date": "2026-10-09T04:00:00+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHz9xlv6NZMHWzDwXAqzXR_SGJPSszHCO-3DSlKAMVJu9L3hRZAEKqEmdyodh78mUJbM0iScVghYbBG6ciC4QZL4GfM5Q7ZxAZ2N-g8iquMx_G8agzMFHdDtqQt5WRaow0D__cWabHUzGTOYYmis3ILZu6hnRm4BpSNDs3wVjCHeJmj5ruXtt8fGw2ZtM/w400-h321/cospeda.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/10/battles-of-saratoga-at-250-reenactments.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/10/battles-of-saratoga-at-250-reenactments.html",
+      "title": "Battles of Saratoga at 250 Reenactments 2027 Reveal",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution.",
+      "date": "2026-10-07T13:43:13.401000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://img.youtube.com/vi/r1l8-kxxE5M/default.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/crossing-ebro-with-mng.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/crossing-ebro-with-mng.html",
+      "title": "Crossing the Ebro with the MNG",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering Interwar from Wargaming for Grown Ups. Filed under Ebro, Ebro 1938, Not Quite Mechanised.",
+      "date": "2026-10-07T10:03:47.539000+00:00",
+      "periods": [
+        "Interwar"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga_NIxYos3P9QojOCL2_6C1FzzCnlcXgFatI033w2P7oaq71Fz0cgNytAO4aD4KT__yhShkGFj2XSqtDJRjamMnUDe3sKFYmxbWgvXlHtQjhom_KHXbStvK7WGlo-DLFWgnM3KaNMCtNgu4s_JlXRaOzdPIAqCYd4FU7WEROSdZJVnciTxPdYtIChnkbsR/w640-h360/20261006_190614.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/nevilles-battle.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/nevilles-battle.html",
+      "title": "Neville's Battle",
+      "source": "palouse",
+      "summary": "A hobby bench update covering Medieval from Palouse Wargaming Journal. Filed under 28mm Medieval, 28mm Wars of the Roses, Perry Miniatures.",
+      "date": "2026-10-06T21:10:00+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgwM_Hcw7FgWF0pHg7hUOIXBQu0DwRyzdkrH6hCqi9FOijM2nTwqx3jMAL8nQcFYe4GF_TvfNycYRwGFyZ0HThEp7GdddlX27dyK3yVZgw3l_iRWW0XQ17E5DgqwBoW30v4a9wk0lHPgPrJzQvfmnIIfx6xQgZ1HF_PS53ktIothrY4M7I8oWb15Zb8Ax7U=s72-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/10/battle-of-nagakute-1584-game-report.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/10/battle-of-nagakute-1584-game-report.html",
+      "title": "Battle of Nagakute 1584 Game Report",
+      "source": "grid",
+      "summary": "A tabletop game report covering Medieval from Grid Based Wargaming. Filed under Battle Report, Grid Based Wargame Rules, Samurai.",
+      "date": "2026-10-05T09:14:11.622000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitaS2gVBS1KtjIj3uxKsPiM7drDuVqvVnyOqrNKCbATJuSt6oZ0l5BPyTp9Wy7yr3h1GBArSFPU2G-U4Cnfs391YY7wLLwd2cHnhaYHDrDSwJ5N3Q0mXWVEc8kJvq6v9xFgVc_fh8PT5VQQX1bcLy49L7kPRKmZEKiG38LFjyea3slGZudop53o1QD-fBV/w300-h400/IMG_3883.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/10/jena-auerstaedt-1806-boardgame.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/10/jena-auerstaedt-1806-boardgame.html",
+      "title": "Jena - Auerstaedt 1806 (boardgame)",
+      "source": "battlefields",
+      "summary": "A post on tabletop scenarios or rules covering Napoleonic from Battlefields & Warriors. Filed under napoleon at war. Topics include scenario design.",
+      "date": "2026-10-04T18:01:51.965000+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-xNd7mZr2KzQgHWmF_i3cxj9ChyOyzjkm_YFLTsyEQGd8pJTL6tLjgK_pVglzEvuTqXZai_HvOSR9OF2eagyoUdQNHSaDTe1V6ZWAaFDJJFf6t3QTTKwHpkga3Q0pypWHegjm2OCjCtkD06jvfONYGNplNjnOWMYYNOHj75g9pLQdbViRy8fcnO6Gkas/w293-h400/IMG_0608.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/10/normalising-my-normans.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/10/normalising-my-normans.html",
+      "title": "Normalising my Normans",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering Medieval from Wargaming for Grown Ups. Filed under Baueda, DBA, Normans.",
+      "date": "2026-10-03T15:49:03.328000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlE7f6ZSkAY2d7tQ1z0KIN8fEo5doFBAPUKtwv2k9X_OSpD7-XATL7FOY7wzZ0gQciZq6-0j4F3Bv8Ob_wEhB4j33KV20YX9gZYb-ViExOVszwVwMXBpY96lczofzPj20OdzmbouXlRrSj-40jFWJppePa_ZLVWmdv2waMLkARHWtVsP5ROUv18cm2UeNE/w640-h326/IMG_1044%5B1%5D.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/10/least-liked-hobby-aspects-are.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/10/least-liked-hobby-aspects-are.html",
+      "title": "Least-Liked Hobby Aspects: Are Collectors Different?",
+      "source": "palouse",
+      "summary": "A hobby journal entry covering World War I from Palouse Wargaming Journal. Filed under Analytics, Great Wargaming Survey.",
+      "date": "2026-10-02T15:35:00+00:00",
+      "periods": [
+        "World War I"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjInXTNl94MWiCGJE1U8usHKFSChCwGKJsXMpB3QFC6MzPx9w742fzRH59buNhv4N2FT13Rj2H-XcTJ2_XL5BT-WoFFXjneY1IGCM7zwsex1IJxPbLoSOX8xKOmvLDcYT1n_tFd3L2LOszfpEI3ap9KSC7SLRZkdWYBAX4wcdWOJIKYyVmuYldq7tcMdpla=s72-w400-h348-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/09/not-quite-beach-ready.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/09/not-quite-beach-ready.html",
+      "title": "Not Quite Beach Ready",
+      "source": "grownups",
+      "summary": "A hobby journal entry from Wargaming for Grown Ups. Filed under D-Day, NQM.",
+      "date": "2026-09-30T19:02:26.587000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEiU-kJyWas7crZaj7240sQ5a2_VdElrHH-NKdcal7oz8xCwqJhcxao_VYgItFD4O4-U2Qg-rankRRmA9tUD4eEurcw61kGxq2zKTnG1xf0BECCWuHw-8oVNPhGYAwsJwj8amOdFnhdWNlV8KTrQ7gYkxOWaMUKo1YqNJI7L0c-o1roX4ohsyoFeLOdNeoXp=w640-h360",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/sedgwick-rejected-at-salem-church.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/sedgwick-rejected-at-salem-church.html",
+      "title": "Sedgwick REJECTed at Salem Church",
+      "source": "palouse",
+      "summary": "A hobby news update covering American Civil War from Palouse Wargaming Journal. Filed under 10mm ACW, Battle Report, COMBAT. Topics include small scale.",
+      "date": "2026-09-29T21:00:00+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Hobby news",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjLPXAi-EsVh-DdmWBbWKk6IWLVrCuFlh5mWYN9viQ8O3ineLtdF4HPSyin8DiT6OUBaDVOSuo7ZAnblqSL3x_ZfNbKll9ae8TZEgkz2s1cBs3CONEhR2vG7s6QLQcKCW7THqgjfvXF3Tq8gv4GRl4KGfM9GCnUzd5tbrdCDrbAbD_IIjPOvW93eFdr1V5C=s72-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/09/the-formidable-kv1.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/09/the-formidable-kv1.html",
+      "title": "The Formidable KV1",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering World War II from Battlefields & Warriors. Filed under GMT Panzer.",
+      "date": "2026-09-28T04:00:00+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYhAZNS63BAyS6b_NtbwTbvlkfMKI-lC_2W0AaPFgFhsohoAd_HbswStiTG00U5qYuVu0o-w68Fh8Un7IGWDP5kqmGGf4DF5y9qRcWzTiexRt-oHlnIAvbjCUAM5GePaZkSs00uLKqcEAfa22OO6Ekug4f29NhqQPad3A3aorDRUdP9Ls8WT7VF8WVg28/w400-h326/DSCF0877.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/09/moai-modification.html",
+      "url": "https://ajstable.blogspot.com/2026/09/moai-modification.html",
+      "title": "Moai modification",
+      "source": "aj",
+      "summary": "A hobby bench update from AJ’s Wargaming Table.",
+      "date": "2026-09-27T18:52:03.706000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKUO3yqm16IfC5yAwGjBfRVlDLL2Lo3eTkQ5rAb-U6QQG-l3fgeVslHcXJ6uHXViFkAKAnSTX75cEf7H4i9rKpTDgqPEqtUp7hPp6EEAnzPZmUwBqlATYNnEBRXTP9TD9VLGagAozAPePPrsOynPcdpOzoAOozhK5IFvmZ3_Jq5d9-aDzy-o_4P0fYQuxh/s320/Moai_1.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/capt-fergusons-corps-of-riflemen.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/capt-fergusons-corps-of-riflemen.html",
+      "title": "Capt. Ferguson's Corps of Riflemen",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, weapons.",
+      "date": "2026-09-26T20:22:38.287000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDOmnnfmUgVxK9ySs6ardW8cKokRPiHqsr70nD4o1NYmti2UxA1fY6_1U1fnXhmr90KUBBYocb6FC9gB75_r9oj7QJlpSHFhyphenhyphennEjiZxCZz-qy7JbEoJP3AT7iqr2qtsnOGXovLrMMMBBFYU06GXIAgLAWWgie3ib1gHANdjPW9R16X4G3_srllFntjt8oL/s320/ferg.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/kings-mountain-ferguson-rifle-event.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/kings-mountain-ferguson-rifle-event.html",
+      "title": "Kings Mountain Ferguson rifle event",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, weapons.",
+      "date": "2026-09-26T20:17:48.235000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcuNZj7X1X2JckqDzbYhK_UN_4MDk07XqNyWczc6ZGQ0N9rapWs1Kt0TtTIckYbT7ZxP4Ei-O1e50-u45cZ8Lr7vS0BWixY84FMioHNT-2UDSdXnVohd1Uv4Z-vnCSOVmGN38sjHkk_rjZfkrsAj5gfCzJsoBIyhk4XCdNehRxB859arqVDzYNRDOG8IXl/s320/825292315_1534197658740278_7679527830857792316_n.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/09/my-games-for-fall-in-have-been-submitted.html",
+      "url": "https://altefritz.blogspot.com/2026/09/my-games-for-fall-in-have-been-submitted.html",
+      "title": "My Games for Fall In have been submitted",
+      "source": "fritz",
+      "summary": "A hobby news update from Der Alte Fritz Journal.",
+      "date": "2026-09-26T17:43:21.784000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgP9B3fVEUhrPWSndstkGFKaw2xVb4ERZuhcyj77WNZRW1g7sS7GbHm9iq0U_6bBD1tHnlxRGTN8_adJIMz62R496wwqoEuv1KM9ea3QV6G15-hqivIuIxDlAot4b0j4lT9UatYjio1yKa45L054d3DAZZ6b8Vix9WFFL9K7iFs6K7WD8CL66wmwYdMvfc=w400-h300",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/we-interrupt-scheduled-programming.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/we-interrupt-scheduled-programming.html",
+      "title": "We Interrupt Scheduled Programming...",
+      "source": "palouse",
+      "summary": "A tabletop game report covering American Civil War from Palouse Wargaming Journal. Filed under 10mm ACW, COMBAT, Gaming on a Grid. Topics include small scale.",
+      "date": "2026-09-26T02:45:00+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhFnytPQjbZYYV1aozyTZvwZQmzsymqH2rtZf5qDSUdow0gauJSlIHRDIs6TMxEUibxBhfDCV_X610M6kZFK1pBhmEkTacJjls6Albo_xABlUs7iK4vdMNkLfegsj-rJWb5SydF8gPLFc060fl4Ybp1aiujy1U2DseaKu-EBynq6TRxYEW8A7cURKUnzFou=s72-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/09/making-some-dice-trays-to-track-unit.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/09/making-some-dice-trays-to-track-unit.html",
+      "title": "Making some dice trays to track unit strengths",
+      "source": "grid",
+      "summary": "A hobby journal entry covering Medieval from Grid Based Wargaming. Filed under Samurai, Scratch-built, Wargaming.",
+      "date": "2026-09-26T01:42:46.251000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt7x8cKQXl1KWYJHCMSqWY5oNrSIgr1IC-12w61Q7RBvS2Oi-hFXvDWUdZw7lnyj4cdZBfkysrvPcDowI2S5mXp8OH0Lu1x6USrZAeuV9q6kZB4QSTtpdIvdSG0G8qo-1RO9VDVOeXYSWFgiSx3ed9dFAlotaobMPF82h_LVt09QcTOM0j5Fi2_-7e46T2/w313-h400/IMG_3821.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/waldeck-3rd-regiment.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/waldeck-3rd-regiment.html",
+      "title": "Waldeck 3rd Regiment",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, Hessian.",
+      "date": "2026-09-25T20:07:37.414000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHQDIQb6Z8GKpbuT-cl8i67VCy4gK_Q-m2lR0tDiXXaXuWwb8-5CKmKX_qVurewO1hd-QbLmnuIrKC7RVH4FvSEckp8-hPzqk3xZySQ69Uv7tUOK72vovtzHZDsZu7OhdJ0LeANY1fziUeAjYBnMV7NQ1JydCZsODbssUE3DVPUbk2oBRLExog5fLP9JK1/s320/waldeck3.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/fort-ticonderoga-article-on-brown-coats.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/fort-ticonderoga-article-on-brown-coats.html",
+      "title": "Fort Ticonderoga article on brown coats",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, forts.",
+      "date": "2026-09-23T20:01:30.897000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://img.youtube.com/vi/Woo52P4gjU0/default.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/gws-2026-and-new-project.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/gws-2026-and-new-project.html",
+      "title": "GWS 2026 and a New Project",
+      "source": "palouse",
+      "summary": "A tabletop game report covering World War I from Palouse Wargaming Journal. Filed under Great Wargaming Survey, Project Planning, Ramblings.",
+      "date": "2026-09-23T12:06:13.121000+00:00",
+      "periods": [
+        "World War I"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEim8DIhrMfLN6ZBKwQVkf4D-dTKuJvRKv9Q_ptFBPIAhIHzpEG_lP6gbFMkv0pA9BWPy_szsOAcIE5GNv8gZI_EUleh05yBu032kSGgR_aDCgk-cYPKgkpHvXUl8bobyBVLYwT13QV1XU8WAM8E3SzXkc1hygi3knJSy7ogL5OrXGs3zsXKttb6zMcPeM28=s72-w400-h348-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/09/awi-american-riflemen.html",
+      "url": "https://altefritz.blogspot.com/2026/09/awi-american-riflemen.html",
+      "title": "AWI American Riflemen",
+      "source": "fritz",
+      "summary": "A hobby journal entry covering 18th Century from Der Alte Fritz Journal.",
+      "date": "2026-09-23T01:37:23.276000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEiz1cWAPmuNRaXZQhq68hOda0qw67-s6ry3AVT7OKk7g8zHIhzSrCGbCyxaE0q3PrfbWwmYG-bUvvMdkfhkKX4fY0aiBvELr6gXMlg9So7B-sYuGfksAiyIL7RL4B3h3M1xrTMfFtUe52NRBZtoc3ip20ruD-XG8uHZ8jzAPIJaqapqN-JSeiy_hsYgR24=w400-h217",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/09/all-things-jena-auerstaedt.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/09/all-things-jena-auerstaedt.html",
+      "title": "All things Jena Auerstaedt",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering Napoleonic from Battlefields & Warriors. Filed under DBN, Jours de Gloire, napoleon at war.",
+      "date": "2026-09-21T04:00:00+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNfsACtO7rihzhpV5GTVjTAP5nF34TMdC6inwFEbQ9dF6MTBJS7Ss4kNdXtfxMuOlWCgzwm06lk0Bd7PsE2x0StV017U_WNTjmpRZOK3TA9kpmqoXLmzmLXNuEnHadVbIuYIBMpqzUZSAOH3wTifr0ca9fsdCxfKFU2CkG_f5wKpDaGCUwouBK_5wTuZk/w295-h400/IMG_0605.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/09/scratch-building-some-mountains-for-my.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/09/scratch-building-some-mountains-for-my.html",
+      "title": "Scratch building some mountains for my Samurai games",
+      "source": "grid",
+      "summary": "A hobby bench update covering Medieval from Grid Based Wargaming. Filed under Samurai, Terrain, Wargaming.",
+      "date": "2026-09-19T23:42:00.555000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_CYnN5Q_x5Z5Qwnu9hXKbQJieH9rvabob5WSiZZGrBua1qH8tW7nm1ejT_7d2ckJOKQJZ01Jx_P9WTeQXKvKt1HUP7gnLyLUnsSMoHFFUEtSmuFPMhOEaYETrTsjSzxivqsviNZFMPLBu2iDfVi9rBNO6eIVa3CyvKWJmffIvpXRdGmwQC6JGSmQVWIuc/w400-h248/IMG_3802.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/the-things-we-love-to-hate-about.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/the-things-we-love-to-hate-about.html",
+      "title": "The Things We Love to Hate About Wargaming",
+      "source": "palouse",
+      "summary": "A hobby journal entry covering World War I from Palouse Wargaming Journal. Filed under Analytics, Great Wargaming Survey.",
+      "date": "2026-09-19T12:38:00+00:00",
+      "periods": [
+        "World War I"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjInXTNl94MWiCGJE1U8usHKFSChCwGKJsXMpB3QFC6MzPx9w742fzRH59buNhv4N2FT13Rj2H-XcTJ2_XL5BT-WoFFXjneY1IGCM7zwsex1IJxPbLoSOX8xKOmvLDcYT1n_tFd3L2LOszfpEI3ap9KSC7SLRZkdWYBAX4wcdWOJIKYyVmuYldq7tcMdpla=s72-w400-h348-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/regiment-von-huyn.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/regiment-von-huyn.html",
+      "title": "Regiment Von Huyn",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, Hessian.",
+      "date": "2026-09-18T16:55:34.346000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/fort-ticonderoga-hessians.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/fort-ticonderoga-hessians.html",
+      "title": "Fort Ticonderoga on Hessians",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, forts, Hessian.",
+      "date": "2026-09-18T13:30:34.668000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbEg_1X7dsce42dAVZvTLXWnzCWqvO9mzt-YRvsfX7SjqlCIFbuOzE1qElLy68t0QBmHETnbtqZwMuhcw0mCdXeznPoK2aVvZYyPu8-xrJlWURpGWs6JWZ779uNp7_aoZVDu14a7qYzYGRxySlbZMruSf4VcdE-VyGSzjpiRaKipowuDuvuadkrtxq4lMu/s320/hess3.jfif",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/09/the-first-new-hampshire-regiment.html",
+      "url": "https://altefritz.blogspot.com/2026/09/the-first-new-hampshire-regiment.html",
+      "title": "The First New Hampshire Regiment",
+      "source": "fritz",
+      "summary": "A hobby bench update covering 18th Century from Der Alte Fritz Journal.",
+      "date": "2026-09-18T02:32:31.239000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjalNnGI0pIp7QwQ2SBkNZui9AOtXothVpEuXEHP9xlaiFcEkoezmd0wKCQhikqRFMiFHR-rG-tTztL2EQDvMqZQiUPejRo3MC6nSBNgkbPgXsR253rWLUr_gXS9FSdYcfdcD1kuZEi-yttN0qkb2xjsM2D_PkGjqn1b1GeOrHdpy-LmuEeRXs0lck_IyQ=w400-h223",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/09/revisiting-tale-of-two-tank-platoons.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/09/revisiting-tale-of-two-tank-platoons.html",
+      "title": "Revisiting a Tale of Two Tank Platoons",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering World War II from Battlefields & Warriors. Filed under GMT Panzer.",
+      "date": "2026-09-17T21:17:16.388000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcID-UCTkxUTtMaVK4KFnq-giG2qTnGmrlv4RGohHLsCVnP8dRyt2jhaMj_lO7No0XhlSddOqHlFkNfNWz79YjKxKXpgufn1BBdgwq9qkIfb3OX3YSJ5vxqltFX5vdhx0EESiWMQi7KF0jheSr9eDinKRBBbiitiW78k0VN4uMrR4caCKmIYAu8hkoQsA/w295-h400/IMG_0568.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/09/more-blogger-issues.html",
+      "url": "https://ajstable.blogspot.com/2026/09/more-blogger-issues.html",
+      "title": "More Blogger issues..?",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table.",
+      "date": "2026-09-16T20:15:53.761000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/prelude-to-salem-church.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/prelude-to-salem-church.html",
+      "title": "Prelude to Salem Church",
+      "source": "palouse",
+      "summary": "A hobby news update from Palouse Wargaming Journal. Filed under Battle Report, Blogging, COMBAT. Topics include scenario design.",
+      "date": "2026-09-16T12:56:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby news",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEibFadZ4akTXdRqwbj8dQjfhQScVm6jXv3UsuQmb5a6ZtgS8McF-Vbrj9-AN1Qu3bTW-CmWikJ0H_8AfTTOmXCtIUazRyDJKU0IcXUoUFEEuZQ4P7eztwcmERZBECwkjJ7SxCAuS_5q1cfBXOMLl_jj63TO5Vlc_5N3HAJkLnFguj_R4wFBKtNf7-oZeL-I=s72-w400-h300-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/09/evaluating-wotr-rules-take-two-bloody.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/09/evaluating-wotr-rules-take-two-bloody.html",
+      "title": "Evaluating WotR rules Take Two. Bloody Barons 2020",
+      "source": "grownups",
+      "summary": "A tabletop game report covering Medieval from Wargaming for Grown Ups. Filed under Bloody Barons, Wars of the Roses, WotR. Topics include scenario design.",
+      "date": "2026-09-16T10:21:31.826000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhawPE0zkkgVz9VhPdz1gqZRT1S_AT8t_qCzks05_J3MK-1zv3hb_O9pBIZW6CkauxCVYhKuDxHn8j4AEGhK6L57XpUUyw7yFrXi2Ec8-RGpzPj50emHXzkDYv7OuYo19DQtvuN7zqM8I8AAqoQl82xnfkMopVwJ6PdqsA4ae2GJ3t99_D5sZQRSKp2RAam",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/09/a-little-bit-painting.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/09/a-little-bit-painting.html",
+      "title": "A little bit a painting",
+      "source": "grid",
+      "summary": "A hobby bench update covering 19th Century from Grid Based Wargaming. Filed under Anglo-Zulu War, Painting, Star Wars Legion.",
+      "date": "2026-09-15T19:44:36.230000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI72ID1KzXTkr0dPVKMKCFj8r9cIj0s2GmQ1vjbyUfzRDjvPYB7gBn1lzC-8NAsHSdw1Gbb3fmQscBtR8EwyRduHiFOswYMv771gEwB2RNGj3QVnhrZyEitOsgIAx0sNFpM5mdfHhszz-VX4QP_bomfvALNSDfRMZKWW0HfFdk4f8lRrTY3x2kfWqvedJq/w400-h243/IMG_3787.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/09/first-battle-with-dbn.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/09/first-battle-with-dbn.html",
+      "title": "First battle with DBN",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering Napoleonic from Battlefields & Warriors. Filed under 28mm, DBN, Figure rules.",
+      "date": "2026-09-15T15:15:03.446000+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynu1wqgtUdYUyF-alHGm-Xo2PSHMAs5ER1Y2nTH_ViCNBhK_0DKdW7VtF1N3yVe7M8SvfKT4whWGzfknUBHj7GA0iH4HWssL73btM1IKOiw9eXbCSh0_6hIWu871duqk5vnedxzBEU4efsuxCo2iOWiuVhQou3uVJKW8z17tD4DA8XHhXhGcHLzKLwJA/w400-h266/DSCF0862.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/introducing-hessian-reenacting.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/introducing-hessian-reenacting.html",
+      "title": "Introducing: Hessian Reenacting!",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, Hessian, reenactment.",
+      "date": "2026-09-14T17:15:21.111000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://img.youtube.com/vi/ViMIaZOoNbU/default.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/09/armies-and-enemies-of-khmer-empire.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/09/armies-and-enemies-of-khmer-empire.html",
+      "title": "Armies and enemies of the Khmer Empire Volume 1 - review",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering Ancients from Wargaming for Grown Ups. Filed under Khmer.",
+      "date": "2026-09-14T10:51:13.021000+00:00",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEg3uPHhJNr6U5lhI8jqfT7GRGFJbirC2kjQ4Q5iytO_SSGs5n8e4ui-jY375jRCIKN_v4SW3IFjeeTdMVMqeqAiAdP2aXmVVpyIuWBDziY95-9yrf-elZw9Cse5-jkbt5AibzlqA49QvTsjQwIT8nN_O5xBmxwysnBlV4Mu-yBu42kalJlmYBcmC65i3vmM=w640-h360",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/09/dbn-by-alex-testo.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/09/dbn-by-alex-testo.html",
+      "title": "DBN by Alex Testo",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering Napoleonic from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, DBN, Figures Napoleonic.",
+      "date": "2026-09-14T04:00:00+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinqqcSzLv4CVrgHCcW5Xgg8hzOzW-IGwUfoD6yjvDf8L4AN4QBmL9oNSzV1acZLpA-vLeneHuCgBb-HprVmhCBCHPcnnl9KbLexXivJAW0CPqb5IS_yQNG8RkQVkGom0-XOKE2z7iIc4De6dacR7cljuxbevYA6qDVajYmaH13G8wGDfNqg1f2wRkCSG4/w400-h274/DSCF0852.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/bring-in-cache-buster.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/bring-in-cache-buster.html",
+      "title": "Bring In The Cache Buster!",
+      "source": "palouse",
+      "summary": "A hobby journal entry from Palouse Wargaming Journal. Filed under Blogging, Technology.",
+      "date": "2026-09-13T22:42:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhRtge7irbmVKyNBeX2_FR1w_-K7fYLbQGpX-4W-TCVTKdYfioMtp6agOKPEHvCyamYfDkwE6hROAj_0JS4F03R1SiJx_fJjFDmpzGOoIp6G-whf1UIzqtDMRkj7NP7VDs_zNwuYHiif7kpad4JTnGzIRJD9xMH8OoqGZUHOeFTOrhJviBjQy4jp8HLjjku=s72-w400-h219-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/battle-of-plains-of-abraham.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/battle-of-plains-of-abraham.html",
+      "title": "Battle of the Plains of Abraham",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under seven years war, Wolfe.",
+      "date": "2026-09-13T08:48:50.321000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZaaP2VD9QAoriu1Lzp_iH8wSbH8GL7nGwsgasqdjD22mLkhpbLw230-WPK6cYOs3aMbHjgdSvaWbq_TWdujJpp9TZdU7sek_1qSQBl0-3_Lv2-Chc_a_4ja1Tcyu7MdP9u4E-3BuTMGpgWOs57qLtcpq55pk0x-kwbSdNkHpck3e1RjBwKNJofGtkZrzY/s320/Benjamin_West_005.jpg.webp",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/biblical-camel-archers.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/biblical-camel-archers.html",
+      "title": "Biblical Camel Archers",
+      "source": "palouse",
+      "summary": "A hobby bench update from Palouse Wargaming Journal. Filed under 25mm Biblical, Newline Designs.",
+      "date": "2026-09-13T00:20:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhi348wGFLo40NtzUKNSzpmoAiO3y6TeeKWNHTKPFNtEn4rnWnwggWSNQLc_tdVaJ18gDJ6T5OyazP0KkDQlUgBIX79cZgQLbVkuHVrPRwP2aouaBPWgn1jlz0GkAqNrHpI0UqynfSq2_Exwg6eFrLA2au35WPi-WRy7L4uiZ8G2006gX8Iz8GlQKwxb9tB=s72-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/now-we-have-french-revwar-group-in-uk.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/now-we-have-french-revwar-group-in-uk.html",
+      "title": "Now we have a French Revwar group in the UK it is time to get a Hessian group going.",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, Hessian.",
+      "date": "2026-09-12T21:41:14.404000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUkATz974fvw5staDDknMniVD24Hx25iWdBGuE8FzjLWG5WtQLwpsDq311j5jADQ1lFwy_yCC9cJggO5GOPHBui_gD7-mKUffRQU0kbjElVof_FOulwckmdQT051cLCAbZs5ntDszQ5rjuHALmGsDylQdb3AZOrJxn-5FWVJT0McLTJWlCe_-7MXAB2dAH/s320/brown's.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/09/wars-of-roses-rules-game-were-not.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/09/wars-of-roses-rules-game-were-not.html",
+      "title": "Wars of the Roses rules - the game we're not playing. Probably.",
+      "source": "grownups",
+      "summary": "A tabletop game report covering Medieval from Wargaming for Grown Ups. Filed under Armati, Wars of the Roses.",
+      "date": "2026-09-12T10:56:55.738000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhxdBADiB77oKDf71rZafixvdi_-15Dg852-8-xp9VavWjzOGbOyOOuA-nITPTwhvi9HBV8OVMpsnVQN6xdlUYBUM-mkREsGyHr7YESCCrj60XRfYkpfew-r8ZB9akHHAOkykscNfOq7wUQaQVtpEOuIuoHSk9UCrM-apyrE2SuKb65siQ8LGEX8rRXtL8o=w640-h360",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/blog-post.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/blog-post.html",
+      "title": "Quebec",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under reenactment, seven years war.",
+      "date": "2026-09-12T09:25:24.733000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/fourteen-years-of-marching-through.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/fourteen-years-of-marching-through.html",
+      "title": "Fourteen Years of Marching Through History",
+      "source": "palouse",
+      "summary": "A hobby journal entry from Palouse Wargaming Journal. Filed under Blogging, Ramblings.",
+      "date": "2026-09-10T18:00:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjwuaK-oSbHAZH1cwWPXJiLCEJMXgHoYl-2xQI0CmxuMnsXwdDEz_iVX7MxHwEPJ-dK_qpd5yI8iPSzm6uq4VVFNXuZFt2UdNATc-qsfArLq2SZafKinlEu_XoA8nVh-_aSkpDqDb_RXQrNnURMGQQwsmt1zNNl1kFxLkk4JIe8wRAcTPLZ0UnAXq8HyTSq=s72-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/09/evaluating-rules-for-wars-of-roses.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/09/evaluating-rules-for-wars-of-roses.html",
+      "title": "Evaluating rules for the Wars of the Roses",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering Medieval from Wargaming for Grown Ups. Filed under Basic Impetus, Wars of the Roses.",
+      "date": "2026-09-09T19:07:05.520000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgrOgO1sPVEFJeAsPFKRfrJVTWbP_P1wOxLaeepPrgHeAAx6JiYyhY01Cct-JiadhDUssMY66vcK01FEqnahBbnHPYadyhrof-PjFCG7cCR6-UxkrPg8tH5B2_WZ-e8Lu4_As7iKOz7B7qZaxRYdu9hD9Abtg7eLT2YtA-YdkH2Q1bSmD3aH9rVxFOEg5dQ=w640-h360",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/today-in-1755.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/today-in-1755.html",
+      "title": "Today in 1755",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under seven years war.",
+      "date": "2026-09-08T12:09:04.520000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYPWKMEOW5BKIHnMAseBilbDK6jywlFJqLLWX3-Rmejn4AWjHj_oI3CM30TsnNKT3_pGVKWay-FAxQlPGfXRT2wTqBRDOl5nghRzYyQ4goeZ_YiHQs6ZKFGOluI7gnLqD0CH_MWxsBbCW3kk8AUXFD9EW5jHh6aWGcr22m6v9Jxj-fQtH365lJkFYYBHya/s1600/lg.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/iron-honor-art-of-knighthood.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/iron-honor-art-of-knighthood.html",
+      "title": "Iron & Honor: The Art of Knighthood",
+      "source": "palouse",
+      "summary": "A hobby journal entry covering Medieval from Palouse Wargaming Journal. Filed under Museums.",
+      "date": "2026-09-06T23:00:00+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEi5KavlbwzISovfbXGfY2x1DFd8U3yK0qDIFrZTNEEFyRXxE9sYYcu1kRQtEeopKSfTEGsSdKn2uBM89WmoPNMo4ztxs1sdCTdlUzBPKE99NMz71o_3ISaWkB-MP1x5_cVRjDd40RyiRVqrU3GOOgyM0238i-aLI0KD26oglP6iO1fA0TMjZZ8tSWP8DRI_=s72-w400-h266-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/09/the-battle-of-gate-fulford-1066.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/09/the-battle-of-gate-fulford-1066.html",
+      "title": "The Battle of Gate Fulford 1066.",
+      "source": "battlefields",
+      "summary": "A tabletop game report covering Medieval from Battlefields & Warriors. Filed under Dragon Ships & Iron Knights, Legion Games.",
+      "date": "2026-09-04T23:11:03.644000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWimS7cwsB7pr7HQKA3dw92Y3ana95zcusiaYRxU-a36hgFp2WJSswPvoT-rv4BFWlJ2ybJpgWjQLFkd8ox5p1YkZia0LLW7sytfd8_Ao_lj42mSR4UrfS6jqjgBrMV28lVuglwWv6kAfQzRYamLkrwKluoTWGiEG23uAqmfimWqzrkXJ90XD12QKvlOI/w400-h238/IMG_0566.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/09/a-few-more-moors.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/09/a-few-more-moors.html",
+      "title": "A Few More Moors",
+      "source": "palouse",
+      "summary": "A tabletop game report from Palouse Wargaming Journal. Filed under 28mm Reconquista, Black Tree Design, Museums.",
+      "date": "2026-09-03T19:27:32.126000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjhfbCiZsv-0hgM5VfU6ySpbuzWo2a0raSwKJtt69ChRZPIDtixhQAE4bhLuvSyfg42SNdhGw31QK_mZFYCCcvsRXJbaPjEtposr2mMt12AR6NSmUxBGVkx2r8BQbRbCpUqtL95UMYZxnZVRxrckXtnI-55bOj7fB7lJTsXIhpWsRuL2u8G6oC3SNWtk3kG=s72-c",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/fort-welch-thuringia-germany-photo-tim.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/fort-welch-thuringia-germany-photo-tim.html",
+      "title": "Fort Welch Thuringia Germany photo Tim Mackenzie",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, forts.",
+      "date": "2026-09-02T16:59:42.196000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx5Xu04zLyVvx8_IWyzWN6TGVhz-mUbMraO2X9wpt-F9JwkAzKUiIc3cQMDg_8EBKjtnCf2yEReudyL0K2XRorI8h8VHJ1uk1fSt2rpmU6t4y_s4XrikdrH1VAfvCjSyrmnp1z1MfdDNtzgQbEFG7sLHYWFK-GJl_Ptwr1mvDVqptVBGAfNYvIIsw_6GeG/s320/welch.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/09/survey.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/09/survey.html",
+      "title": "Survey from HaT",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under 1/32 scale, American Revolution.",
+      "date": "2026-09-02T13:39:54.936000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEictkj3vltyGLqhAsJhgG55pVtreA5Nuxf3iXTVmYI_M6fzO4vYivf9qROiqgjvfhkCQi22E-zEaBBnlXSsVep-kU_hPza5p-8GQQ3gCbNbfLM3xv5fHH5RAFs47yWTF31f1v7YnxBnznSwivo496UOGEzVdPfe__dJuWrqyhCsiFbCqxkZgzgwJxj4_rVp/s320/brits.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/09/whos-asculum.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/09/whos-asculum.html",
+      "title": "Who's Asculum?",
+      "source": "grownups",
+      "summary": "A tabletop game report covering Ancients and Medieval from Wargaming for Grown Ups. Filed under AMW, Ancient & Medieval Wargaming, Asculum.",
+      "date": "2026-09-01T17:37:51.185000+00:00",
+      "periods": [
+        "Ancients",
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgglvnw6VEBhSV6AM7X0Aa3LCQAXQVK2GR-EcBFT-reUUfYgOwflczG9ffy3JdGQAMKID82Z8CeczosB4Ugr2l5g_T3LjKO4fFvqK4BBtuOt7zsJ9ZTBlc2_gfnJLpBIv9jfG70C6EqzadkmdbxWkaUpTBI6ZFS7erCVNffjJB9Bnu-B4mWGDiUbna5Augk/w640-h426/IMG_1010.JPG",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/08/a-big-battle-fought-in-three-games-part_01865488795.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/08/a-big-battle-fought-in-three-games-part_01865488795.html",
+      "title": "A big battle fought in three games - Part 2",
+      "source": "grid",
+      "summary": "A tabletop game report covering Napoleonic from Grid Based Wargaming. Filed under Battle Report, Napoleonic, Solo Wargaming.",
+      "date": "2026-08-31T07:06:55.067000+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxVBF9elp9WuPKejcZBbIXcvX5iPBIrE45BrMAkvkS75Pf0iEkwxfCpd90fNGOlanZSnUv2La0Jx7qKRihC2XAaCBOLFl_kX59ilq4vpJgg-EJDvY0O5yS_ZDNDth6A1CIH33SPP0W7FRVzQZARdH5W0-kRatZg6rjmr-YdrywrNwHZ_XVvVeHGc9s22Oe/w400-h300/IMG_3697.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/08/rediscovering-wargame-magazines-from.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/08/rediscovering-wargame-magazines-from.html",
+      "title": "Rediscovering wargame magazines from 1989 / 90",
+      "source": "battlefields",
+      "summary": "A hobby journal entry from Battlefields & Warriors. Filed under Magazines (figure).",
+      "date": "2026-08-30T18:49:01.525000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZw4MyOWb5kAcfAeDODBHjxk-DPNJx9qzY6mtbObg-nlEO2y11zPEswrxjs9dISeB5azWECpmkcn4V4FX5V2cItwWt5zR1J885nt9rPt28JrOgnrNLsXvdFjQArEipgC1OlkmeP__z4uGyV9VZ6lwxkDspniDhaa_Hx-o2ItwcGYuDulNSjn8DkHBOYJY/w280-h400/IMG_0544.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/08/life-and-death-of-french-soldier-in.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/08/life-and-death-of-french-soldier-in.html",
+      "title": "Life and Death of a French Soldier in the American War of Independence 1778-1781 by Bertrand Jost",
+      "source": "flintlock",
+      "summary": "A hobby bench update covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, French forces.",
+      "date": "2026-08-29T13:45:57.807000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlTTNNtMd0Pebf0ePnwerHS4hz_j0vHR7xYyRz3QavA4EDpdopLh5yn45MFMRcpIVnKIJ5unRK121yE6W7HsWg2OedpzHGDt3dFIeJ6NBnCTAQ5mGCL8qgCvTYkZQOqjm1n70jbVPALZD05drnL0acILG-Xh_hQg0fZh0Pqhtts26A8I8hVeZH4HfAECw8/s320/580169bf9acd848eb31d9bf89c239f9b.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/08/newtown-1779.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/08/newtown-1779.html",
+      "title": "Newtown 1779",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, first nations.",
+      "date": "2026-08-29T13:43:41.524000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiaFvj62MbiDI9LZenG8JfScxvfLlsqUxNvfBaj3zkATAfL3bHExkFd9m372BZK7ljm98B9BjqMpOXlpzMNJ2YVNi88i_SoEJEe89vmS148cZz2RFpwCnLjG45D7DsTGNUlE3gnwx3YL4nVclXzWHmqPm7efeVeViNLdTXkVa9GsQqhyphenhyphenNt3XpMpol1W48P/s320/Sullivan01.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/08/starting-new-pocket-army-for-dodgy-backs.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/08/starting-new-pocket-army-for-dodgy-backs.html",
+      "title": "Starting a new Pocket Army for Dodgy Backs!",
+      "source": "battlefields",
+      "summary": "A hobby bench update covering Napoleonic from Battlefields & Warriors. Filed under Figures Napoleonic, Pocket Armies, Warlord Epic. Topics include small scale.",
+      "date": "2026-08-28T13:15:40.694000+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlECKziDUi7_pOOgEEbvBmMeYOBZHkly7zO0-NhCOSck9umyL-EnBYWLjIkXzDYhZNL3fN8wIe_I2Kir9ZmbnVK4vGtUZMVZyCVdrQ-3iFJDPDMR-mmqXj4jAtMPU-aM2gQBADuuitJXjrj67Dr7VZangLTis-ShY64LXXqZybOzGw98ZwBnVtHp_HjQI/w400-h266/DSCF0831.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/08/all-at-sea-and-up-river-without-paddle.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/08/all-at-sea-and-up-river-without-paddle.html",
+      "title": "All at sea and up the river without a paddle-steamer.",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering American Civil War from Wargaming for Grown Ups. Filed under ACW, American Civil War, Naval wargames.",
+      "date": "2026-08-27T18:36:11.759000+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4CvBr9o77iZ-5GcyPfvaLAi4z8X9EqvPSnOZsY-C1Md2obpZOAAf6kZWi9kegqYrzK_lrV4_piMjdyBe5sD6XlEiFVwMCgY3yajN02GOkyhGvScX4lPYme5KOvfilssAEhoMO6vwQqdIyZnqx5K49yLpY17CSkWRhT-yjrHphGIlYivGSAH_nq4vmLpGC/w640-h426/IMG_0968.JPG",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/08/best-laid-plans-and-all-that.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/08/best-laid-plans-and-all-that.html",
+      "title": "Best laid plans and all that",
+      "source": "grownups",
+      "summary": "A hobby journal entry from Wargaming for Grown Ups. Filed under From Pike to Bayonet.",
+      "date": "2026-08-26T09:29:30.914000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiytIR7o7Bve3FeZ8-pXXR-GhOWai89wchUxq_D15Y0D3di_5lpLNV39-g08cKyso3sm2FUmubhTk19uNTHVGwFav8EYOBt0Kai6KD8h-d6JUpQYIBRtADSSmnj5WLQ4ocKmgCQSdzLurEN7-13EyRq8476fLOjFTAdECwAccMD96jrFoTIikZ7j530hmmv/w640-h426/IMG_0952.JPG",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/08/battle-of-zorndorf-august-25-1758.html",
+      "url": "https://altefritz.blogspot.com/2026/08/battle-of-zorndorf-august-25-1758.html",
+      "title": "Battle of Zorndorf: August 25, 1758",
+      "source": "fritz",
+      "summary": "A hobby bench update from Der Alte Fritz Journal. Filed under Zorndorf.",
+      "date": "2026-08-26T03:38:30.447000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjSy2JNV-D8OiSZ8Pv5oCsnD22OW1RnQbiJKxcS7TrGNK-KAxOw-jvGc3Xr8Y2IMZGzL6mEnK-bCRvnV5F5Sp2qaTG8HK2fuWGbLkw9tD1JGAZKeflJxuEdjZta0RIjAdmkrIvxNitJA21IPunAL3TG3d2f-xZE8JMJ6Tkxx6qQuEnkd3FJWlrvV8TPAHE=w400-h291",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/08/test.html",
+      "url": "https://altefritz.blogspot.com/2026/08/test.html",
+      "title": "My Regiment Bearn Uniform Still Fits!",
+      "source": "fritz",
+      "summary": "A hobby news update from Der Alte Fritz Journal.",
+      "date": "2026-08-25T18:47:46.079000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/08/1471-campaign-concludes.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/08/1471-campaign-concludes.html",
+      "title": "1471 Campaign Concludes",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering Medieval from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, 1471 campaign, campaign settings.",
+      "date": "2026-08-23T09:38:45.581000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh98y5aGNjDWNDvWwxY0w9H1FqxXDosAt-KxLVC__mduMe5JajMkJgC2f6oJkmhgjiBqY1WZGzdvME56xg3YTHUL_uxguK8c2si5bIAWwKhsCj5SKCvat9D5NR_yAvFwdJ6SWC_35VSslDB801NZMHsQOgKiRV1BG4JKUTScn8zrHmHEaufM_ZaMVhT2cM/w400-h281/DSCF0825.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/08/a-big-battle-fought-in-three-games-part.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/08/a-big-battle-fought-in-three-games-part.html",
+      "title": "A big battle fought in three games - part 1",
+      "source": "grid",
+      "summary": "A hobby journal entry covering Napoleonic from Grid Based Wargaming. Filed under Campaign, Napoleonic, Solo Wargaming.",
+      "date": "2026-08-22T07:15:47.581000+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE8gEIk9FdxjRTbycXOUxAlAVf0UySSoYv_FjKLwxJzie0GgPv6uKVct4YPq80Q9xxyjuRRxkI9tCcnMpABC0Gp1rvco8VXDJBE7qKhGhPB0p7wFsWUYwEmJybLvY1Bq5gT8bye6d1MEBM7cP1jn9txgPNm94LnIWkKsTS7ivHtfPVOTfjknMW7mbEGfTJ/w400-h309/IMG_3653.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/08/game-room-remodeling.html",
+      "url": "https://altefritz.blogspot.com/2026/08/game-room-remodeling.html",
+      "title": "Game Room Remodeling",
+      "source": "fritz",
+      "summary": "A hobby journal entry from Der Alte Fritz Journal.",
+      "date": "2026-08-21T05:11:14.148000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjsqRiNEDvjxhEN0-6Hisu65nk7Qe1pyL2ZJNBLEaLLRsG3O7zUlEWU3Sso6Yph-VZAMCMA3UVk9_t3LUv6K2Hpk3PI9wXyw3sJvuSjnEtB2GyfVVimXlH3Sy2LmpUDiVNK5sDQRhpuT4wKIGjBAfnq0bwHI9_-rbmiy8FrHYitEfF2w90fZEMk-9IfV74=w400-h269",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/08/da-british-isles-alternative.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/08/da-british-isles-alternative.html",
+      "title": "Da British Isles Alternative",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering Ancients from Wargaming for Grown Ups. Filed under DBA.",
+      "date": "2026-08-19T09:05:49.177000+00:00",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjDVoWXFgtWSCQPWDAWWDBOu8CLgqrHF9W7HSx4tdtj0NiMUJPwPH4yJvkSx6cyduv83qdSv2sJd8rx4bfSfhCMVzv8E46vgGrcqpjkVD8uPtI_BQyMdMV0bQt_VQq0nP_9XypqGnHVU3CklApsNJjlxVkeOPB5BtudXdR7AToCvEkD55hOZCKBBYyzfsDX=w640-h288",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/08/1471-campaign-turn-1.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/08/1471-campaign-turn-1.html",
+      "title": "1471 Campaign Turn 1",
+      "source": "battlefields",
+      "summary": "A tabletop game report covering Medieval from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, 1471 campaign, campaign settings.",
+      "date": "2026-08-18T12:50:56.929000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR3skeOnYNRVHLBTXf-3PwPIm8UEuzgonJyJJLG0osl-6pGTlOSaHriJtOXRZtSUYkrNax_cZ8wu2YwJOt9raZyY_NEGb0U7VmGv4KctOGNE9XgGP9FvElvN-gUsX5sNb3Wrr7G25xJaRn6NyfDWOi0Iiixh13fRpGCI8n8dZZJibBbc3VsVA6sPIbuZg/w400-h266/IMG_0517.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/08/practical-campaigning-1471.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/08/practical-campaigning-1471.html",
+      "title": "Practical Campaigning - 1471",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering Medieval from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, campaign settings, Figures Wars of the Roses.",
+      "date": "2026-08-15T17:23:28.418000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1Yczt2fFbmuHQq10n4uXRUMmEvDgW5hYPqKcGHw3fuODbK5YXqE0ZT6S-dUTaRRJ8K_UiQ8lZ-5MrWyAgfdVcQtEmgjve9LZcEJwXf44cYrqzT40BwmKcSARsNncm8bi9NV24XgHikQceQ_BY9yOBZFXhjlYJV4RN9CA8KImrSnScVN45dE8FEplMayk/w320-h400/1471%20geog.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/08/battle-of-britain-campaign-turn-8-26th.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/08/battle-of-britain-campaign-turn-8-26th.html",
+      "title": "Battle of Britain Campaign - Turn 8 - 26th August to 1st September 1940",
+      "source": "grid",
+      "summary": "A tabletop game report covering World War II from Grid Based Wargaming. Filed under Air Wargames, Battle Report, Campaign.",
+      "date": "2026-08-15T05:46:21.369000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkuoM7oIYgzpkIxZYnWydyMJwjE3knlJoQWm319LwVkzEVMi52A7NxVLu8RrOa7-HzApVPN-CSxQSWfzGZBI6utIsSOMgaEc2Gpyu_OQqtK3JHqj3zt3GTbcC9Bf6bIoh2ToaE_DllHeT_CLtutzTMVULPLQUnE_wv1-DAFJ6PqSs21D1RrEJ0jdFoIBQB/w400-h258/IMG_3620.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/08/da-baltic-armies-evening.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/08/da-baltic-armies-evening.html",
+      "title": "Da Baltic Armies evening",
+      "source": "grownups",
+      "summary": "A hobby journal entry covering Medieval from Wargaming for Grown Ups. Filed under DBA..",
+      "date": "2026-08-12T09:26:17.782000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhqFQ1JKJ2a_aFWW5U2c5zQ2PrTWOmqXE97CgaRI2Rf6EKnfWsKMIWNddjnj8QxF0KMY9LE25hVlkuqsJSoJkNwB6DdMKho_AO3BAIFOeD_s4HYNXLPXxGlnbtTBfbskpUcvSyXNBFJ915M50XyGS-4l3bRJP5zHYFyiMCToBeu5aklZcQ8Y2awoayOm2YS=w640-h360",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/08/campaigning-two-nice-sources.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/08/campaigning-two-nice-sources.html",
+      "title": "Campaigning, two nice sources.",
+      "source": "battlefields",
+      "summary": "A hobby news update covering Medieval from Battlefields & Warriors. Filed under campaign settings, Figures Wars of the Roses, Hail Caesar. Topics include scenario design.",
+      "date": "2026-08-12T04:00:00+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby news",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJKFf__ff-PeIDs29FEjzJdZBrwKnOx36cewHvAhMA0f_TMd9W1pTWL067CMrP2p03Qy455YyNWOcvX4dvRf_lc5er-wNY_rojbMMZiJf5xa7U23IomJGsRZk2p9zsxDn41EjtCSpVdVqB3RPuYawOY3vWMRSZGacDd4E_MjPf86gWFyUoEsnF9tK6A7M/w285-h400/IMG_0492.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/08/trenton-game-report.html",
+      "url": "https://altefritz.blogspot.com/2026/08/trenton-game-report.html",
+      "title": "Trenton Game Report",
+      "source": "fritz",
+      "summary": "A tabletop game report covering 18th Century from Der Alte Fritz Journal. Filed under AWI; Fife and Drum Miniatures, Battle of Trenton. Topics include scenario design.",
+      "date": "2026-08-09T18:49:01.689000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjwTEzv-1UwUsH7X0pAHnxfPwGPDZ0DnehILFA_rNk7pTcXzvv4Gm1SGrVOhvC7DxCQkeT_nVQNc1P97lJEYQWZzmxrfKPT5UiCAwxRxr48b9XN2IMEGKHRwzOlsQi0OFjSLf7FPVaSr1YCuoUXSvawLwcqRtUOeIrv1KkslNAB_vFhGAkgh_mUXESblDw=w400-h321",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/08/counter-attack-at-bir-kalifa-second.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/08/counter-attack-at-bir-kalifa-second.html",
+      "title": "Counter-attack at Bir Kalifa - second remote game",
+      "source": "grid",
+      "summary": "A tabletop game report covering World War II from Grid Based Wargaming. Filed under Battle Report, Boardgames, Remote Wargaming. Topics include scenario design.",
+      "date": "2026-08-08T04:02:10.894000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCFkLRdY6eJKBPEaXW3w45gsXJpuqzFDCAabKyezCl6AzQdlQ4HMZdhWUGp6wAqz9qu_zBJMQt6pob_sYUNWvlDZ79TeitMG23fkVqE6cL1dJgKTkVjHSZKWbdS0lyu7GqY4-5ccO0wgMJRu6wDS5Wx7VIq8p05qfvaavQ8m4RvRDbrY1Mr0SCzs24LbGE/w400-h300/IMG_3610.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/08/the-battle-of-oxcroft-field-17th.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/08/the-battle-of-oxcroft-field-17th.html",
+      "title": "The Battle of Oxcroft Field - 17th September 1485",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering Medieval from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, Figures Wars of the Roses, Test of Resolve rules.",
+      "date": "2026-08-06T15:37:30.407000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi33HDCir7Yvz57Mb0o8ZaXaBWpSuL4joU216fVXl_gSE1M0S7H6jyo0v77o7jOu5R8_rOnoBGRHVDVBHd46IVS34vi2gQWvKFTyZar6008H58GE0wl9N_6HsVy3UA9zAy_zu1C3nnDaavRQ9JPLdAf2FvDE83427ywRgk7kcJ3fyuvKnA58eNFSlhzlzM/w309-h400/OxcrofftMap%202.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/08/themed-evening-x-3.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/08/themed-evening-x-3.html",
+      "title": "Themed evening x 3",
+      "source": "grownups",
+      "summary": "A hobby bench update from Wargaming for Grown Ups. Filed under DBA, Persia.",
+      "date": "2026-08-05T09:10:58.683000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjwzyTdkqEL-lSzj0J2OZnfzM0A2aVrCvM7RTx8S_F7WRc_ID0TfzEDxT9XiNjbWsqcjNyH0QlCu7-kBRCX-QqWWe_ed9soiJHTvKme4Zt8aaf44D5PY_o4-YnERXxCFjslm1dX-aqZEnnhNyiIyQW_52DJeIjHDdiiUiL6wfeC0i1vkOh2F2VOzrsfD3r3=w640-h360",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/08/the-unfinished-business-of-bosworth-1485.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/08/the-unfinished-business-of-bosworth-1485.html",
+      "title": "The unfinished business of Bosworth 1485",
+      "source": "battlefields",
+      "summary": "A hobby journal entry covering Medieval from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, Figures Wars of the Roses, Test of Resolve rules.",
+      "date": "2026-08-02T04:00:00+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPJ1UQUuaUy6FXJHeb86uRFkxwifArELdDhnIJMY5HIGGhyphenhyphenmT1TgWWEiPCcuDg9yOhtCZARkEMtHdN-oNLmyIGYt5Qogj_0UFOdxaWvSL0XofmfljtELX0rnPFDQC_p-qN7CzajLjE9b3-NqUOhY47jZmKjwkantrIqOITx1R9FT4i8td1wZCwMgmfqa0/w400-h159/bosworth%201485.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/07/some-painting-terrain-and-second-hand.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/07/some-painting-terrain-and-second-hand.html",
+      "title": "Some painting, terrain, and a second hand find",
+      "source": "grid",
+      "summary": "A hobby bench update covering 19th Century from Grid Based Wargaming. Filed under Anglo-Zulu War, Painting, Peter Laing Miniatures.",
+      "date": "2026-07-31T12:00:53.612000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtEPPFDfAhklun4D_bdQs1EyGRfWMkHhVtiWmE581cIVqV3WL07LjmdJM9TWRbcjuifhnbDetIZaZJM-El0ngEXeFwl-jbiMGuOk6RAy_uAo9FRdu-0W5Y8Fj1H20eOJi-urduXzsnvxVm2A9hKI3NfeYynOuNBEEF6b7nVfE7GVzBADpmux2IZHdNc-T7/w370-h400/IMG_3614.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/07/bosworth-scenario-building.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/07/bosworth-scenario-building.html",
+      "title": "Bosworth - scenario building",
+      "source": "battlefields",
+      "summary": "A post on tabletop scenarios or rules covering Medieval from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, Figures Wars of the Roses, Test of Resolve rules. Topics include scenario design.",
+      "date": "2026-07-30T04:00:00+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7gw-5ChYAqeHDc2_9LA7qUdtL2J_vQmhqTtjT1Mn-9mg6n3GdJ9lWcd8uMibTusG1fLBPjDFZJXDJVHL7mTfxczr2GAqyFIgdp0VwaQ85vPe1FSDo4-83GBqmQY1g6oTM8seu-wGmslrpeg5bW5D0JzujQyPkNgehVb1CDLTw_AyHddn5sK5wmnrPr6k/w400-h266/Bosworth%20Flank%20c%202.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/07/dba-in-garden.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/07/dba-in-garden.html",
+      "title": "DBA in the Garden",
+      "source": "grownups",
+      "summary": "A tabletop game report from Wargaming for Grown Ups. Filed under DBA.",
+      "date": "2026-07-29T09:49:32.474000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEiDP8NqmWHUZgObfdhQGzExuniIup-PvL2p3xAeXDKfmHi6ESGjmA5nBmQtZfCoLSxz1ENzC2HWSwWv60ECzgT1qaWHnfXGIqg6cjHJcz3PO5R3wgGTs-qLbT_JBFv2ILBl19PaZFBBvq2OeYULrvBLh_4iayXsZMmP_N9UPml-58MAslqxd8xA0KndOaHs=w640-h360",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/07/bosworth-reading-and-scenario-design.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/07/bosworth-reading-and-scenario-design.html",
+      "title": "Bosworth reading and scenario design",
+      "source": "battlefields",
+      "summary": "A post on tabletop scenarios or rules from Battlefields & Warriors. Topics include scenario design.",
+      "date": "2026-07-25T15:51:38.527000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqZ-0SAtD2tR1A2nb4tsnmWdCihVshrtRTSS2Q-dFMqVV-aStcGFpQ7L1bHJDSu1NqxAfIvyYqrWIKJSFfKMMFLWbatClJe8yBDZ49ZzwKyx-61JMAckbfyaSbCGiJ0H1akFuG_6BF8fR9lkqPOYezj3pvOYx7U3BOSHhOI_sQ_5w26RgnBpvBpSDRzHs/s320/Screenshot%202026-07-23%20at%2012.08.39.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/07/battle-of-britain-campaign-game-7.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/07/battle-of-britain-campaign-game-7.html",
+      "title": "Battle of Britain Campaign - Game 7 Battle Report",
+      "source": "grid",
+      "summary": "A tabletop game report covering World War II from Grid Based Wargaming. Filed under Air Wargames, Battle Report, Blood Red Skies.",
+      "date": "2026-07-25T07:29:45.594000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRBhjsWTMN-pCDQsZNhjynbqoKjDTdZE2t0nb4YP78WNjf0g5sHgIYs64K-OO5NdQ38IppVOcppXGwz2b-nsXIMDz0O_XMbvXBViluQxj8GODsNYI94r4tri49JyNsD2iciRyJc8f3dr9bukjtCyTCnCqXNRoWY0x3GJ9Cm6ON5G_mvOPNwQg0KigaY8cR/w400-h280/IMG_3579.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/07/a-change-of-blog-settings.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/07/a-change-of-blog-settings.html",
+      "title": "A change of Blog settings",
+      "source": "battlefields",
+      "summary": "A hobby news update from Battlefields & Warriors. Filed under Newsletters.",
+      "date": "2026-07-22T22:02:24.150000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWvaKJnf57Lud5ASt2L97QXQHW2BEFZFxIeipF-cxOpDWdlGioGiqt_jLAM3bF1YMz-dWOYo7lKLo2LWAr9qudDfyJjpi7OhSoSjUOoaEjqTyp8GwSzdb-su-qZAV5R1QnPdu8pssL1p-QtiHt_QojeLaILlqiEA5POCHA7FUS6f9T72vfbbf8pTRS9zs/s320/Screenshot%202026-07-22%20at%2022.51.49.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/07/historicon-report-part-one.html",
+      "url": "https://altefritz.blogspot.com/2026/07/historicon-report-part-one.html",
+      "title": "Historicon Report Part One",
+      "source": "fritz",
+      "summary": "A hobby news update covering 18th Century from Der Alte Fritz Journal. Filed under Battle of Trenton, Historicon, Princeton.",
+      "date": "2026-07-21T20:38:25.692000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEh_s9h4X7lx-q_jMxeLXEH-NFuAzuUDm29eC3B1iOwZAapdaA-pVtoQpeV015RqCqVhZcwc04NRGhLPR2lT_gUJiGzczlftnjRfmykbccF8trzZsQi-Fe8CSPiMlwK3PS6BPWvXG73I25I9b3TNw3lr5vLqBRZ588XutyxqDug4tTtA-FwmzbN9b4uhMeM=w400-h272",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/07/crossbow-base-fallen-man.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/07/crossbow-base-fallen-man.html",
+      "title": "Crossbow base - the fallen man!",
+      "source": "battlefields",
+      "summary": "A hobby bench update covering Medieval from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, 28mm, Figures Wars of the Roses.",
+      "date": "2026-07-20T17:48:32.429000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiYHsG7D4yvt2ba_z6cQdI3ZpJ96CLap9gOubv08ufouLj5FwncGrnPd7JAnijJ4VtU1RlbEeDy6smzxr153DLMPTw9DC1b_loqNesHu9BqZh8JH2P1XVrQ4s9UzUtjBgga594tSunJ-z9uw1mo72rgCtDJf3S-3tJGq9zkyKuVZPaMzW80yhtuxi2tsI/w400-h354/IMG_2026-07-20-181650.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/07/rematch-of-battle-of-tombs-domyoji-1615.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/07/rematch-of-battle-of-tombs-domyoji-1615.html",
+      "title": "Rematch of the Battle of the Tombs (Dōmyōji - 1615)",
+      "source": "grid",
+      "summary": "A tabletop game report covering Medieval from Grid Based Wargaming. Filed under Battle Report, Remote Wargaming, Samurai.",
+      "date": "2026-07-20T09:44:08.637000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxNMzXf4m4C0sbCkL-KiHDevBolB-gkQ1-dEcQN1qzMZEMuCKEulUhU6aUXG1kdXhnfLVrA1TzM8Ys-sIZw7i6vi20O-zZJTR5sD_8Ne2zeFtLV9bxGAg6A29z5WHxzKUZZckvlAZaCQt9NJFX32jBu96_VuDb2RvpI1NlrkzplKIFgQyUMdhKZkPp9OXg/w400-h306/Screenshot%202026-07-19%20at%209.58.30%E2%80%AFPM.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/07/the-tractor-works-squad-leader-aslsk.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/07/the-tractor-works-squad-leader-aslsk.html",
+      "title": "The Tractor Works - Squad Leader & ASLSK",
+      "source": "battlefields",
+      "summary": "A tabletop game report covering World War II from Battlefields & Warriors. Filed under ASLSK, Squad Leader basic. Topics include scenario design.",
+      "date": "2026-07-17T17:02:21.475000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoemj2bCtSfvm3zV6U9DMt8Y7RuGGtPe_z1oRLkG1Hnpu9pGwwlcndmREXHfTJ-Wn8H3EJRFMmr76Ig2RqRRs4DgKD3JCg-5z5rDA086VCdsmj_OC3OiW6zxy71k6VPck6QOHOK6-qj0emCmVZBtXL9S8SDfWOYBJIyESxNPjCBCYx8-mpNKg5HaTsNP8/w306-h400/IMG_2026-07-14-085936.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/07/a-few-days-of-painting-and-surprise.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/07/a-few-days-of-painting-and-surprise.html",
+      "title": "A few days of painting and a surprise package",
+      "source": "grid",
+      "summary": "A hobby bench update covering 19th Century from Grid Based Wargaming. Filed under Anglo-Zulu War, Painting, Star Wars Legion.",
+      "date": "2026-07-16T11:50:56.291000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKD1oJUnHg8kRzk2LN4QmubsUH92kj_xpEglwnp91AD6imvRLEcxcY-11rDFOxW5Q0JijvnpJF1-AgU0uobWE29vA25bocQY_HKAmKJla-3SUnXjf5J_9Xr_UUlbmZqyN-t636cgwq6927qPnnFfwGbBgIHxOO2zZtJMKu79N3whNG5J2qHUpS8vowOZ6N/w400-h136/IMG_3581.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://wargaming4grownups.blogspot.com/2026/07/20mm-tag-team-themed-dba.html",
+      "url": "https://wargaming4grownups.blogspot.com/2026/07/20mm-tag-team-themed-dba.html",
+      "title": "20mm tag team themed DBA",
+      "source": "grownups",
+      "summary": "A hobby bench update covering Ancients from Wargaming for Grown Ups. Filed under DBA.",
+      "date": "2026-07-15T15:17:21.858000+00:00",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEj6ozxdpRA9t-z4zH8rJjbgvfx-bXyKzcHHkdCQlM9zry_nSrE41QbgjL-YjUArpOkoHxMGMyThr-TaVIZ23oGPuY5IlCWkRBQiz56yvWAoe9OswfmIC0eNK0kibIA3tM7FF1ZIeB2hJN72Qg7iMJJvE0xYbbu4Dd7gN5JUPnEiEQODSdGyv_9467n2OdDn=w640-h360",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/07/failed-to-comment.html",
+      "url": "https://ajstable.blogspot.com/2026/07/failed-to-comment.html",
+      "title": "Failed to comment..?",
+      "source": "aj",
+      "summary": "A hobby journal entry covering 19th Century from AJ’s Wargaming Table.",
+      "date": "2026-07-14T18:02:19.574000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/07/returning-to-ferrybridge-1461.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/07/returning-to-ferrybridge-1461.html",
+      "title": "Returning to Ferrybridge 1461",
+      "source": "battlefields",
+      "summary": "A post on tabletop scenarios or rules covering Medieval from Battlefields & Warriors. Filed under 1/72nd and 28mm Project, Figures Wars of the Roses, Test of Resolve rules. Topics include scenario design.",
+      "date": "2026-07-12T18:48:38.856000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioyMQtbL4ZutYzqbJq7aAzhm_pjrW8-L-59WGeB9TZwJw57_IkyR7oiFLguaRhPK772vEmQBFIcatNBnoFFe7vgADPDLwYAbMfPn7pATJHDl_dGfq3y5OTVQZtF-ah_hjqVwWnQpXgdMSTbNdBMpTKGv7ZkLMv7R0Ht15EnIIt6wT8ElaGxfTLifXHUQ0/w400-h266/IMG_2026-07-12-164419.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/07/wrapping-up-zulus-and-starting-on.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/07/wrapping-up-zulus-and-starting-on.html",
+      "title": "Wrapping up the Zulus and starting on the British infantry",
+      "source": "grid",
+      "summary": "A hobby bench update covering 19th Century from Grid Based Wargaming. Filed under Anglo-Zulu War, Painting, Wargaming. Topics include small scale.",
+      "date": "2026-07-05T23:53:46.944000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvgcRB5NzwrUNYCEnsvhiBJBhxu2oZO9YYJWyS_VOpNtm_YYCCoVWLr5taFJ9C82kRrXNAIEyAEvSZ7CNLF20MmhK8SGDLOtrSiux_ILJsvjOEv1TCG8AxL7FiCew90-pMF9XDP3j4DlC78-h-8GjI8Eh_SE75tIKPtKPSGH2qD5jR2tDl8DYrB3RAokpT/w400-h160/IMG_3562.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/07/fife-and-drum-miniatures-challenge-coin.html",
+      "url": "https://altefritz.blogspot.com/2026/07/fife-and-drum-miniatures-challenge-coin.html",
+      "title": "Fife and Drum Miniatures Challenge Coin",
+      "source": "fritz",
+      "summary": "A hobby journal entry covering 18th Century from Der Alte Fritz Journal. Filed under 4th of July, AWI; Fife and Drum Miniatures.",
+      "date": "2026-07-04T12:00:00+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgT7HSNcGNYALO4ETO4vALzPDFyz59-WCOxSaAQW9x9CRsp3bQrX_OL_Tdg0YeVJGIFnBk7XVO81rjjAn8VDWHWd97wmHMcrkDb7cMJzwpEwnm8vr495S4AyT5IkrSybo76lbBX_x1HsDlg6dyFgY37LUV7ZOcInkH6h61hrZBLpzOGh5gR9n9f1Vz96gw",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/07/remote-game-report-and-some-board-game.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/07/remote-game-report-and-some-board-game.html",
+      "title": "Remote game report and some board game fun",
+      "source": "grid",
+      "summary": "A tabletop game report covering Medieval from Grid Based Wargaming. Filed under Boardgames, Remote Wargaming, Samurai. Topics include scenario design.",
+      "date": "2026-07-03T12:40:23.335000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh22DuMJ0vh7wEiGJn2W4ZiO-OUhz-xe952H17YI5cvAz29nUWSph_7yab-DBPYqfFMkT4ziR3aign1UexiV9Jo9f_s9_phKBq_S_PeQhfuMLMzPmOS_3xuX-bUK39pht12HOHOKZtCG7E9_hbiD30pvYTWKCbVmHZmWBovUZSXrH4guteaVTSmlaTXbJW3/w400-h281/IMG_0972.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/07/syw-village-in-silesia-under-attack.html",
+      "url": "https://altefritz.blogspot.com/2026/07/syw-village-in-silesia-under-attack.html",
+      "title": "SYW Village in Silesia Under Attack",
+      "source": "fritz",
+      "summary": "A hobby journal entry covering 18th Century from Der Alte Fritz Journal.",
+      "date": "2026-07-02T11:30:00+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjCaQ-KKpYlfAMrLV6DjwOPH75F714jpmsXe_jlNL6fwT9KJ5bECl0Y1EJslVD04085gTGjW3Ce9b4LJ29SmpOuskAp8sk8Z48vj4_hPHlcyxVmkKppQ4ZmSGB__veS_Dd9L9Dk6f2gLyv0S5bJeGGCBLetcyMLAwVnjKYYTthQuB-R9119qLl76gw5F_g=w400-h248",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/07/maurice-de-saxe-in-his-carriage.html",
+      "url": "https://altefritz.blogspot.com/2026/07/maurice-de-saxe-in-his-carriage.html",
+      "title": "Maurice de Saxe in his carriage",
+      "source": "fritz",
+      "summary": "A hobby bench update from Der Alte Fritz Journal.",
+      "date": "2026-07-01T12:00:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgHk4jrruv5W47NG2sQsISOOhgDjkmqAfWdFz1Vkb80ZiCPxjEqKnpGPJEtEMZL7CnWzZdplWm8ACRYofx0jcWFPoOUl1WHKegPAC34hZBar8ImFeEN1kt3TbuYfD7NWqo6Xcfozlzhvr5PiY0vUaLizOzZ_ntU-UNzFpcn7BA4F1AQyE_Dj-Z0b9vnCZE=w400-h221",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/06/british-artillery-vignette-for-awi.html",
+      "url": "https://altefritz.blogspot.com/2026/06/british-artillery-vignette-for-awi.html",
+      "title": "British Artillery Vignette for AWI",
+      "source": "fritz",
+      "summary": "A hobby bench update covering 18th Century from Der Alte Fritz Journal. Filed under AWI; Fife and Drum Miniatures, Princeton.",
+      "date": "2026-06-30T13:00:00+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEj1sLO1EZkpZr9ljW_3C7OQJiAesS4XJnTJAov-YS4Dfl72Q4PMy_p5eEuaH7uLe-D77FIKCNHfATAUC--YdUACwSQKr9LS_TPahwX6IUEj8R6FXn3RZLu5xJPzl_b95HnRWh98XxG3xMhKs6x_xjyPQkksFmc087TuGWHjFRlAmlLew0FdKoyTNaGJJRo=w400-h305",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/06/prussia-forever-by-lady-butler.html",
+      "url": "https://altefritz.blogspot.com/2026/06/prussia-forever-by-lady-butler.html",
+      "title": "Prussia Forever by Lady Butler?",
+      "source": "fritz",
+      "summary": "A hobby bench update covering 18th Century and Napoleonic from Der Alte Fritz Journal. Filed under Minden Miniatures, Personality Figures, Prussian Cavalry.",
+      "date": "2026-06-29T12:00:00+00:00",
+      "periods": [
+        "18th Century",
+        "Napoleonic"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgrYhBjpo-uutRhiYuGNy56z9h1D4Q3PRMslWj17bxfIat5dnfcvtkKbBj-C1MDCLUsb7B3Qi6O2LyrF3Wvp8i1dy6BK0vUB-x-sCJIpl1MQBLsW3TYst6kFJToeZGQkuyfszrC_R_tZsXxUSzrG1BkiGenWGm-25EVpfEqxIvtjn93usbMW-r6RH1g8FU=w400-h176",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/06/be2c.html",
+      "url": "https://ajstable.blogspot.com/2026/06/be2c.html",
+      "title": "BE2c",
+      "source": "aj",
+      "summary": "A hobby journal entry covering World War I from AJ’s Wargaming Table. Filed under aerial wargaming, Great War gaming, scratch building.",
+      "date": "2026-06-28T19:37:39.652000+00:00",
+      "periods": [
+        "World War I"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkYGYj9knp15RvvNmmQa18AgWJ7a6NF2knN1KAfTr2PhE9oqvPkTidUdnZ0elBuZj4O6fjJKCpvGyrJbTiDhRzS9I7zuwjtMCm2NaFkY42S_xvZuV69KpMT9IIltvoENMlFzYCSNZ_5QvbLmLphjbC6mNizIZLmeyYbLcIAhUWhnz3w6fYGxT_p_jlX3FJ/s320/BE2c_1.JPG",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/06/lt-colonel-charles-mawhood.html",
+      "url": "https://altefritz.blogspot.com/2026/06/lt-colonel-charles-mawhood.html",
+      "title": "Lt. Colonel Charles Mawhood",
+      "source": "fritz",
+      "summary": "A hobby bench update covering 18th Century from Der Alte Fritz Journal. Filed under AWI; Fife and Drum Miniatures, Princeton.",
+      "date": "2026-06-28T13:00:00+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhAKkf-ZTPijEnq-D1xHwbcm5F1Y_aCpoPGSWWzAWzBCUBAcqCJlzeHHLWeTwlYZNhqg2b0u7_h67GOCOLWlV9aNJSq4sYkVm-vCbaUfkC2VIDjFkv6aq4FjhAa_-owoN-Yhhl2UkEId7nh42xcKuRQu8S9wCkKowTSwsriyeGff1ry0MFhsB2rPBZYT7w=w400-h285",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/06/battle-of-britain-campaign-game-6.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/06/battle-of-britain-campaign-game-6.html",
+      "title": "Battle of Britain Campaign - Game 6 Battle Report",
+      "source": "grid",
+      "summary": "A tabletop game report covering World War II from Grid Based Wargaming. Filed under Air Wargames, Battle Report, Campaign. Topics include scenario design.",
+      "date": "2026-06-28T03:43:41.378000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYQqKcR1LREDXdq1fc7ld5A8m0-Dt92_8yT0IDLQSuDJcOtIXGfeGAw8hvpL7Ugzn8M8CCKcIAdNBxg5HdH7mJluVKZdCboTR728zs8CogSQe3VeTiiG7ZcNGXW2YedjBXAxBMqiO-fye6RU-HU_NSo6UPEYUOL82U1mTjW8S5htob19Mlz4CQjPBzPaWE/w400-h280/IMG_3482.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/06/perry-16th-light-dragoons-dismounted.html",
+      "url": "https://altefritz.blogspot.com/2026/06/perry-16th-light-dragoons-dismounted.html",
+      "title": "Perry 16th Light Dragoons, Dismounted",
+      "source": "fritz",
+      "summary": "A hobby journal entry covering 18th Century from Der Alte Fritz Journal. Filed under AWI, Historicon, Princeton.",
+      "date": "2026-06-27T00:53:42.316000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEh7Z91l0ZmwkgocdEKKMcc4VP4EQIZL-m_Vo9Lqqq4L4XZdbh5lwD6nQ50FN3V8BRn5VuK38YYa3Pa-12kY45SXhTbUKpJFySq1mucLXFhqq0hxjeIZNdYUNg1jN4Lc4rZ1uBnR0n1XOskIxvpIcjDnMD4idG8YKvTthyBH-0ppbqXa2dUUjVnUsJWMeVI=w400-h275",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/06/back-to-painting-zulus.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/06/back-to-painting-zulus.html",
+      "title": "Back to painting Zulus",
+      "source": "grid",
+      "summary": "A hobby bench update covering 19th Century from Grid Based Wargaming. Filed under Anglo-Zulu War, Painting, Wargaming.",
+      "date": "2026-06-22T09:15:07.037000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrjk8uGqrbYmsRepq7H8_NJ4Hs0au0PNPnR9GxWeEkfeTd66qMbpxaSiQpN3TKDpV7TH8r3yj258JSA-nzk2CrqlE5uY4Gmv0yXOEJooojF7G5vGYQi5E9RieoGnzkIzDHEBB7DCDV8f5X0QQEdOK6-w7SEpP9QyK9R4k638096kiDtjWYS5JLNHXUh7Ns/w400-h316/IMG_3542.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/06/new-winterized-roads-for-trenton-game.html",
+      "url": "https://altefritz.blogspot.com/2026/06/new-winterized-roads-for-trenton-game.html",
+      "title": "New Winterized Roads for Trenton Game",
+      "source": "fritz",
+      "summary": "A hobby journal entry covering 18th Century from Der Alte Fritz Journal.",
+      "date": "2026-06-20T18:47:15.307000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhRlZSA6uAcQ8yXufSM9_4jYxb7bk2SBsl5Yur9E65bsLq01Q57af2K6ibDnlx0U0ClsMGHGHzoOced_bWdIwB3dAkJxsWGMdrwA6FpPNyf68t4pDPkDoGI1EcNmRGFVh9hb-K6kVGgmFN_fDefxkPTcUkC5vkFz7LKfZ7J07x2Z_oIDnM_doS7jMpC57c=w400-h274",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/06/battle-of-britain-campaign-turns-4-and-5.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/06/battle-of-britain-campaign-turns-4-and-5.html",
+      "title": "Battle of Britain Campaign - Turns 4 and 5",
+      "source": "grid",
+      "summary": "A tabletop game report covering 18th Century and World War II from Grid Based Wargaming. Filed under Air Wargames, Battle Report, Blood Red Skies.",
+      "date": "2026-06-13T11:18:41.634000+00:00",
+      "periods": [
+        "18th Century",
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiyrb6W1SIgrWgqpHstdghEbhobZhL0WUEwv6OfZ1q_pVt7T0tGNy9HxaOZ0j0RdBomp2jbgC-JDztOh4pwt1De7IdytjcMwgAc5QEQhjD0Lzfckc8bvLAng-gL4-cKk6QyaapBLbHazRfgPzXa7SILzv4dfF3DJwPsaoiKtxlY0Rg9zFU_NcU5BFx6pW7/w305-h400/Clip2Comic_2026-06-13_19-40-57.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/06/old-pierre.html",
+      "url": "https://ajstable.blogspot.com/2026/06/old-pierre.html",
+      "title": "Old Pierre",
+      "source": "aj",
+      "summary": "A hobby journal entry covering Medieval from AJ’s Wargaming Table. Filed under Early Medieval, First Barons War, wargaming.",
+      "date": "2026-06-11T18:21:18.073000+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTflIPXRcBs9RVyzptcPuKb-VjIX5AFnh3X_sLhglWHkKS0dfC5I0n8xyPvf8bLqNtlOx_165Ifmgr3UJpupaMNM2CuiqdTTdoFjszxOPeQqCKbdFxWNP2AnKbsgHkkhTey-QQc1tQ9wW6Hx-pOWLTt3sovgrtXH62QoBPJE95KKEYbiVYSxfssdX0KJJm/s320/Old%20Pierre_1.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/06/copyright.html",
+      "url": "https://ajstable.blogspot.com/2026/06/copyright.html",
+      "title": "Copyright.",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table.",
+      "date": "2026-06-02T19:43:45.394000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/06/fife-drum-british-in-1768-warrant-dress.html",
+      "url": "https://altefritz.blogspot.com/2026/06/fife-drum-british-in-1768-warrant-dress.html",
+      "title": "Fife & Drum British in 1768 Warrant Dress (?)",
+      "source": "fritz",
+      "summary": "A hobby journal entry from Der Alte Fritz Journal.",
+      "date": "2026-06-01T14:04:37.612000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEj7JEhujH_M3p5d1e2XcGfMVvIcfDcxVMlKxt1B46nrljZZeTgy-QcP9QIU7NIz960Vvst5aK3x-P0KWdlo54OJqORkSUS8RfqvcBUi1vWbmy0tj2GT44aL_--wM_BW4_sC2093IpabIr1_c5N7VlxNhrfgZMeBD7a2b1CSOAwBuZwaR5_cABHunghqmY8=w400-h201",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/05/i-like-this-picture.html",
+      "url": "https://altefritz.blogspot.com/2026/05/i-like-this-picture.html",
+      "title": "I Like This Picture",
+      "source": "fritz",
+      "summary": "A hobby news update from Der Alte Fritz Journal.",
+      "date": "2026-05-30T17:31:39.010000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjXDcwhfUVbUKeFo0EJQbW8RwYQ0V3xHvLcgmTxy-r4_n_18VToEWqbNSjqqFxPuLzue0waxf9903EW606pXIcRGv8oBT2QiLFvjiArBk2Wiu3Ox8QKpBadqqkh4siXjZFkYQvBZ2pRD4JAgiwF_i6ln4-AHSm2cr0h9o3zCBF6Vars9FnJtr4FsgUoO5k=w400-h300",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/05/new-products-hessian-fusiliers-and.html",
+      "url": "https://altefritz.blogspot.com/2026/05/new-products-hessian-fusiliers-and.html",
+      "title": "New Products: Hessian Fusiliers and Continentals in Round Hats",
+      "source": "fritz",
+      "summary": "A hobby bench update covering 18th Century from Der Alte Fritz Journal.",
+      "date": "2026-05-26T19:16:25.869000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEh09uSjVXvEpVv-fzIhYIgka1VpS_543qGO3brAhgIB5ZGEAPtVJHUJUtd6nHyRO7UBMXI-QkFqfuYnbC3-mP7PzeGLBeCLaBvNiHIdaylhtv1qyDzTMZ_LxzjEzG_NdshFntf4J3PjF9CUILBGdiXvSNxtx16gCYuDju_WNJcRXZyMmujtpPhB5SugoZw=w400-h300",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/05/official-fife-and-drum-miniatures.html",
+      "url": "https://altefritz.blogspot.com/2026/05/official-fife-and-drum-miniatures.html",
+      "title": "\"Official\" Fife and Drum Miniatures Facebook Page",
+      "source": "fritz",
+      "summary": "A hobby news update covering 18th Century from Der Alte Fritz Journal.",
+      "date": "2026-05-25T16:07:08.053000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEjLiSS6AkutY7OA_tNLdpLI2MeO6zO4dpZ_80R8OVXSWM1k9EckZ8Rkep1SBFhbk1n3ejTnHbJcMFcKoKcrB6MtnlGuWFwzj2jC09tJUn63ewSiwPcKDo5kOHbCIUZEPZtWQKrc_bVh9ccW1UzRxOud6BatJRLy_Z0F8GZ85WIkvgUy6MYXvVX478stlBE=w400-h225",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/05/washington-greene-and-rall-personality.html",
+      "url": "https://altefritz.blogspot.com/2026/05/washington-greene-and-rall-personality.html",
+      "title": "Washington, Greene and Rall Personality Figures",
+      "source": "fritz",
+      "summary": "A hobby journal entry covering 18th Century from Der Alte Fritz Journal. Filed under AWI, Fife and Drum Miniatures, Historicon.",
+      "date": "2026-05-21T20:12:00.840000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEi2dJRvrVSFD0FbfaD19oYBygt077HhMQTfY2ZI3zKVgUN-3Ie3yk4Jlp7o9BvX3AyaHboYFG7AQge2TU-aZ73QijtyRf9_D07DBhRjC2Y5cOyhNnG9kB857w_BmlVSAEpEDltvXMSDYKz--PGiPkT4HGae9kxZ9SSGwEl-cNbxzZ3I9RaS15FRBCHyU0w=w400-h379",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/04/durham-boat-file-link.html",
+      "url": "https://altefritz.blogspot.com/2026/04/durham-boat-file-link.html",
+      "title": "Durham Boat File Link",
+      "source": "fritz",
+      "summary": "A hobby bench update covering 18th Century from Der Alte Fritz Journal. Filed under Trenton Project.",
+      "date": "2026-04-30T01:42:46.037000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/a/AVvXsEgik0MVWZQi7WYwPf39eBnQ4tL1yTPuNoryhVZpd_4dxlY_MLUPDswmj0xHzJLiWi31LHLSrSbRr72PzqjVIQTXx4FJm3T3-Xoj4twz0Ax4NMN7RPpO0JiybLHUl5bMXH2jSdzvxTVqoETEoGSLpLBbFyVZIVHKAC36T6lpfQKdeCiTALcb_DhGyu1lWF0=w400-h300",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/04/stirrings-and-rustlings.html",
+      "url": "https://ajstable.blogspot.com/2026/04/stirrings-and-rustlings.html",
+      "title": "Stirrings and rustlings",
+      "source": "aj",
+      "summary": "A hobby news update covering World War I from AJ’s Wargaming Table. Filed under 13th century wargaming, First Barons War, wargaming.",
+      "date": "2026-04-26T19:23:00+00:00",
+      "periods": [
+        "World War I"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfbQ_0MzHyQkHL0ZIQcyybTeKqD89UpHLFfEIJb1vS8y-EOdzVqiT60rOJG-t1VycKL7kxBLyB9LlTV2J67muZOT9U-LWzHwaJBqLRQOQgG7deeqWZ2taVbSXRzsI5tB8CZpbTv-RkE3G1aPmo2fJxsf3w2zIQ3ATz1A3-NY9UFJIuViyiC2_E1NwnVolF/w289-h368/1215%20Cover%20art.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/04/happy-easter.html",
+      "url": "https://ajstable.blogspot.com/2026/04/happy-easter.html",
+      "title": "Happy Easter!",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table.",
+      "date": "2026-04-05T19:33:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXemGUw8d-KLEs89FfqdoH3edFv-P-P91bMtPWh-Polt9QsDJW6cqCzDuKlIGdu8AK14KRfBG1Tm1oHRoqFB1kYZhWm7dNOoXejd6utdv_wKaMhYPkplGuKrdym_AcipF9HbzQWMMF2ckyap64KClQcpiOgYQTUBi-4SpSuakUofzHbmXnXiwcUqGQ6l97/w395-h395/A%20modeler%20Easter%20challenge.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2026/01/boosting-signal-terrain-for-sale.html",
+      "url": "https://ajstable.blogspot.com/2026/01/boosting-signal-terrain-for-sale.html",
+      "title": "Boosting the signal - Terrain for sale",
+      "source": "aj",
+      "summary": "A hobby news update covering Napoleonic from AJ’s Wargaming Table. Filed under Napoleonic, Retreat from Moscow, War of 1812.",
+      "date": "2026-01-18T21:04:00+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEwjcEaUh0gNm8SRakXVFrerdbGGP56xJ1VfuaHS-s3mPrg56XhmxlpMCwkPo2s3fx5O4pSytXauo-TWH-FJPrE22Vz2dfBUBXJgXJWagJ4zBCQjharCsOmTlFZDlHmSDY6tNrWJ-VBUHTknjkIMXg3Ou3rI9igr8ql4pPbFcA1Cxo-QxivRKeJ5f5azpf/w396-h297/For%20sale_Russian%20snow%20terrain.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2025/12/merry-christmas.html",
+      "url": "https://ajstable.blogspot.com/2025/12/merry-christmas.html",
+      "title": "Merry Christmas!",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table.",
+      "date": "2025-12-24T22:15:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghir9a6QHkh8jJjzZjdcdIs_wtEGuhs1H4JrqYnPcXclqWo6znLTxlxd2wQkUG1IsllcQJIJV7_54gMPETJykUvksui7pveiU1k2BRGajJHor34TbBMcogiQF04NUjYuS1DxQu8B1Q1p1Cp9cLff5zkM_7sYE8HJuvuBvDCIv_U1-7O60_Lv5cBSVArzNz/w517-h318/BT%20under%20the%20arbor%20vitae_%20Enhanced_2.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2025/12/hmm.html",
+      "url": "https://ajstable.blogspot.com/2025/12/hmm.html",
+      "title": "Hmm...",
+      "source": "aj",
+      "summary": "A hobby news update covering 19th Century from AJ’s Wargaming Table. Filed under 25mm figures, Colonial wargaming.",
+      "date": "2025-12-05T21:27:00+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggAC-0ao3S1EBvbU8DAWAZTs19EJGB4amk9NS1DcEN3ieP44k18kUIEnOwDNBhG8E7qJh6uzVwvIu2byaInBCrI1ZjrUt8rMyCv3-Kihqzw6bQdqauY4aL0m4cRv_kdqqAVU9AEFPyuGVzjNLBSqmeFiKMePlmjGFzNm3NEdfQyePfAvhsByH5uUF2_uEh/s320/British%20infantry%20platoon_2.JPG",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2025/11/remembrance-day.html",
+      "url": "https://ajstable.blogspot.com/2025/11/remembrance-day.html",
+      "title": "Remembrance Day",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table.",
+      "date": "2025-11-10T20:11:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoS5N3LnId1faPqLygPM17hoiiapLJqbL0zkQkFHpQLGZaT58tBoHoLWyP0UqqJgRAHDTnJMHpkiifwAfnmpBk5vO_bcd-SaQ3U4V2STYRCg0u7VXagSkMysC42SxxBC0ojqt8M3tBz-k9XCx94B721w95J9JRAn3MgOSP2scxTydqk0ZJ2Fued8awblVo/w444-h278/Poppy%20field.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2025/04/pugnacious-peasantry.html",
+      "url": "https://ajstable.blogspot.com/2025/04/pugnacious-peasantry.html",
+      "title": "Pugnacious Peasantry!",
+      "source": "aj",
+      "summary": "A hobby journal entry covering Medieval from AJ’s Wargaming Table. Filed under 15mm figures, Early Medieval, First Barons War.",
+      "date": "2025-04-09T10:00:00+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-zGeRa7TVhxfi0ZcbV_YIMmoheW3_s3KHjFieO97r_zFNgCVg-z5HEGfcWLsS1SgoDJuXjP4lKQZ707egdhRep7i2ahT3nQI-XQ7uBocpSUe-OsKCP5mXKinLiMfs1mP0vNHWnlg1IMrtERI3LJOmlEMUCff2pEQkZQqPdN59qAe2A9bqSzX6l1AcaLEQ/w428-h286/Peasantry.JPG",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/12/merry-christmas.html",
+      "url": "https://ajstable.blogspot.com/2024/12/merry-christmas.html",
+      "title": "Merry Christmas!",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table. Filed under Christmas greetings.",
+      "date": "2024-12-25T19:43:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_xtiqtZsu7-Fz-nXUZYveYw5rIXCYMedcgNSKovFYxJQghAYrHQnUo7y5YX2X6qmwBSjC72yA0sF_-vVvrtaXdBJalE1AZE8g3SyKl2KuKT_xXoGkV8mqt7frjejX9coPq7t9SwTrq4HKY-cRmIb3dckD4_CNxRXes2A7bhzT8f5uvHZw2ma-6Ja7p8s9/w601-h338/Christmas%20scene.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/12/on-run-up-to-christmas.html",
+      "url": "https://ajstable.blogspot.com/2024/12/on-run-up-to-christmas.html",
+      "title": "On the run-up to Christmas...",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table.",
+      "date": "2024-12-12T20:07:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJSdk2hz8nUWu1cBhQUz0kgZPpnp2wSPyYhFLlQzgMQnvj9HpNz_FRfYjVcv4Bxff3rHiPOTRhUZcuu8GBqIR5MKE-gK_kMtfSZsJFxZn6IPfh_2mz3nzY7kWli05jJfnc4aS-7bgecQt5kdZ8fF596HihQa_68iLD7coywEEpnrnl6Snn7CDL_yLuQ6eJ/w373-h301/Drummer%20Boy.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/11/unable-to-post-comments.html",
+      "url": "https://ajstable.blogspot.com/2024/11/unable-to-post-comments.html",
+      "title": "Unable to post comments",
+      "source": "aj",
+      "summary": "A tabletop game report from AJ’s Wargaming Table.",
+      "date": "2024-11-16T16:03:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/11/we-will-remember-them.html",
+      "url": "https://ajstable.blogspot.com/2024/11/we-will-remember-them.html",
+      "title": "We Will Remember Them",
+      "source": "aj",
+      "summary": "A hobby journal entry from AJ’s Wargaming Table.",
+      "date": "2024-11-10T20:31:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_Ow-AGuAbjm1VR3ahRHanRxwTpJcXxYjJlkL0J_DDWSWw9bdbN_BqwOghD7n1MPLqM3XowGeDU0HXrFuLYMSUMqXb9_rfFAUHJjrT8YBtjszBAV2vG2G-QLM6WEFQcFdUG8-V-G6tD4ZoxJzZpg7NFa0AqVi-vDO21J6s4FBgI8alAcuH1PeAf4fM-7mD/w547-h364/Poppies.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/07/east-coast-armoured-train-1914-1918.html",
+      "url": "https://ajstable.blogspot.com/2024/07/east-coast-armoured-train-1914-1918.html",
+      "title": "East Coast armoured train - 1914-1918",
+      "source": "aj",
+      "summary": "A post on tabletop scenarios or rules covering World War I from AJ’s Wargaming Table. Filed under armoured train, AVBCW, Great War gaming. Topics include scenario design.",
+      "date": "2024-07-07T16:16:00+00:00",
+      "periods": [
+        "World War I"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin7pyutelVF8fnbYSabSPT6kywvhvYVvtJ_8ItfbHdRN9KHtDPWZKPZ5fKXp2yK0xUkDkXFBkpNPauOepgqxL12jZa7J7RHRI1nt_TuPYrnhc2U_aBu2cpFg3zCKmnVl-KZUkXoH74OyqEV91Erf_Yms49Ld8X0rexDtQvS92FzeGFddC-7QXrTgYdu-2v/w460-h299/Armoured-trains_LNER.png",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/02/painting-peasantry-3.html",
+      "url": "https://ajstable.blogspot.com/2024/02/painting-peasantry-3.html",
+      "title": "Painting Peasantry - 3",
+      "source": "aj",
+      "summary": "A hobby bench update from AJ’s Wargaming Table. Filed under First Barons War.",
+      "date": "2024-02-29T21:05:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5FWw1IewijAKXLwou_Om9E5_QcGOUrHbP7F7uKp1e5iA0qTTgU06bdd1AQXc5Ja7F3ya7XUiv8Fkxcu6I_wNppj2J64GLG33wgCr0MNL6sqnL4XEJXVYc44xlmXD2jh2ACC3p1pObuPXKNlvviXRO2k0A8o3FMSfLUB1wmwpXrWUYwUBe5JmN2URRJ-do/w362-h271/Jaquerie_5.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/01/painting-peasantry-2.html",
+      "url": "https://ajstable.blogspot.com/2024/01/painting-peasantry-2.html",
+      "title": "Painting Peasantry - 2",
+      "source": "aj",
+      "summary": "A hobby bench update from AJ’s Wargaming Table. Filed under 15mm models, Early Middle Ages wargaming, wargaming.",
+      "date": "2024-01-24T20:25:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVoSV34KLzrYYhWmFZMGdHeC-C_u2UsIh0Edinh3GvsrlHA9P9p1vCS-EOL5HXeoE5VU1eHEnV2tcioVi5YccB5mHddlZwjH-rXbXOlr4FyKOQTg_0jaXjdF3s5KksBySsAKnSJqBM84Q-CONoksZDXMFLSLIY6TK71FZcfjK8dcepeu3-BVNRBk8ZT7eA/w355-h267/Jaquerie_3.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/01/painting-peasantry-1.html",
+      "url": "https://ajstable.blogspot.com/2024/01/painting-peasantry-1.html",
+      "title": "Painting Peasantry - 1",
+      "source": "aj",
+      "summary": "A hobby bench update from AJ’s Wargaming Table. Filed under 13th century wargaming, 15mm figures, First Barons War.",
+      "date": "2024-01-11T18:41:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUj7d8nDwNbawVPCYGkDcbNSlNyirnA3JubH3UPHJ0LNsd9SkLmwDxNmXJLK4E5pap4oJSkx6vFypTR49EROIs5qazNWi15O6JJ5kgQ4ECsk-4wP1NeSOPEC8boQ-kIOEBMDGLw4ZcH0vvzKjufiqZHPjTROPdMjiKPJ0NozMhzd8s3NuJhPH4XFHpSKCi/s320/Jaquerie_2.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    },
+    {
+      "id": "https://ajstable.blogspot.com/2024/01/happy-new-year-and.html",
+      "url": "https://ajstable.blogspot.com/2024/01/happy-new-year-and.html",
+      "title": "Happy New Year! And...",
+      "source": "aj",
+      "summary": "A hobby journal entry covering Medieval from AJ’s Wargaming Table. Filed under 15mm figures, Early Medieval, First Barons War.",
+      "date": "2024-01-01T20:07:00+00:00",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbAs0Tabu4OjopyxJPuKkuNTfUlKuQSHm5XiLS3-PgLioiaG2M80TKgBsQp71w7-PH0j6M_0u0UVN7xLK6XiUX0C5NP822ArihaeZW6pvdRN-2ZyRzRsdk1IyB3RMNJlr4TWg3aMqCOC3vj_W0e39IhEKkX1M5zKyJH2HwVl2GRhviV3giK1fCET63gxOs/w494-h278/Happy%20New%20Year_image.jpeg",
+      "featured": false,
+      "discovered": "2026-11-20T02:16:22+00:00"
+    }
+  ]
+}
