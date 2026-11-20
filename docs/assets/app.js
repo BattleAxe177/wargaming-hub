@@ -23,10 +23,11 @@ function loadState() {
     return {
       saved: new Map(Object.entries(state.saved || {})),
       followed: new Set(state.followed || []),
+      discoveredSources: new Map(Object.entries(state.discoveredSources || {})),
       seenThrough: typeof state.seenThrough === "string" ? state.seenThrough : ""
     };
   } catch {
-    return {saved: new Map(), followed: new Set(), seenThrough: ""};
+    return {saved: new Map(), followed: new Set(), discoveredSources: new Map(), seenThrough: ""};
   }
 }
 
@@ -41,7 +42,8 @@ let limit = FEED_PAGE_SIZE;
 function persist() {
   try {
     localStorage.setItem(STORAGE, JSON.stringify({
-      saved: Object.fromEntries(state.saved), followed: [...state.followed], seenThrough: state.seenThrough
+      saved: Object.fromEntries(state.saved), followed: [...state.followed],
+      discoveredSources: Object.fromEntries(state.discoveredSources), seenThrough: state.seenThrough
     }));
   } catch {
     $("storage-note").hidden = false;
@@ -67,6 +69,61 @@ function tag(container, label, extra = "") {
 function isNew(item) {
   return item.discovered > state.seenThrough &&
     (state.seenThrough || Date.parse(item.date) >= Date.parse(snapshot.updated) - 7 * 86400000);
+}
+
+
+function sourceWebsite(item) {
+  try {
+    const address = new URL(item.sourceUrl || item.url);
+    if (address.protocol !== "https:" && address.protocol !== "http:") return "";
+    return address.origin + "/";
+  } catch {
+    return "";
+  }
+}
+
+function discoverSource(item) {
+  const site = sourceWebsite(item);
+  if (!site) return null;
+  const host = new URL(site).hostname.replace(/^www\\./, "").toLowerCase();
+  const approved = [...sources.values()].find(source => {
+    try { return new URL(source.site).hostname.replace(/^www\\./, "").toLowerCase() === host; }
+    catch { return false; }
+  });
+  if (approved) return {id: approved.id, name: approved.name, site: approved.site, approved: true};
+  return {id: site, name: item.sourceName || item.source || host, site, approved: false};
+}
+
+function followSourceButton(item) {
+  const source = discoverSource(item);
+  if (!source) return null;
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "follow-source";
+  const update = () => {
+    const following = source.approved ? state.followed.has(source.id) : state.discoveredSources.has(source.id);
+    button.textContent = following ? "✓ Following source" : "+ Follow source";
+    button.setAttribute("aria-pressed", String(following));
+    button.setAttribute("aria-label", (following ? "Unfollow " : "Follow ") + source.name);
+    button.title = source.approved ? "Approved regular-feed source" : "Candidate source for review; not yet in the regular feed";
+  };
+  button.addEventListener("click", () => {
+    if (source.approved) {
+      if (state.followed.has(source.id)) state.followed.delete(source.id);
+      else state.followed.add(source.id);
+    } else if (state.discoveredSources.has(source.id)) {
+      state.discoveredSources.delete(source.id);
+    } else {
+      state.discoveredSources.set(source.id, {
+        name: source.name, site: source.site, discoveredVia: item.url,
+        status: "candidate"
+      });
+    }
+    persist();
+    update();
+  });
+  update();
+  return button;
 }
 
 function articleCard(item, discover, featured) {
@@ -139,6 +196,10 @@ function articleCard(item, discover, featured) {
     } else updateButton();
   };
   updateButton();
+  if (activeView() === "ai-discover") {
+    const follow = followSourceButton(item);
+    if (follow) node.querySelector(".card-top").append(follow);
+  }
   return node;
 }
 
@@ -250,7 +311,10 @@ function exportPreferences() {
     exportedAt: new Date().toISOString(),
     note: "Saves and follows are explicit interests. This export contains no click history.",
     followedSources: [...state.followed].map(id => ({id, name: sources?.get(id)?.name || id})),
-    savedArticles
+    savedArticles,
+    discoveredSources: [...state.discoveredSources.entries()].map(([site, info]) => ({
+      site, name: info.name, discoveredVia: info.discoveredVia, status: "candidate"
+    }))
   };
   const blob = new Blob([JSON.stringify(preferences, null, 2)], {type: "application/json"});
   const url = URL.createObjectURL(blob);
@@ -277,6 +341,16 @@ async function importPreferences(file) {
   for (const entry of preferences.followedSources.slice(0,1000)) {
     if (typeof entry?.id === "string" && entry.id.length < 200)
       state.followed.add(entry.id);
+  }
+  for (const source of (Array.isArray(preferences.discoveredSources) ? preferences.discoveredSources : []).slice(0,1000)) {
+    if (typeof source?.site !== "string" || !source.site.startsWith("https://") ||
+        typeof source.name !== "string" || source.name.length > 250) continue;
+    const website = sourceWebsite({url: source.site});
+    if (website) state.discoveredSources.set(website, {
+      name: source.name, site: website,
+      discoveredVia: typeof source.discoveredVia === "string" ? source.discoveredVia : "",
+      status: "candidate"
+    });
   }
   for (const article of preferences.savedArticles.slice(0,1000)) {
     if (typeof article?.url === "string" && article.url.startsWith("https://") &&
