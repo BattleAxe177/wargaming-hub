@@ -91,13 +91,34 @@ function articleCard(item, discover, featured) {
   if (item.image && /^https:\/\//i.test(item.image)) {
     const image = document.createElement("img");
     image.className = "article-photo";
-    image.alt = "";
+    image.alt = item.imageRights?.alt || "";
     image.loading = "lazy";
     image.decoding = "async";
     image.referrerPolicy = "no-referrer";
-    image.addEventListener("error", () => image.remove(), {once: true});
+    const card = node.querySelector(".card");
+    card.prepend(image);
+    const rights = item.imageRights;
+    let credit;
+    if (rights?.credit && rights.license && /^https:\/\//i.test(rights.licenseUrl)) {
+      credit = document.createElement("p");
+      credit.className = "image-credit";
+      for (const [label, href] of [[rights.credit, item.url], [rights.license, rights.licenseUrl]]) {
+        const link = document.createElement("a");
+        link.textContent = label;
+        link.href = href;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        if (credit.hasChildNodes()) credit.append(" · ");
+        credit.append(link);
+      }
+      image.after(credit);
+      if (rights.preserveFrame) image.classList.add("full-frame");
+    }
+    image.addEventListener("error", () => {
+      image.remove();
+      credit?.remove();
+    }, {once: true});
     image.src = item.image;
-    node.querySelector(".card").prepend(image);
   }
   const outside = item.periods.some((period) => period !== "Mixed & general" && !familiar.has(period));
   node.querySelector(".context").textContent = discover && outside ? "Outside your usual periods" : item.interests.slice(0, 2).join(" · ");

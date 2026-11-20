@@ -74,6 +74,8 @@ footer p{margin:4px 0}
 @media(min-width:960px){.results{grid-template-columns:repeat(3,minmax(0,1fr))}.card{padding:16px}.hero{margin-top:32px}.main-section{margin-top:36px}}
 
 .article-photo{display:block;width:calc(100% + 32px);max-width:none;aspect-ratio:16/9;object-fit:cover;background:#e4e8df;margin:-16px -16px 5px}
+.article-photo.full-frame{object-fit:contain}
+.image-credit{margin:0 0 4px;color:var(--muted);font-size:.8rem;overflow-wrap:anywhere}
 .card:hover{border-color:#aca891}
 @media(max-width:579px){
   .hero-image{background-image:linear-gradient(90deg,#172422f5,#172422a8),url('./tabletop.webp');background-position:58% center}
