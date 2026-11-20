@@ -7,7 +7,7 @@
 <meta name="description" content="Historical miniature wargaming from independent blogs and public communities.">
 <title>Wargaming Hub</title>
 <link rel="stylesheet" href="./assets/style.css?v=20261120-3">
-<script src="./assets/app.js?v=20261120-4" defer></script>
+<script src="./assets/app.js?v=20261120-5" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -43,6 +43,12 @@
         <label><input type="checkbox" id="following"> Following only</label>
         <label><input type="checkbox" id="fresh"> New only</label>
       </div>
+    </div>
+    <div class="preferences-tools" style="margin:12px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <button id="export-preferences" type="button" style="min-height:44px">Export preferences</button>
+      <button id="import-preferences" type="button" style="min-height:44px">Import preferences</button>
+      <input id="preferences-file" type="file" accept=".json,application/json" hidden>
+      <span id="preferences-status" role="status"></span>
     </div>
     <div class="results-meta"><p id="count" aria-live="polite"></p><button id="mark-read" type="button" hidden>Mark new items as seen</button></div>
     <p id="storage-note" role="status" hidden>Browser storage is unavailable. Changes will last for this visit.</p>
