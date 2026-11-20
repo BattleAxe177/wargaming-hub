@@ -85,9 +85,9 @@ function sourceWebsite(item) {
 function discoverSource(item) {
   const site = sourceWebsite(item);
   if (!site) return null;
-  const host = new URL(site).hostname.replace(/^www\\./, "").toLowerCase();
+  const host = new URL(site).hostname.replace(/^www\./, "").toLowerCase();
   const approved = [...sources.values()].find(source => {
-    try { return new URL(source.site).hostname.replace(/^www\\./, "").toLowerCase() === host; }
+    try { return new URL(source.site).hostname.replace(/^www\./, "").toLowerCase() === host; }
     catch { return false; }
   });
   if (approved) return {id: approved.id, name: approved.name, site: approved.site, approved: true};
