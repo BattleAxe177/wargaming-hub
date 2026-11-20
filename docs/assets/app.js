@@ -238,6 +238,55 @@ function balanceFirstPage(records) {
   return [...selected, ...deferred, ...records.slice(candidates.length)];
 }
 
+
+function exportPreferences() {
+  const savedArticles = [...state.saved.values()].map(item => ({
+    url: item.url, title: item.title, source: item.source || "",
+    sourceName: item.sourceName || "", periods: item.periods || [],
+    type: item.type || "", interests: item.interests || []
+  }));
+  const preferences = {
+    format: "wargaming-hub-preferences", version: 1,
+    exportedAt: new Date().toISOString(),
+    note: "Saves and follows are explicit interests. This export contains no click history.",
+    followedSources: [...state.followed].map(id => ({id, name: sources?.get(id)?.name || id})),
+    savedArticles
+  };
+  const blob = new Blob([JSON.stringify(preferences, null, 2)], {type: "application/json"});
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "wargaming-hub-preferences.json";
+  document.body.append(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 5000);
+  $("preferences-status").textContent = "Preferences exported. Share the JSON file with ChatGPT Work.";
+}
+
+async function importPreferences(file) {
+  if (!file) return;
+  if (file.size > 2000000) throw new Error("File is too large.");
+  const preferences = JSON.parse(await file.text());
+  if (preferences.format !== "wargaming-hub-preferences" ||
+      preferences.version !== 1 ||
+      !Array.isArray(preferences.followedSources) ||
+      !Array.isArray(preferences.savedArticles)) {
+    throw new Error("Not a valid Wargaming Hub preferences file.");
+  }
+  for (const entry of preferences.followedSources.slice(0,1000)) {
+    if (typeof entry?.id === "string" && entry.id.length < 200)
+      state.followed.add(entry.id);
+  }
+  for (const article of preferences.savedArticles.slice(0,1000)) {
+    if (typeof article?.url === "string" && article.url.startsWith("https://") &&
+        typeof article.title === "string" && article.title.length < 500)
+      state.saved.set(article.url, {...article, id: article.url});
+  }
+  persist();
+  render();
+}
+
 function render() {
   if (!snapshot) return;
   const view = activeView();
@@ -325,6 +374,17 @@ async function initialize() {
       render();
       $("view-title").focus();
     });
+    $("export-preferences").onclick = exportPreferences;
+    $("import-preferences").onclick = () => $("preferences-file").click();
+    $("preferences-file").onchange = async event => {
+      try {
+        await importPreferences(event.target.files?.[0]);
+        $("preferences-status").textContent = "Preferences imported and merged.";
+      } catch (error) {
+        $("preferences-status").textContent = "Import failed: " + error.message;
+      }
+      event.target.value = "";
+    };
     render();
     loadAiEdition();
   } catch {
