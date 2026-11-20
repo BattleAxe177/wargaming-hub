@@ -8,11 +8,13 @@ const familiar = new Set(["Ancients", "Medieval", "Renaissance", "Napoleonic", "
 const views = {
   feed: ["The latest dispatches", "Historical wargaming from across the web."],
   discover: ["Discover", "Start with a period beyond your usual projects, or try a recommendation inspired by them."],
+  "ai-discover": ["AI Discover", "An experimental edition curated by ChatGPT Work."],
   saved: ["Saved articles", "Your reading list on this device."],
   sources: ["Source directory", "Follow an independent blog or community to find its posts quickly."]
 };
 const dateLabel = new Intl.DateTimeFormat(undefined, {dateStyle: "medium"});
-const formatDate = (date) => dateLabel.format(new Date(date));
+const calendarDateLabel = new Intl.DateTimeFormat(undefined, {dateStyle: "medium", timeZone: "UTC"});
+const formatDate = (date) => (date.length === 10 ? calendarDateLabel : dateLabel).format(new Date(date));
 const STORAGE = "wargaming-hub:v1";
 
 function loadState() {
@@ -31,6 +33,8 @@ function loadState() {
 const state = loadState();
 let snapshot;
 let sources;
+let aiEdition;
+let aiUnavailable = false;
 let limit = 18;
 
 function persist() {
@@ -74,7 +78,8 @@ function articleCard(item, discover, featured) {
   for (const period of item.periods) tag(tags, period);
   tag(tags, item.type);
   if (isNew(item)) tag(tags, "New", "new");
-  node.querySelector(".byline").textContent = (sources.get(item.source)?.name || item.sourceName || item.source) + " · " + formatDate(item.date);
+  const sourceName = sources.get(item.source)?.name || item.sourceName || item.source;
+  node.querySelector(".byline").textContent = item.date ? sourceName + " · " + formatDate(item.date) : sourceName;
   const title = node.querySelector("h3 a");
   title.textContent = item.title;
   for (const link of [title, node.querySelector(".outbound")]) {
@@ -104,7 +109,7 @@ function articleCard(item, discover, featured) {
   };
   save.onclick = () => {
     if (state.saved.has(item.id)) state.saved.delete(item.id);
-    else state.saved.set(item.id, {...item, sourceName: sources.get(item.source)?.name});
+    else state.saved.set(item.id, {...item, sourceName});
     persist();
     if (activeView() === "saved") {
       render();
@@ -171,9 +176,33 @@ function discovery(items) {
   ];
 }
 
+async function loadAiEdition() {
+  try {
+    const response = await fetch("./assets/ai-discover.json");
+    if (!response.ok) throw new Error("AI edition unavailable");
+    const edition = await response.json();
+    const seen = new Set();
+    const items = [];
+    for (const item of edition.items) {
+      if (typeof item.url !== "string" || !/^https:\/\//i.test(item.url) || seen.has(item.url)) continue;
+      seen.add(item.url);
+      items.push({
+        ...item, id: item.url,
+        date: typeof item.date === "string" && Number.isFinite(Date.parse(item.date)) ? item.date : null,
+        image: undefined
+      });
+    }
+    aiEdition = {...edition, items};
+  } catch {
+    aiUnavailable = true;
+  }
+  if (activeView() === "ai-discover") render();
+}
+
 function render() {
   if (!snapshot) return;
   const view = activeView();
+  const aiView = view === "ai-discover";
   for (const link of $("navigation").querySelectorAll("a")) {
     if (link.hash === "#" + view) link.setAttribute("aria-current", "page");
     else link.removeAttribute("aria-current");
@@ -181,15 +210,24 @@ function render() {
   $("hero").hidden = view !== "feed";
   [$("view-title").textContent, $("view-description").textContent] = views[view];
   $("filters").hidden = view === "sources";
+  $("feed-toggles").hidden = aiView;
   $("mark-read").hidden = view !== "feed" || !snapshot.items.some(isNew);
   const failed = snapshot.failures.length;
-  $("updated").textContent = "Feed checked " + formatDate(snapshot.updated) +
-    (failed ? " · " + failed + " unavailable" : "");
-  const filtered = (view === "saved" ? [...state.saved.values()].reverse() : snapshot.items).filter((item) =>
+  $("updated").textContent = aiView
+    ? (aiEdition?.updated ? "Edition " + formatDate(aiEdition.updated) : "")
+    : "Feed checked " + formatDate(snapshot.updated) + (failed ? " · " + failed + " unavailable" : "");
+  if (aiView && !aiEdition) {
+    $("count").textContent = "";
+    $("more").hidden = true;
+    $("results").textContent = aiUnavailable ? "AI Discover couldn’t be loaded. Reload the page to try again." : "Loading AI Discover…";
+    return;
+  }
+  const items = aiView ? aiEdition.items : view === "saved" ? [...state.saved.values()].reverse() : snapshot.items;
+  const filtered = items.filter((item) =>
     (!$("period").value || item.periods.includes($("period").value)) &&
     (!$("kind").value || item.type === $("kind").value) &&
-    (!$("following").checked || state.followed.has(item.source)) &&
-    (!$("fresh").checked || isNew(item))
+    (aiView || !$("following").checked || state.followed.has(item.source)) &&
+    (aiView || !$("fresh").checked || isNew(item))
   );
   let records = view === "sources" ? snapshot.sources : view === "discover" ? discovery(filtered) : filtered;
   if (view === "feed" && !$("kind").value && !$("following").checked) {
@@ -230,7 +268,9 @@ async function initialize() {
     sources = new Map(snapshot.sources.map((source) => [source.id, source]));
     fillSelect($("period"), "All periods", periods);
     fillSelect($("kind"), "All types", kinds);
-    for (const input of $("filters").querySelectorAll("input,select")) input.onchange = () => { limit = 18; render(); };
+    const initialLimit = () => activeView() === "ai-discover" ? 25 : 18;
+    limit = initialLimit();
+    for (const input of $("filters").querySelectorAll("input,select")) input.onchange = () => { limit = initialLimit(); render(); };
     $("more").onclick = () => {
       const next = limit;
       limit += 18;
@@ -239,13 +279,14 @@ async function initialize() {
     };
     $("mark-read").onclick = () => { state.seenThrough = snapshot.updated; persist(); render(); $("view-title").focus(); };
     window.addEventListener("hashchange", () => {
-      limit = 18;
+      limit = initialLimit();
       for (const field of $("filters").querySelectorAll("select")) field.value = "";
       for (const field of $("filters").querySelectorAll("input")) field.checked = false;
       render();
       $("view-title").focus();
     });
     render();
+    loadAiEdition();
   } catch {
     $("results").textContent = "The feed couldn’t be loaded. Reload the page to try again.";
   }
