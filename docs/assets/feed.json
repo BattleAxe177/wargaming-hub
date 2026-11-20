@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T03:15:16+00:00",
+  "updated": "2026-11-20T14:28:28+00:00",
   "sources": [
     {
       "id": "palouse",
@@ -68,6 +68,72 @@
   "failures": [],
   "items": [
     {
+      "id": "https://www.pendrakenforum.co.uk/index.php/topic,24514.0.html",
+      "url": "https://www.pendrakenforum.co.uk/index.php/topic,24514.msg381246.html",
+      "title": "More Sci-Fi releases!",
+      "source": "pendraken",
+      "summary": "Public Pendraken Forum thread about More Sci-Fi releases.",
+      "date": "2026-11-20T14:17:46+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Forum discussion",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T14:28:28+00:00"
+    },
+    {
+      "id": "https://www.pendrakenforum.co.uk/index.php/topic,24494.0.html",
+      "url": "https://www.pendrakenforum.co.uk/index.php/topic,24494.msg381245.html",
+      "title": "Warfare 2026, Farnborough UK, 14-15 November",
+      "source": "pendraken",
+      "summary": "Attendees compare impressions of the Farnborough show over the weekend, including a quieter Sunday and reports from vendors about Saturday’s trade.",
+      "date": "2026-11-20T14:10:05+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Forum discussion",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-20T02:20:43+00:00"
+    },
+    {
+      "id": "https://flintlockandtomahawk.blogspot.com/2026/11/donald-f-featherstone-awi-rules-1977.html",
+      "url": "https://flintlockandtomahawk.blogspot.com/2026/11/donald-f-featherstone-awi-rules-1977.html",
+      "title": "Donald F. Featherstone AWI rules (1977)",
+      "source": "flintlock",
+      "summary": "A hobby journal entry covering 18th Century from Flintlock & Tomahawk. Filed under American Revolution, wargames.",
+      "date": "2026-11-20T13:51:09.474000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMigwv8vT-1wGGDmZBbeDjWtM81SGNBjnWI7A7uBuIUb9bdTQ3nI0OBoX5Afw0Xk3XblbsjljOvwycTa6zUhK9ijQ3VIxl9xTpw7ghqSRw1XXgvANRpgE0vDVwY1OfmbbxpfkHCXDteDpK2-Gw5pfHFvH0sNujJ-4KiUgIGluHTp4morJCJ2dVOPc5LySr/s320/feath1.jfif",
+      "featured": false,
+      "discovered": "2026-11-20T14:28:28+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/ive-managed-to-buy-copies-of-two.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/ive-managed-to-buy-copies-of-two.html",
+      "title": "I’ve managed to buy copies of the two ‘missing’ scenario books!",
+      "source": "misc",
+      "summary": "A post on tabletop scenarios or rules from Wargaming Miscellany. Filed under Book Review. Topics include scenario design.",
+      "date": "2026-11-20T09:48:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmZSGvdNYFCs2zTOljtV_LtCtj-phILU5C6dprD5PTsrbNi2ie-Tdl4HQGX9GvrLDAnvkHVE3b4jqvcVGVV75TzgPsMm5GZDwmEwp4eQLdcPSSxtcK9zDDX48T9Lm8F7lrZSglaYP0V5tYQ1HiEcm4jY0jkZxqxJ570uAE3wPIkDXnVrwLWbBAGHsnSMM/s400/Book20-11-26-01.jpg",
+      "featured": false,
+      "discovered": "2026-11-20T14:28:28+00:00"
+    },
+    {
       "id": "https://www.pendrakenforum.co.uk/index.php/topic,11143.0.html",
       "url": "https://www.pendrakenforum.co.uk/index.php/topic,11143.msg381239.html",
       "title": "The Adventures of Kampfgruppe Klink",
@@ -106,22 +172,6 @@
       "source": "pendraken",
       "summary": "Readers trade tips on finding printable miniature flags. One reply points to archived NapFlags pages in the Wayback Machine for material from the old site.",
       "date": "2026-11-19T21:25:36+00:00",
-      "periods": [
-        "Mixed & general"
-      ],
-      "type": "Forum discussion",
-      "interests": [],
-      "image": "",
-      "featured": false,
-      "discovered": "2026-11-20T02:20:43+00:00"
-    },
-    {
-      "id": "https://www.pendrakenforum.co.uk/index.php/topic,24494.0.html",
-      "url": "https://www.pendrakenforum.co.uk/index.php/topic,24494.msg381234.html",
-      "title": "Warfare 2026, Farnborough UK, 14-15 November",
-      "source": "pendraken",
-      "summary": "Attendees compare impressions of the Farnborough show over the weekend, including a quieter Sunday and reports from vendors about Saturday’s trade.",
-      "date": "2026-11-19T16:56:47+00:00",
       "periods": [
         "Mixed & general"
       ],
