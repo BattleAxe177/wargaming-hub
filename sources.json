@@ -1,154 +1,74 @@
 [
   {
-    "id": "palouse",
-    "name": "Palouse Wargaming Journal",
-    "site": "https://palousewargamingjournal.blogspot.com/",
-    "feed": "https://palousewargamingjournal.blogspot.com/feeds/posts/default?max-results=25",
-    "description": "Battle reports, historical scenarios and painting projects.",
-    "kind": "Independent blog",
-    "editorial": {
-      "Friday Night at the Fights": {
-        "periods": [
-          "Ancients"
-        ],
-        "type": "Battle report",
-        "summary": "Jonathan Freitag puts his 28mm Punic Wars collection on the table to introduce Austin to Basic Impetvs. It follows a run of Commands & Colors: Ancients games and offers a look at the same period through another ruleset."
-      },
-      "Last Stand at Salem Church": {
-        "periods": [
-          "American Civil War"
-        ],
-        "type": "Battle report",
-        "summary": "Jonathan Freitag closes a six-game series of Salem Church refights with his account of the October 27 remote game. The companion report at Grid Based Wargaming gives the Union player’s view of the same fight."
-      },
-      "Picardie Regiment and Teaching Rules": {
-        "periods": [
-          "18th Century"
-        ],
-        "type": "Painting & modeling",
-        "summary": "The French Picardie Regiment joins Jonathan Freitag’s growing War of the Spanish Succession collection. The photos show Ebor Miniatures infantry with flags from Not By Appointment, a useful pairing for anyone building a French line."
-      },
-      "Gardes Francaises": {
-        "periods": [
-          "18th Century"
-        ],
-        "type": "Painting & modeling",
-        "summary": "The first French infantry regiment in this War of the Spanish Succession project uses 17 Ebor figures and flags from Not By Appointment. The project photos follow an earlier look at the Dutch troops, so both sides are taking shape."
-      }
-    }
+    "id": "yarkshire",
+    "name": "Yarkshire Gamer",
+    "site": "https://yarkshiregamer.blogspot.com/",
+    "feed": "https://yarkshiregamer.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Battle reports, historical games, rules conversations, and podcasts.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "sgtsteiner",
+    "name": "Sgt Steiner's Wargaming Blog",
+    "site": "https://sgtsteiner.blogspot.com/",
+    "feed": "https://sgtsteiner.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Historical tabletop battles, including Chain of Command and ancients.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "terrainnews",
+    "name": "Wargame News and Terrain",
+    "site": "https://wargameterrain.blogspot.com/",
+    "feed": "https://wargameterrain.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Miniature and terrain releases; needs filtering for fantasy and promotional posts.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "fritz",
+    "name": "Der Alte Fritz Journal",
+    "site": "https://altefritz.blogspot.com/",
+    "feed": "https://altefritz.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Eighteenth-century figures, tabletop games, and painting.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "shaun",
+    "name": "Shaun's Wargaming with Miniatures",
+    "site": "https://shaun-wargaming-minis.blogspot.com/",
+    "feed": "https://shaun-wargaming-minis.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Small-table historical games, ancient battles, and fast-play rules experiments.",
+    "kind": "Independent blog"
   },
   {
     "id": "grid",
     "name": "Grid Based Wargaming",
     "site": "https://gridbasedwargaming.blogspot.com/",
     "feed": "https://gridbasedwargaming.blogspot.com/feeds/posts/default?max-results=25",
-    "description": "Experimental rules, campaigns and compact tabletop battles.",
-    "kind": "Independent blog",
-    "editorial": {
-      "Remote wargame - Second Battle of Azukizaka, 1548": {
-        "periods": [
-          "Renaissance"
-        ],
-        "type": "Battle report",
-        "summary": "Peter refights Azukizaka over a remote tabletop using Daniel Mersey’s Arrowstorm. His Sengoku house rules bind arquebusiers, ashigaru and samurai into a single formation, giving the medieval rules a distinct feel for this matchup.",
-        "featured": true
-      },
-      "Wrapping up the Anglo-Zulu project": {
-        "periods": [
-          "19th Century"
-        ],
-        "type": "Painting & modeling",
-        "summary": "The British and Zulu armies are ready for their first game. The final painting batch adds Natal Native Contingent infantry and horse, British command stands, camp tents and a rocket launcher built from wire and plastic."
-      },
-      "Anglo-Zulu War camp and more units painted": {
-        "periods": [
-          "19th Century"
-        ],
-        "type": "Painting & modeling",
-        "summary": "Peter builds a Zulu camp from half-spheres textured to resemble thatch. Painted card walls curve around the huts on the table and store flat between games, a practical way to make an enclosure without adding bulk."
-      },
-      "Battle of Salem Church 1863 - Remote Game": {
-        "periods": [
-          "American Civil War"
-        ],
-        "type": "Battle report",
-        "summary": "Peter takes Sedgwick’s Union command in a remote refight on a hex grid with 10mm figures. His account includes brigade and artillery strengths and explains how colored dice drawn from a tin control activation."
-      },
-      "Battle of Britain Campaign – Game 9": {
-        "periods": [
-          "World War II"
-        ],
-        "type": "Battle report",
-        "summary": "A Luftwaffe raid on a September 1940 convoy gives the Boulton Paul Defiant its campaign debut. The report lists both sides’ aircraft and pilot ratings, then returns to the wider campaign to assess the result."
-      }
-    }
+    "description": "Compact scenarios, rules experiments, and historical battle reports.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "palouse",
+    "name": "Palouse Wargaming Journal",
+    "site": "https://palousewargamingjournal.blogspot.com/",
+    "feed": "https://palousewargamingjournal.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Historical battle reports, scenario design, and painting projects.",
+    "kind": "Independent blog"
   },
   {
     "id": "misc",
     "name": "Wargaming Miscellany",
     "site": "https://wargamingmiscellany.blogspot.com/",
     "feed": "https://wargamingmiscellany.blogspot.com/feeds/posts/default?max-results=25",
-    "description": "Portable wargames, campaigns and reflections on the hobby.",
-    "kind": "Independent blog",
-    "editorial": {
-      "Nineteen million hits!": {
-        "periods": [
-          "Mixed & general"
-        ],
-        "type": "Hobby journal",
-        "summary": "Bob Cordery marks 19 million recorded visits to Wargaming Miscellany. He also wonders how much of the recent traffic comes from automated visitors, a question that puts the site’s next readership milestone in perspective."
-      },
-      "Scenarios for Wargames: Forty-five years late!": {
-        "periods": [
-          "Mixed & general"
-        ],
-        "type": "Scenario & rules",
-        "summary": "Bob Cordery finally picks up Charles Stewart Grant’s 1981 scenario book through a secondhand listing. Its 52 tabletop situations are the draw, and he plans to try some of them in the coming months."
-      },
-      "New YouTube video: The Portable Wargame in action: The hunt for the Mahdi": {
-        "periods": [
-          "19th Century"
-        ],
-        "type": "Battle report",
-        "summary": "This 17-minute video revisits a solo battle from the original Portable Wargame book. The action takes place on a square grid and uses an early version of the rules later developed for The Portable Colonial Wargame."
-      },
-      "The next Portable Wargame Compendium: Another progress report": {
-        "periods": [
-          "Napoleonic"
-        ],
-        "type": "Scenario & rules",
-        "summary": "The next compendium is taking shape around Belle Époque rules, solo club campaigns and a fast-play Peninsular War system. The lineup also includes a boxed 1814–15 campaign and a comparison with the Coffeebreak rules."
-      },
-      "Nugget 385": {
-        "periods": [
-          "Mixed & general"
-        ],
-        "type": "Hobby news",
-        "summary": "Issue 385 of Wargame Developments’ newsletter has come back from the printer and is heading to members. It is the third issue of the 2026–27 subscription year, and Bob Cordery also plans to send a PDF to the group’s webmaster."
-      },
-      "Stalled ... and I'm not sure how to get my project restarted": {
-        "summary": "After writing Portable Wargame rules and creating twelve fictional nations, Bob Cordery has stalled on his Belle Époque project. He takes inventory of the work already done, including flags and army backstories, as he thinks through how to resume."
-      },
-      "HMS Dreadnought": {
-        "summary": "This naval history note follows Edward Reed’s earlier ironclad HMS Dreadnought through Mediterranean service, a Chatham refit and coastguard duty at Bantry Bay."
-      },
-      "Another British ironclads in 1/1200th-scale": {
-        "summary": "A secondhand model of HMS Dreadnought brings Bob Cordery’s 1:1200 ironclad collection to nine vessels. The post is a quick look at the latest addition to a growing late-Victorian naval collection."
-      },
-      "New YouTube video: Aggressor, Krasnovia, and OPFOR": {
-        "summary": "An 18-minute video looks at fictional opponents used by the US Army in training. It traces the idea from the Second World War through later opposing-force exercises."
-      },
-      "The eleventh hour of the eleventh day of the eleventh month": {
-        "summary": "Bob Cordery records two local acts of remembrance, including a Shrewsbury House performance that used readings and poetry to bring out the voices of people who lived through the First World War."
-      }
-    }
+    "description": "Portable Wargame rules, scenarios, and reflections.",
+    "kind": "Independent blog"
   },
   {
     "id": "battlefields",
     "name": "Battlefields & Warriors",
     "site": "https://battlefieldswarriors.blogspot.com/",
     "feed": "https://battlefieldswarriors.blogspot.com/feeds/posts/default?max-results=25",
-    "description": "Tabletop play reports, rules discussions and hobby projects.",
+    "description": "Historical battle reports and scenario commentary.",
     "kind": "Independent blog"
   },
   {
@@ -156,23 +76,87 @@
     "name": "Wargaming for Grown Ups",
     "site": "https://wargaming4grownups.blogspot.com/",
     "feed": "https://wargaming4grownups.blogspot.com/feeds/posts/default?max-results=25",
-    "description": "Historical games, rules design and battle reports.",
-    "kind": "Independent blog",
-    "editorial": {
-      "Shedquarters Day Q4 2026 - Crossing the Ebro": {
-        "summary": "This corps-scale NQM playtest covers the first six days of the Republican offensive in July 1938. With up to 18 turns and enough troops to require a third Republican player, the report looks at both the table logistics and what the offensive was meant to achieve."
-      },
-      "We'll go no more a reaving": {
-        "summary": "A kitchen-table test puts Early Vikings against Middle Saxons defending a model burg. The Viking player sends blades through the woods to pressure the flank, where movement costs rise once the troops are out of sight of their general."
-      }
-    }
+    "description": "Rules design, historical games, and battle reports.",
+    "kind": "Independent blog"
   },
   {
-    "id": "fritz",
-    "name": "Der Alte Fritz Journal",
-    "site": "https://altefritz.blogspot.com/",
-    "feed": "https://altefritz.blogspot.com/feeds/posts/default?max-results=25",
-    "description": "Eighteenth-century figures, large battles and painting.",
+    "id": "heretical",
+    "name": "Heretical Gaming",
+    "site": "https://hereticalgaming.blogspot.com/",
+    "feed": "https://hereticalgaming.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Small-scale miniatures and historical tabletop experiments.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "bloodybig",
+    "name": "Bloody Big BATTLES!",
+    "site": "https://bloodybigbattles.blogspot.com/",
+    "feed": "https://bloodybigbattles.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Large historical battles and rules-based scenarios.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "grymauch",
+    "name": "Grymauch's Solo Wargaming",
+    "site": "https://grymauch.blogspot.com/",
+    "feed": "https://grymauch.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Solo campaigns, historical scenarios, and battle reports.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "smallperfect",
+    "name": "Small but Perfectly Formed",
+    "site": "https://elenderilsblog.blogspot.com/",
+    "feed": "https://elenderilsblog.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Small-scale historical armies and miniature projects.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "independent",
+    "name": "Independent Wargames Group",
+    "site": "https://independentwargamesgroup.blogspot.com/",
+    "feed": "https://independentwargamesgroup.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Traditional and experimental historical wargaming.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "olicanalad",
+    "name": "Olicanalad's Games",
+    "site": "https://olicanalad.blogspot.com/",
+    "feed": "https://olicanalad.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Detailed historical tabletop projects; occasional new posts.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "roundwood",
+    "name": "Roundwood's World",
+    "site": "https://sidneyroundwood.blogspot.com/",
+    "feed": "https://sidneyroundwood.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Historical terrain and miniature craftsmanship; occasional posts.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "silverwhistle",
+    "name": "Wargaming with Silver Whistle",
+    "site": "https://wargamingwithsilverwhistle.blogspot.com/",
+    "feed": "https://wargamingwithsilverwhistle.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Historical terrain and modeling; limited recent activity.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "lardiesblog",
+    "name": "Gaming with TooFatLardies",
+    "site": "https://mylardiesgames.blogspot.com/",
+    "feed": "https://mylardiesgames.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Historical rules and play reports; infrequent posting.",
+    "kind": "Independent blog"
+  },
+  {
+    "id": "aj",
+    "name": "AJ's Wargaming Table",
+    "site": "https://ajstable.blogspot.com/",
+    "feed": "https://ajstable.blogspot.com/feeds/posts/default?max-results=25",
+    "description": "Historical miniatures and tabletop hobby projects.",
     "kind": "Independent blog"
   },
   {
@@ -180,46 +164,7 @@
     "name": "Flintlock & Tomahawk",
     "site": "https://flintlockandtomahawk.blogspot.com/",
     "feed": "https://flintlockandtomahawk.blogspot.com/feeds/posts/default?max-results=25",
-    "description": "Eighteenth-century frontier warfare and hobby links.",
-    "kind": "Independent blog",
-    "editorial": {
-      "The Last of the Mohicans; A narrative of 1757 by James Fenimore Cooper": {
-        "summary": "The blog revisits James Fenimore Cooper’s novel on its bicentenary and links to the Project Gutenberg edition. Its 1757 frontier setting makes it a period read for French and Indian War gamers."
-      }
-    }
-  },
-  {
-    "id": "aj",
-    "name": "AJ’s Wargaming Table",
-    "site": "https://ajstable.blogspot.com/",
-    "feed": "https://ajstable.blogspot.com/feeds/posts/default?max-results=25",
-    "description": "Historical miniatures and tabletop hobby projects.",
+    "description": "Eighteenth-century frontier historical wargaming.",
     "kind": "Independent blog"
-  },
-  {
-    "id": "pendraken",
-    "name": "Pendraken Forum",
-    "site": "https://www.pendrakenforum.co.uk/",
-    "feed": "https://www.pendrakenforum.co.uk/index.php?action=.xml;type=rss;limit=25",
-    "description": "Public community threads on miniature gaming, painting and scenarios.",
-    "kind": "Forum",
-    "type": "Forum discussion",
-    "editorial": {
-      "The Adventures of Kampfgruppe Klink": {
-        "summary": "A reader asks what happened to the lead German motorcycle squad in a Soviet ambush. The reply fills in a missing detail from the battle report as the squad moves through a village toward the bridge."
-      },
-      "20mm Spanish Civil War Crossfire": {
-        "summary": "A Pendraken member shares a Spanish Civil War game played with 20mm figures and Crossfire rules. The thread links to the full battle report on Mad Lemmey’s blog."
-      },
-      "Warflag - Free flags site": {
-        "summary": "Readers trade tips on finding printable miniature flags. One reply points to archived NapFlags pages in the Wayback Machine for material from the old site."
-      },
-      "Warfare 2026, Farnborough UK, 14-15 November": {
-        "summary": "Attendees compare impressions of the Farnborough show over the weekend, including a quieter Sunday and reports from vendors about Saturday’s trade."
-      },
-      "Roman Marching Camp in 10mm and 28mm!": {
-        "summary": "A community thread on a Roman marching camp offered in two scales. It is a lead for anyone looking for a fortified camp to go with either a 10mm or 28mm ancient army."
-      }
-    }
   }
 ]
