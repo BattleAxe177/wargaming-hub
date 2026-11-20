@@ -95,3 +95,7 @@ footer p{margin:4px 0}
   .featured>:not(.article-photo){grid-column:2}
 }
 @media(min-width:960px){.featured{grid-column:1 / -1}}
+
+.follow-source{border:1px solid #9cae9b;background:transparent;color:#234c3a;border-radius:5px;min-height:44px;padding:4px 9px;font-size:.875rem;font-weight:650;cursor:pointer}
+.follow-source[aria-pressed=true]{background:#e2eadd;border-color:#a3b5a4}
+.card-top{flex-wrap:wrap}.follow-source{margin-left:auto}
