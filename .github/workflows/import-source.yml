@@ -1,0 +1,20 @@
+name: Import Wargaming Hub source
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install the reviewed source
+        run: |
+          test -f hub-source.zip
+          unzip -o hub-source.zip
+          git rm hub-source.zip
+          git add -- .gitignore README.md docs scripts sources.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import reviewed Wargaming Hub source'
+          git push origin HEAD:main
