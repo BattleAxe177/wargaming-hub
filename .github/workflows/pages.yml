@@ -1,0 +1,48 @@
+name: Refresh feed and publish Pages
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 11,23 * * *'
+
+concurrency:
+  group: wargaming-hub-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: vars.HUB_PUBLISH_ENABLED == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Refresh public feeds
+        run: python scripts/refresh.py
+      - name: Persist feed history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/assets/feed.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh public wargaming feeds'
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  publish:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
