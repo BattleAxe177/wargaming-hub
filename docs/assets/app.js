@@ -189,7 +189,7 @@ async function loadAiEdition() {
       items.push({
         ...item, id: item.url,
         date: typeof item.date === "string" && Number.isFinite(Date.parse(item.date)) ? item.date : null,
-        image: undefined
+        image: (typeof item.image === "string" && /^https:\/\//i.test(item.image)) ? item.image : undefined
       });
     }
     aiEdition = {...edition, items};
