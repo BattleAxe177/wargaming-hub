@@ -35,7 +35,8 @@ let snapshot;
 let sources;
 let aiEdition;
 let aiUnavailable = false;
-let limit = 18;
+const FEED_PAGE_SIZE = 18;
+let limit = FEED_PAGE_SIZE;
 
 function persist() {
   try {
@@ -220,6 +221,23 @@ async function loadAiEdition() {
   if (activeView() === "ai-discover") render();
 }
 
+function balanceFirstPage(records) {
+  const selected = [];
+  const deferred = [];
+  const counts = new Map();
+  const candidates = records.slice(0, FEED_PAGE_SIZE * 2);
+  for (const item of candidates) {
+    const count = counts.get(item.source) || 0;
+    if (count >= 3 || selected.length >= FEED_PAGE_SIZE) {
+      deferred.push(item);
+      continue;
+    }
+    selected.push(item);
+    counts.set(item.source, count + 1);
+  }
+  return [...selected, ...deferred, ...records.slice(candidates.length)];
+}
+
 function render() {
   if (!snapshot) return;
   const view = activeView();
@@ -264,6 +282,7 @@ function render() {
     item.featured && item.image && Date.parse(item.date) >= Date.parse(snapshot.updated) - 14 * 86400000
   );
   if (featured) records = [featured, ...records.filter((item) => item !== featured)];
+  if (view === "feed" && !filterActive) records = balanceFirstPage(records);
   const label = view === "sources" ? "source" : "article";
   $("count").textContent = records.length + " " + label + (records.length === 1 ? "" : "s");
   $("more").hidden = records.length <= limit;
@@ -289,12 +308,12 @@ async function initialize() {
     sources = new Map(snapshot.sources.map((source) => [source.id, source]));
     fillSelect($("period"), "All periods", periods);
     fillSelect($("kind"), "All types", kinds);
-    const initialLimit = () => activeView() === "ai-discover" ? 25 : 18;
+    const initialLimit = () => activeView() === "ai-discover" ? 25 : FEED_PAGE_SIZE;
     limit = initialLimit();
     for (const input of $("filters").querySelectorAll("input,select")) input.onchange = () => { limit = initialLimit(); render(); };
     $("more").onclick = () => {
       const next = limit;
-      limit += 18;
+      limit += FEED_PAGE_SIZE;
       render();
       $("results").children[next]?.querySelector("h3 a")?.focus();
     };

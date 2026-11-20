@@ -30,6 +30,7 @@ KINDS = {
     "Scenario & rules": r"scenario|campaign rules|ruleset|rules review|rulebook|rules draft",
     "Hobby news": r"release|newsletter|show report|convention|announcement|convention|sale",
 }
+MEDIA = "{http://search.yahoo.com/mrss/}"
 
 class PlainText(HTMLParser):
     def __init__(self):
@@ -68,8 +69,7 @@ def plain(html):
 def article_image(entry, html, article_url):
     parser = PlainText()
     parser.feed(html)
-    media_ns = "{http://search.yahoo.com/mrss/}"
-    thumbnails = [element.get("url") for element in entry.iter(media_ns + "thumbnail")]
+    thumbnails = [element.get("url") for element in entry.iter(MEDIA + "thumbnail")]
     for candidate in parser.images + thumbnails:
         if not candidate:
             continue
@@ -102,6 +102,8 @@ def collect(source, stamp):
         raise ValueError("feed exceeds size limit")
     root = ElementTree.fromstring(raw)
     entries = root.findall("{*}entry") + root.findall("./{*}channel/{*}item")
+    include = re.compile(source["include"], re.I) if source.get("include") else None
+    exclude = re.compile(source["exclude"], re.I) if source.get("exclude") else None
     items = []
     for entry in entries[:40]:
         def field(*names):
@@ -126,10 +128,14 @@ def collect(source, stamp):
         date = date.replace(tzinfo=date.tzinfo or timezone.utc).astimezone(timezone.utc)
         if not (url and title) or date > stamp + timedelta(hours=12):
             continue
-        article_html = field("content", "encoded", "description", "summary")
-        body = plain(article_html)
-        image = article_image(entry, article_html, url) if source["kind"] != "Forum" else ""
         labels = " ".join(c.get("term") or c.text or "" for c in entry.findall("{*}category"))
+        heading = f"{title} {labels}"
+        if (include and not include.search(heading)) or (exclude and exclude.search(heading)):
+            continue
+        article_html = field("content", "encoded", "description", "summary")
+        video_description = entry.findtext(f"{MEDIA}group/{MEDIA}description", "")
+        body = plain(article_html or video_description)
+        image = article_image(entry, article_html, url) if source["kind"] != "Forum" else ""
         periods = matching(f"{title} {labels}", PERIODS) or matching(body[:650], PERIODS)
         kinds = matching(title, KINDS) or matching(labels, KINDS) or matching(body[:500], KINDS)
         kind = kinds[0] if kinds else source.get("type", "Hobby journal")
@@ -154,6 +160,8 @@ def collect(source, stamp):
             verb = {"Battle report": "A tabletop game report", "Painting & modeling": "A hobby bench update",
                     "Scenario & rules": "A post on tabletop scenarios or rules", "Hobby news": "A hobby news update",
                     "Forum discussion": "A public community discussion"}.get(kind, "A hobby journal entry")
+            if source["kind"] == "YouTube":
+                verb = "A tabletop wargaming video"
             subject = " covering " + " and ".join(periods[:2]) if periods else ""
             summary = f"{verb}{subject} from {source['name']}."
             if labels and source["kind"] != "Forum":
