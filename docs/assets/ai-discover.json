@@ -2,407 +2,337 @@
   "updated": "2026-11-20",
   "items": [
     {
-      "title": "Tiny Italian Wars",
-      "source": "Le Coq Fou",
-      "url": "https://lecoqfou.blogspot.com/2026/08/tiny-italian-wars.html",
-      "date": "2026-08-22",
-      "summary": "The author paints tiny Podrek prints on one-inch bases for Battle-Axe, including Swiss pike blocks built from four strips per stand. The photos make it easy to compare how massed pike reads on a compact footprint.",
+      "title": "Scourge of Princes: Army Builder",
+      "source": "Vexillia",
+      "url": "https://blog.vexillia.me.uk/2026/11/scourge-of-princes-army-builder.html",
+      "date": "2026-11-06",
+      "summary": "Vexillia built basic and advanced army-list spreadsheets for Scourge of Princes. The sheets check artillery and formation limits as you build a force, making it easier to compare two plausible Italian Wars armies before setting up a game.",
       "periods": [
         "Renaissance"
       ],
-      "type": "Painting & modeling",
+      "type": "Scenario & rules",
       "interests": [
         "Italian Wars",
-        "Small scale",
-        "Fast play"
+        "Army lists"
       ]
     },
     {
-      "title": "Condottiere",
-      "source": "Le Coq Fou",
-      "url": "https://lecoqfou.blogspot.com/2026/11/condottiere.html",
-      "date": "2026-11-14",
-      "summary": "The author uses the 1440 Battle of Anghiari to narrow an interest in fifteenth-century Italian mercenary armies into a specific tabletop matchup. It’s a project lead for the generation before the Italian Wars.",
-      "periods": [
-        "Renaissance"
-      ],
-      "type": "Hobby journal",
-      "interests": [
-        "Condottiere",
-        "Scenario design"
-      ],
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP6lAuCC8vrD2eh9rI2fCDVL0v7qg9qwvJ2eQua-4hzaDbZ3Nc3DOf239x6b_b0n-WiYg-ss7eBLbwtyZzXVy5qVMWCO_hL1PxgVvWFlVlVqlXw2I0s88sr7KUExNPEZTyBkqoV7GsexaPyI8tJx98suh_aHl1Jh3jpASyA_RyIUQOJv7jPPx_sJEMwKOg/s320/Peter_Paul_Ruben's_copy_of_the_lost_Battle_of_Anghiari.jpg",
-      "imageRights": {
-        "credit": "The Battle of Anghiari, after Leonardo da Vinci, retouched by Peter Paul Rubens",
-        "license": "Public domain · Louvre / Wikimedia Commons",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Ruben%27s_copy_of_the_lost_Battle_of_Anghiari.jpg",
-        "alt": "Drawing of mounted soldiers fighting around a standard at Anghiari.",
-        "preserveFrame": true
-      }
-    },
-    {
-      "title": "A Game of Galleys before the Wind",
-      "source": "One Sided Miniature Wargaming Discourse",
-      "url": "https://onesidedminiaturewargamingdiscourse.blogspot.com/2026/11/a-game-of-galleys-before-wind.html",
-      "date": "2026-11-16",
-      "summary": "Scratch-built galleys and a modified Crown and Skull ruleset put Venetian, Maltese, and allied squadrons up against the Ottomans. The report shows how the Maltese make early headway while other Ottoman squadrons close in.",
-      "periods": [
-        "Renaissance"
-      ],
-      "type": "Battle report",
-      "interests": [
-        "Naval wargaming",
-        "Scratch-building",
-        "Malta"
-      ]
-    },
-    {
-      "title": "Somewhere in Greece 1941",
-      "source": "Wargaming NZ",
-      "url": "https://wargamingnz.blogspot.com/2026/10/somewhere-in-greece-1941.html",
-      "date": "2026-10-31",
-      "summary": "A WWII Spearhead player turns Jeff Plowman’s histories into a plausible scenario for his 20mm collection. A mixed British force must fall back to a river line with Germans close behind.",
+      "title": "The Attack on Breville-les-Monts, 11th June 1944",
+      "source": "Wyre Forest Gamers",
+      "url": "https://www.wfgamers.org.uk/resources/battle-scenarios/the-attack-on-breville-les-monts-11th-june-1944",
+      "date": null,
+      "summary": "Neil W’s 10mm O Group scenario sends the Black Watch against two built-up areas east of the Orne. One company starts at Château Saint-Côme, so it’s a ready-made example of how to represent a historical flank position without scripting the attack.",
       "periods": [
         "World War II"
       ],
       "type": "Scenario & rules",
       "interests": [
-        "Scenario design",
-        "WWII Spearhead"
+        "Normandy",
+        "O Group",
+        "10mm"
       ]
     },
     {
-      "title": "Battle of Tapae, 101 AD, using Three Ages of Rome",
-      "source": "JJ’s Wargames",
-      "url": "https://jjwargames.blogspot.com/2026/11/the-battle-of-tapae-101-ad-using-three_041833245.html",
-      "date": "2026-11-20",
-      "summary": "A Roman–Dacian refight with an order of battle adjusted to the collection and a quick-reference sheet adapted for 28mm play. The linked planning post covers the briefings, victory conditions, and design choices behind the game.",
+      "title": "Teeny Tiny WW2",
+      "source": "Solo Slow Wargaming",
+      "url": "https://soloslowwargaming.blogspot.com/2026/10/teeny-tiny-ww2.html",
+      "date": "2026-10-12",
+      "summary": "A 2mm Hürtgen Forest game pits a US rifle company against machine-gun positions around a wooded hill. The report shows how resolving fire before movement makes suppression matter even on a table with no tanks.",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "2mm",
+        "Small scale",
+        "Infantry"
+      ]
+    },
+    {
+      "title": "The Battle of Wittenberg, 2nd October 1760 (The Scenario)",
+      "source": "Jemima Fawr’s Miniature Wargames Blog",
+      "url": "https://www.jemimafawr.co.uk/2026/10/14/the-battle-of-wittenberg-2nd-october-1760-the-scenario/",
+      "date": "2026-10-14",
+      "summary": "A Seven Years War scenario for Tricorn gives the outnumbered Prussians a defensible position and the Reichsarmee the challenge of bringing its strength to bear. The map, deployments, and historical background show how to turn a lopsided battle into a playable one.",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Seven Years War",
+        "Scenario design"
+      ]
+    },
+    {
+      "title": "Battle of Lal 2444BC",
+      "source": "Maxy Shadow",
+      "url": "https://maxyshadow.blogspot.com/2026/11/battle-of-lal-2444bc.html",
+      "date": "2026-11-14",
+      "summary": "A Mesopotamian tabletop pursuit comes down to two canal crossings and a hill the army of Ur must hold on turn 13. The report shows how terrain gives chariots, spearmen, and light bowmen distinct jobs.",
       "periods": [
         "Ancients"
       ],
       "type": "Battle report",
       "interests": [
-        "Scenario design",
-        "Romans",
-        "Dacians"
+        "Mesopotamia",
+        "Chariots",
+        "River crossings"
       ]
     },
     {
-      "title": "Spanish Civil War Crossfire in 20mm",
-      "source": "Mad Lemmey’s Painting Blog",
-      "url": "https://madlemmey.blogspot.com/2026/11/spanish-civil-war-crossfire-in-20mm.html",
-      "date": "2026-11-19",
-      "summary": "Two infantry companies fight across dense village terrain. The Republicans have to clear a position after the Nationalists gain ground early. The game shows how much Crossfire gets out of terrain, initiative, and machine guns.",
-      "periods": [
-        "Interwar"
-      ],
-      "type": "Battle report",
-      "interests": [
-        "Crossfire",
-        "Infantry",
-        "Terrain"
-      ]
-    },
-    {
-      "title": "“WW2-ish” Company Level Rules",
-      "source": "Le Coq Fou",
-      "url": "https://lecoqfou.blogspot.com/2026/11/ww2-ish-company-level-rules.html",
-      "date": "2026-11-14",
-      "summary": "A rules-design discussion built around a company of infantry and a few supporting weapons or vehicles, with a stand per squad or attachment. The author explains what makes FiveCore Company Command easy to teach and which mechanics are worth carrying forward.",
-      "periods": [
-        "World War II"
-      ],
-      "type": "Scenario & rules",
-      "interests": [
-        "Fast play",
-        "Company-scale games"
-      ]
-    },
-    {
-      "title": "Operation Martlet — BIG Bolt Action",
-      "source": "Dust, Tears & Dice",
-      "url": "https://dusttears.blogspot.com/2026/11/operation-martlet-big-bolt-action.html",
-      "date": "2026-11-03",
-      "summary": "A Normandy club game makes St Nicolas Farm the gateway to Rauray while German reserves gather. A house rule lets a single order die activate nearby units, keeping the large game moving with fewer dice in the bag.",
+      "title": "Italy 1943 - I Haven't The Foggia'st - Monty's Casino Campaign Turn 1",
+      "source": "Wargames With Toy Soldiers",
+      "url": "https://wargameswithtoysoldier1685-1985.blogspot.com/2026/11/italy-1943-i-havent-foggiast-montys.html",
+      "date": "2026-11-18",
+      "summary": "A British advance off the Foggia plain opens a 1943 mini-campaign. One reconnaissance unit works around the flank while the main force attacks a rocky outcrop, giving the game two linked problems on the same table.",
       "periods": [
         "World War II"
       ],
       "type": "Battle report",
       "interests": [
-        "Normandy",
-        "House rules"
+        "Italy 1943",
+        "Campaigns",
+        "Combined arms"
       ]
     },
     {
-      "title": "A German Reconnaissance Mission",
-      "source": "Dust, Tears & Dice",
-      "url": "https://dusttears.blogspot.com/2026/10/dust-tears-campaign-german.html",
-      "date": "2026-10-18",
-      "summary": "A solo desert scenario asks a reconnaissance force to find out what is defending a farm complex. Colored markers represent possible Commonwealth contacts of different weights, an idea you could borrow for hidden defenders on a small table.",
-      "periods": [
-        "World War II"
-      ],
-      "type": "Scenario & rules",
-      "interests": [
-        "Solo play",
-        "Scenario design",
-        "North Africa"
-      ]
-    },
-    {
-      "title": "Bloody Big Battles, Gettysburg",
-      "source": "The Northumbrian Wargamer",
-      "url": "https://thenorthumbrianwargamer.blogspot.com/2026/11/bloody-big-battles-gettysburg.html",
-      "date": "2026-11-09",
-      "summary": "A 15mm practice game with photos of Buford’s delaying action, Union reinforcements, and the ground around the Round Tops. See how the game marks arrival times and makes a multi-day battle readable.",
+      "title": "The Battle of Monocacy After Action Report – Unioncon 2026!",
+      "source": "BoneSpoon Miniatures",
+      "url": "https://bonespoonminis.io/the-battle-of-monocacy-after-action-report-unioncon-2026/",
+      "date": "2026-10-21",
+      "summary": "For a Monocacy convention game, the host shapes hills with foam under a mat and lays the rivers and roads on top. The Union gets freedom to redeploy, and the players’ decision to defend forward turns the two bridges into the focus of the game.",
       "periods": [
         "American Civil War"
       ],
       "type": "Battle report",
       "interests": [
-        "Gettysburg",
+        "Monocacy",
+        "Terrain",
         "Scenario design"
-      ]
+      ],
+      "image": "https://bonespoonminis.io/wp-content/uploads/2026/10/PXL_20261011_162346666-1024x768.jpg",
+      "imageRights": {
+        "credit": "BoneSpoon Miniatures",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Miniature armies on the Monocacy convention table.",
+        "preserveFrame": true
+      }
     },
     {
-      "title": "Raseiniai, 24 June 1941 — Again",
-      "source": "One Sided Miniature Wargaming Discourse",
-      "url": "https://onesidedminiaturewargamingdiscourse.blogspot.com/2026/11/raseiniai-24-june-1941-again.html",
-      "date": "2026-11-12",
-      "summary": "The players swap sides for a second run of the scenario. The German player uses lessons from the first game to defend four objectives, while the Soviet player concentrates on a central hamlet.",
+      "title": "Raiders of the Malta Convoys: 1941",
+      "source": "BoneSpoon Miniatures",
+      "url": "https://bonespoonminis.io/raiders-of-the-malta-convoys-1941/",
+      "date": "2026-09-20",
+      "summary": "This convention scenario starts on a Mediterranean search map and zooms into a cruiser and destroyer action when the fleets meet. The author explains how Nimitz and Halsey keep convoy hunting and surface combat moving in the same session.",
       "periods": [
         "World War II"
       ],
-      "type": "Battle report",
+      "type": "Scenario & rules",
       "interests": [
-        "Scenario design",
-        "Eastern Front"
+        "Malta",
+        "Naval wargaming",
+        "Fast play"
       ]
     },
     {
-      "title": "Soldiers of Napoleon: French Imperial Guard vs 1814 Austrians",
-      "source": "Mad Lemmey’s Painting Blog",
-      "url": "https://madlemmey.blogspot.com/2026/11/soldiers-of-napleon-french-imperial.html",
-      "date": "2026-11-07",
-      "summary": "French Guard infantry and heavy cavalry face an Austrian line anchored on a bog and a small copse. The players field 10mm French and 15mm Austrians together, worth a look if mixed collections are keeping a matchup off the table.",
-      "periods": [
-        "Napoleonic"
-      ],
-      "type": "Battle report",
-      "interests": [
-        "Small scale",
-        "Divisional games"
-      ]
-    },
-    {
-      "title": "Rediscovering DBR",
-      "source": "Wargaming NZ",
-      "url": "https://wargamingnz.blogspot.com/2026/11/rediscovering-dbr.html",
-      "date": "2026-11-14",
-      "summary": "A short report on bringing 15mm Royalists and Parliamentarians back out to relearn De Bellis Renationis. The photos and brief account make it an easy look at an established pike-and-shot ruleset.",
-      "periods": [
-        "Renaissance"
-      ],
-      "type": "Battle report",
-      "interests": [
-        "English Civil War",
-        "Pike and shot"
-      ]
-    },
-    {
-      "title": "Maurikian Byzantine versus Arab Conquest",
-      "source": "One Sided Miniature Wargaming Discourse",
-      "url": "https://onesidedminiaturewargamingdiscourse.blogspot.com/2026/11/maurikian-byzantine-versus-arab-conquest.html",
-      "date": "2026-11-06",
-      "summary": "Arab light camelry threaten the Byzantine rear while cultivated fields disrupt another advance. The photos make the interaction between flank movement and difficult ground easy to follow.",
-      "periods": [
-        "Medieval"
-      ],
-      "type": "Battle report",
-      "interests": [
-        "Byzantines",
-        "Terrain"
-      ]
-    },
-    {
-      "title": "The Ottomans Are Coming!",
-      "source": "Wargame Amateur",
-      "url": "https://wargameamateur.blogspot.com/2026/09/the-ottomans-are-coming-eastern.html",
-      "date": "2026-09-13",
-      "summary": "A fictional Pike & Shotte scenario pits the Ottomans against Muscovite, Polish, and Cossack forces around a fortified town. Cavalry on both wings outruns the advancing infantry, giving several parts of the table distinct jobs.",
+      "title": "The Battle of Mohacs, 1526",
+      "source": "Historical Miniatures Wargaming Resource Site",
+      "url": "https://hmwrs.com/Mohacs1526.htm",
+      "date": null,
+      "summary": "An Art de la Guerre v4 scenario for Mohács puts Ottoman artillery on a rise above the Danube and makes marsh and a rough stream part of the approach. It offers an eastern counterpart to Italian Wars scenarios from the same generation.",
       "periods": [
         "Renaissance"
       ],
       "type": "Scenario & rules",
       "interests": [
-        "Ottomans",
-        "Scenario design"
+        "Mohács",
+        "Pike and shot",
+        "Art de la Guerre"
       ]
     },
     {
-      "title": "Battle of San Francisco, South America, 1879",
-      "source": "Wargaming NZ",
-      "url": "https://wargamingnz.blogspot.com/2026/10/battle-of-san-francisco-south-america.html",
-      "date": "2026-10-30",
-      "summary": "A photographed 15mm Volley and Bayonet refight set in Peru during the War of the Pacific. It shows what an established mass-battle ruleset can do with a period that seldom shows up in the usual feed.",
-      "periods": [
-        "19th Century"
-      ],
-      "type": "Battle report",
-      "interests": [
-        "War of the Pacific",
-        "Mass battles"
-      ]
-    },
-    {
-      "title": "Gaming — Trafalgar",
-      "source": "One Man and His Brushes",
-      "url": "https://onemanhisbrushes.blogspot.com/2026/11/gaming-trafalgar.html",
-      "date": "2026-11-11",
-      "summary": "Every ship is represented in this refight using Rod Langton’s detailed rules. The group uses revised play sheets to streamline handling, addressing the practical problem of making a large naval game run at the table.",
-      "periods": [
-        "Napoleonic"
-      ],
-      "type": "Battle report",
-      "interests": [
-        "Naval wargaming",
-        "Play aids"
-      ],
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvJq27gmYOsmumQjKrM_9Cx42cAlNMOn43og2-evLixeJgPSlGBbOXjmLDVrjflVUpcHpseMJgXdBWRxmdrclo1U4S4NG-AvpxHkSB4ZIXKgmxCnOQ3_EQp6zPX29COlmbhCXk9RFWKRufXA-tgv2JXYD-sIeOcdmg73iQAsqNMKHgQHP74e3RVXLccsQ/w400-h300/IMG_8471.jpeg",
-      "imageRights": {
-        "credit": "Photo by Dave Docherty, One Man and His Brushes",
-        "license": "CC BY-NC-ND 3.0",
-        "licenseUrl": "https://onemanhisbrushes.blogspot.com/p/blog-copyright.html",
-        "alt": "Rows of miniature sailing ships deployed across the Trafalgar gaming table.",
-        "preserveFrame": true
-      }
-    },
-    {
-      "title": "Pony Wars Buildings — 6mm",
-      "source": "Dust, Tears & Dice",
-      "url": "https://dusttears.blogspot.com/2026/11/pony-wars-buildings-6mm.html",
-      "date": "2026-11-15",
-      "summary": "A short photo post on finishing a Pendraken house, frontier farm, and barn over a weekend. Useful visual reference for how much detail is worth picking out on tiny buildings.",
-      "periods": [
-        "19th Century"
-      ],
-      "type": "Painting & modeling",
-      "interests": [
-        "Terrain",
-        "Small scale"
-      ]
-    },
-    {
-      "title": "Painting an Army for a King (of Kings)",
-      "source": "Le Coq Fou",
-      "url": "https://lecoqfou.blogspot.com/2026/11/painting-army-for-king-of-kings.html",
-      "date": "2026-11-09",
-      "summary": "A 10mm Persian project for To the Strongest! reaches the point where the infantry is done. The Greek mercenary hoplite stands match earlier bases so they can also work in a separate Greek army.",
-      "periods": [
-        "Ancients"
-      ],
-      "type": "Painting & modeling",
-      "interests": [
-        "Persians",
-        "Small scale"
-      ]
-    },
-    {
-      "title": "Xyston Thracian Archers",
-      "source": "Madaxeman’s Wargames Blog",
-      "url": "https://madaxemandotcom.blogspot.com/2026/11/xyston-thracian-archers.html",
-      "date": "2026-11-19",
-      "summary": "Work-in-progress photos show what basing contributes at small scale. The author builds the ground from wood filler and railway ballast, then adds a drybrush, static grass, and tufts.",
-      "periods": [
-        "Ancients"
-      ],
-      "type": "Painting & modeling",
-      "interests": [
-        "Basing",
-        "Batch painting"
-      ]
-    },
-    {
-      "title": "10mm Early Medieval Commission: Viking and Norman Generals and Skirmishers",
-      "source": "Mad Lemmey’s Painting Blog",
-      "url": "https://madlemmey.blogspot.com/2026/11/10mm-early-medieval-commission-viking.html",
-      "date": "2026-11-08",
-      "summary": "Front, side, and overhead views show command groups and skirmishers, including crossbowmen. A quick reference for making leaders readable in a 1066 collection.",
-      "periods": [
-        "Medieval"
-      ],
-      "type": "Painting & modeling",
-      "interests": [
-        "1066",
-        "Small scale"
-      ]
-    },
-    {
-      "title": "Terrain — More Russian-style Buildings",
-      "source": "One Man and His Brushes",
-      "url": "https://onemanhisbrushes.blogspot.com/2026/10/terrain-more-russian-style-buildings.html",
-      "date": "2026-10-25",
-      "summary": "The author paints printed buildings over a dark undercoat with staggered earth-tone drybrushes and picked-out windows and doors. A straightforward batch approach for making a village read well at gaming distance.",
-      "periods": [
-        "Mixed & general"
-      ],
-      "type": "Painting & modeling",
-      "interests": [
-        "Terrain",
-        "3D printing"
-      ],
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbMFyEVUElNStGZ3pOtHxDq3VMM6W3SiSV9Rk_bEYAZwpsBzIeKzXjzWGfvTDyG0z_KHRLdQjNVkdLaWgp3wiJ3pj1fvUbkgOSP2TqI70AIdnoz2fadn6DcevrUOGY7beNrpqgK6mBh6hIlmaoQnUMiIh-1ly8GKyIsU7nFmzr92QPTFukQsv7vt30J9s/w400-h300/IMG_8381.jpeg",
-      "imageRights": {
-        "credit": "Photo by Dave Docherty, One Man and His Brushes",
-        "license": "CC BY-NC-ND 3.0",
-        "licenseUrl": "https://onemanhisbrushes.blogspot.com/p/blog-copyright.html",
-        "alt": "Painted wooden buildings, mounted miniatures, and tracks on a model railway embankment.",
-        "preserveFrame": true
-      }
-    },
-    {
-      "title": "10mm Pendraken Hedges and Modern Street Furniture",
-      "source": "Mad Lemmey’s Painting Blog",
-      "url": "https://madlemmey.blogspot.com/2026/11/10mm-pendraken-hedges-and-modern-street.html",
-      "date": "2026-11-08",
-      "summary": "Multi-tone hedges, skips, phone boxes, and plinths get finished in a spare afternoon. The photo set shows how to add recognizable detail without taking up much room on a small board.",
+      "title": "Sahel Conflicts: Civilian Vehicles",
+      "source": "Major Thomas Foolery",
+      "url": "https://majorthomasfoolery.blogspot.com/2026/11/sahel-conflicts-civilian-vehicles.html",
+      "date": "2026-11-03",
+      "summary": "A modeling project for games set in Mali uses printed civilian vehicles to give the table a sense of place. Light dust, local registration plates, and a Bamako minibus help the cars read as civilian traffic alongside military vehicles.",
       "periods": [
         "Modern"
       ],
       "type": "Painting & modeling",
       "interests": [
-        "Terrain",
-        "Small scale"
+        "Mali",
+        "3D printing",
+        "Civilian vehicles"
       ]
     },
     {
-      "title": "Japanese Support — Sino-Japanese War",
-      "source": "Dust, Tears & Dice",
-      "url": "https://dusttears.blogspot.com/2026/10/japanese-support-sino-japanese-war.html",
-      "date": "2026-10-29",
-      "summary": "A look at finishing Japanese support teams for a project outside the usual European WWII rotation. It includes figures from two makers and a note on the work still needed to translate one of the teams into game stats.",
+      "title": "Walk like an Egyptian, putting paint on Wargames Atlantic's 28mm Egyptian Infantry",
+      "source": "Anton’s Wargame Blog",
+      "url": "https://antonswargame.blogspot.com/2026/10/walk-like-egyptian-putting-paint-on.html",
+      "date": "2026-10-03",
+      "summary": "A test build of Wargames Atlantic’s 28mm Egyptian infantry turns into a whole painted box. The author compares how archers and spearmen look on bases for Midgard, and explains why painting shields on the sprue would have made the job easier.",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Wargames Atlantic",
+        "Egypt",
+        "Basing"
+      ]
+    },
+    {
+      "title": "Viking Raid on Iona Abbey- Scenario Rules",
+      "source": "BoneSpoon Miniatures",
+      "url": "https://bonespoonminis.io/viking-raid-on-iona-abbey-scenario-rules/",
+      "date": "2026-08-09",
+      "summary": "An abbey raid for Little Wars TV’s Ravenfeast includes downloadable scenario and force sheets. The author ran it six times at conventions and identifies the fort and ship positions that matter if you adapt it to another coast or collection.",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Ravenfeast",
+        "Little Wars TV",
+        "Fast play"
+      ],
+      "image": "https://bonespoonminis.io/wp-content/uploads/2026/08/IMG_20240720_094455774-1024x771.jpg",
+      "imageRights": {
+        "credit": "BoneSpoon Miniatures",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Tabletop terrain and deployment for the Iona Abbey raid.",
+        "preserveFrame": true
+      }
+    },
+    {
+      "title": "Big Muddy Historical Gaming Alliance – St. Louis November Game Day West Command Con Lite Hampton Roads",
+      "source": "Big Muddy Historical Gaming Alliance",
+      "url": "https://bmhga.com/2026/11/11/big-muddy-historical-gaming-alliance-st-louis-november-game-day-west-command-con-lite-hampton-roads/",
+      "date": "2026-11-11",
+      "summary": "A St. Louis club’s alternate Hampton Roads engagement brings the Norfolk and James River squadrons in on different schedules. Card-driven movement and slower gunnery give smaller vessels time to influence the game alongside the ironclads.",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Hampton Roads",
+        "Ironclads",
+        "Fast play"
+      ]
+    },
+    {
+      "title": "Du mont Suribachi aux côteaux de la Marne: Iwo Jima 3D",
+      "source": "Les Fig’s de Syl",
+      "url": "https://lesfigsdesyl.blogspot.com/2026/11/du-mont-suribachi-aux-coteaux-de-la.html",
+      "date": "2026-11-17",
+      "summary": "This French-language photo report shows a three-dimensional Memoir ’44 table with a fortified Mount Suribachi, hidden Japanese positions, and a buried tank. The narrow finish makes the airfield’s value as a victory objective easy to see.",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Iwo Jima",
+        "Terrain",
+        "Memoir ’44"
+      ]
+    },
+    {
+      "title": "Communal Italians",
+      "source": "Hesperiana",
+      "url": "https://hesperiana.wordpress.com/2026/09/30/communal-italians/",
+      "date": "2026-09-30",
+      "summary": "A Communal Italian DBA army takes shape around a carroccio, crossbowmen, and spear blocks. The author shows how a few alternate bases let the same Essex collection field a German ally or change the mix of Italian troops.",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Communal Italy",
+        "DBA",
+        "Basing"
+      ]
+    },
+    {
+      "title": "A Back of Beyond and WW2 Chinese Company some thoughts",
+      "source": "You Do Not Know the North",
+      "url": "https://youdonotknowthenorth.blogspot.com/2026/11/a-back-of-beyond-and-ww2-chinese.html",
+      "date": "2026-11-16",
+      "summary": "The author builds a Chinese Communist rifle company and weighs which mortars and machine guns belong in a given game. It’s a hobbyist’s look at how equipment availability can make two companies with similar structures play differently.",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "China",
+        "Force design",
+        "Infantry"
+      ]
+    },
+    {
+      "title": "Warlord Epic Scale Zulus",
+      "source": "Anton’s Wargame Blog",
+      "url": "https://antonswargame.blogspot.com/2026/10/warlord-epic-scale-zulus.html",
+      "date": "2026-10-20",
+      "summary": "A close look at Warlord’s Epic Scale Zulu sprue shows how different group sizes can create either dense formations or open skirmish lines. It’s a useful visual reference for making a massed army readable on a smaller footprint.",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Anglo-Zulu War",
+        "Epic scale",
+        "Basing"
+      ]
+    },
+    {
+      "title": "Siege of Tobruk",
+      "source": "20mm Crimean War Wargaming and Other Stuff",
+      "url": "https://bobthepainter.blogspot.com/2026/11/siege-of-tobruk.html",
+      "date": "2026-11-13",
+      "summary": "An enlarged Command and Colors map becomes an 8-by-4-foot Tobruk table with 3-inch hexes. The setup shows how the ditch, minefields, strongpoints, and armoured reserve fit together before the first turn.",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Tobruk",
+        "Hexes",
+        "Scenario design"
+      ]
+    },
+    {
+      "title": "Ship construction and fitting out",
+      "source": "Solo Slow Wargaming",
+      "url": "https://soloslowwargaming.blogspot.com/2026/11/ship-construction-and-fitting-out.html",
+      "date": "2026-11-07",
+      "summary": "A 1/700 fleet-building update mixes kits, conversions, scratch-built ships, and printed carriers. The author shows what gets painted before the flight decks go on, and how one cruiser model can stand in for several related ships.",
       "periods": [
         "World War II"
       ],
       "type": "Painting & modeling",
       "interests": [
-        "Second Sino-Japanese War",
-        "Support teams"
+        "1/700",
+        "Scratch-building",
+        "Naval wargaming"
       ]
     },
     {
-      "title": "The Other Partizan 2026 Walkthrough",
-      "source": "Battlegames",
-      "url": "https://battlegames.co.uk/the-other-partizan-2026-walkthrough/",
-      "date": "2026-10-27",
-      "summary": "A vertical video takes you through the participation and demonstration areas at Newark in under half an hour. It’s a way to discover clubs, table ideas, and periods in one phone-friendly video.",
+      "title": "Ship Happens, Part X 1/600 Warrior and some ACW ironclads",
+      "source": "Anton’s Wargame Blog",
+      "url": "https://antonswargame.blogspot.com/2026/10/ship-happens-part-x-1600-warrior-and.html",
+      "date": "2026-10-03",
+      "summary": "A batch of 1/600 American Civil War ironclads shares the workbench with a resin HMS Warrior. The author explains how a little standing rigging helps support the print’s fragile masts and shows how the British warship differs visually from its American contemporaries.",
       "periods": [
-        "Mixed & general"
+        "American Civil War"
       ],
-      "type": "Hobby news",
+      "type": "Painting & modeling",
       "interests": [
-        "Convention",
-        "Video"
+        "1/600",
+        "Ironclads",
+        "Rigging"
       ]
     }
   ]
