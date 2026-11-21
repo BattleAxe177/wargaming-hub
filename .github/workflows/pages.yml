@@ -2,7 +2,14 @@ name: Refresh feed and publish Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 11,23 * * *'
+    - cron: '23 */3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pages.yml'
+      - 'scripts/**'
+      - 'sources.json'
+      - 'docs/**'
 
 concurrency:
   group: wargaming-hub-pages
@@ -16,12 +23,29 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+      - name: Decide whether to collect feeds
+        id: collect
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [[ "$EVENT" != push ]] || ! git diff --quiet "$BEFORE" HEAD -- .github/workflows/pages.yml scripts/refresh.py sources.json; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Refresh public feeds
+        if: steps.collect.outputs.enabled == 'true'
         run: python scripts/refresh.py
+      - name: Validate snapshots
+        run: |
+          node --check docs/assets/app.js
+          python scripts/validate_snapshots.py
       - name: Persist feed history
+        if: steps.collect.outputs.enabled == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

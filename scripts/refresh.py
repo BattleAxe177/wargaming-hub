@@ -14,14 +14,14 @@ ROOT = Path(__file__).resolve().parents[1]
 PERIODS = {
     "Ancients": r"roman|punic|ancient|hoplite|carthag|diadoch|alexander the great",
     "Medieval": r"medieval|viking|crusad|hastings|agincourt|hundred years|war[s]? of the roses|norman conquest|teutonic|samurai|sengoku",
-    "Renaissance": r"renaissance|italian wars|pavia|bicocca|landsknecht|cerignola|pike and shot|thirty years|english civil war|ecw|edgehill|marston moor",
+    "Renaissance": r"renaissance|italian wars|pavia|bicocca|landsknecht|cerignola|agnadello|novara|scourge of princes|pike and shot|thirty years|english civil war|ecw|edgehill|marston moor",
     "18th Century": r"seven years|american revolution|american war of independence|aw[i]|jacobite|french and indian|trenton|frederick the great|marlborough|spanish succession|syw",
     "Napoleonic": r"napoleon|waterloo|borodino|austerlitz|peninsular war|quatre bras|wagram",
     "American Civil War": r"american civil war|acw|gettysburg|confederate|antietam|shiloh|secession",
     "19th Century": r"colonial|zulu|crimea|sudan|franco.prussian|boer war|mahdist|victorian",
     "World War I": r"world war i\b|ww1|wwi\b|great war|gallipoli|verdun",
     "Interwar": r"interwar|spanish civil war|chaco war",
-    "World War II": r"world war (ii|2)|ww2|wwii|normandy|barbarossa|stalingrad|194[0-5]|chain of command|afrika korps|tank on tank|bir kalifa",
+    "World War II": r"world war (ii|2)|ww2|wwii|normandy|utah beach|sainte[- ]m[èe]re[- ](?:é|e)glise|cotentin|barbarossa|stalingrad|194[0-5]|chain of command|afrika korps|tank on tank|bir kalifa",
     "Modern": r"cold war|vietnam|korean war|falklands|modern warfare|gulf war|postwar|opfor|krasnovia"
 }
 KINDS = {
@@ -144,9 +144,10 @@ def collect(source, stamp):
             label for label, pattern in {
                 "Small tables": r"small.table|small.board|compact|portable wargame|coffee.table",
                 "Small scale": r"\b(?:2|3|6|10)\s*mm\b",
-                "Scenario design": r"scenario|battlefield map",
-                "Italian Wars": r"italian wars|bicocca|pavia|novara|cerignola",
-                "Normandy": r"normandy|mortain|falaise|operation cobra",
+                "Scenario design": r"scenario|battlefield map|board\s*games?\s+to\s+(?:figures|miniat(?:ure|ures))|hex[- ]to[- ]tabletop",
+                "Army lists": r"\b(?:army lists?|army builder|order of battle)\b",
+                "Italian Wars": r"italian wars|bicocca|pavia|novara|cerignola|agnadello|scourge of princes",
+                "Normandy": r"normandy|mortain|falaise|operation cobra|utah beach|sainte[- ]m[èe]re[- ](?:é|e)glise|cotentin",
                 "Seven Days": r"seven days|glendale|malvern hill|mechanicsville",
                 "Fast play": r"fast.play|quick.play|one.hour",
             }.items() if re.search(pattern, topic, re.I)
