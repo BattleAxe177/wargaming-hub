@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T19:29:58+00:00",
+  "updated": "2026-11-21T01:00:33+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,56 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://bloodybigbattles.blogspot.com/2026/11/a-perennial-favourite-1st-battle-of.html",
+      "url": "https://bloodybigbattles.blogspot.com/2026/11/a-perennial-favourite-1st-battle-of.html",
+      "title": "A perennial favourite: 1st Battle of Bull Run",
+      "source": "bloodybig",
+      "summary": "A tabletop game report covering American Civil War from Bloody Big BATTLES!. Filed under 1861, ACW, American Civil War.",
+      "date": "2026-11-20T22:10:10.752000+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqhdExbovjk_kVRZOeMrWn75FPz1JKcu0lsSsq6HzkwfhPV2ogUYL5hYROfMsSx7mxDLoCi-lWHVZRYO0KNp5_V-8fLFYJeB3BxkYiIeLBJ6DFdV1XacpIRdxw5b3VhCpfZCKmpGS2haTAKy781Ku4ycLReJ_qTwNj-pecSIyt3M6mBSzq9FRzgdIY/w517-h360/Bull%20Run.jpg",
+      "featured": false,
+      "discovered": "2026-11-21T01:00:33+00:00"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Gl5rFrF9JZo",
+      "url": "https://www.youtube.com/watch?v=Gl5rFrF9JZo",
+      "title": "Can Tarleton Win the Battle of Cowpens? We Refought It!",
+      "source": "marksgameroom",
+      "summary": "A tabletop wargaming video from Mark’s Game Room.",
+      "date": "2026-11-20T22:00:33+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://i4.ytimg.com/vi/Gl5rFrF9JZo/hqdefault.jpg",
+      "featured": false,
+      "discovered": "2026-11-21T01:00:33+00:00"
+    },
+    {
+      "id": "https://dusttears.blogspot.com/2026/11/breeds-hill-1775-rebels-patriots.html",
+      "url": "https://dusttears.blogspot.com/2026/11/breeds-hill-1775-rebels-patriots.html",
+      "title": "Breeds Hill 1775 - Rebels & Patriots",
+      "source": "dusttears",
+      "summary": "A tabletop game report covering 18th Century from Dust, Tears & Dice. Filed under 10mm, AAR's, AWI. Topics include small scale.",
+      "date": "2026-11-20T21:26:42.369000+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxGUi8B2cPk5RLn8KJfj4wXMjLPDB-fzqmwR5cLFQi-MgcxWQJ5Hjl-asKyLjez1kf-NJV1zdj_TzJxpNM5qiHOiAjHm2fZIGg-HWKUGWjPUZLYmuSDV7LOwugzELhq_N3UOq7qRGCti3eZ3pnlujAQbadF2n20C1oOrEWMxzvuVBpq5GNF7JhdFSK_w/w400-h300/IMG_6230.jpeg",
+      "featured": false,
+      "discovered": "2026-11-21T01:00:33+00:00"
+    },
     {
       "id": "https://altefritz.blogspot.com/2026/11/fall-in-convention-report.html",
       "url": "https://altefritz.blogspot.com/2026/11/fall-in-convention-report.html",
@@ -2142,13 +2192,15 @@
       "url": "https://warlord-community.warlordgames.com/intelligence-report-armies-of-france-free-france-vichy",
       "title": "Intelligence Report – Armies of France: Free France & Vichy",
       "source": "warlord-community",
-      "summary": "A hobby news update from Warlord Games Community. Filed under Bolt Action: Third Edition, Bolt Action, Upcoming Releases.",
+      "summary": "A hobby news update from Warlord Games Community. Filed under Bolt Action: Third Edition, Bolt Action, Upcoming Releases. Topics include army lists.",
       "date": "2026-10-20T11:39:36+00:00",
       "periods": [
         "Mixed & general"
       ],
       "type": "Hobby news",
-      "interests": [],
+      "interests": [
+        "Army lists"
+      ],
       "image": "https://warlord-community.warlordgames.com/wp-content/uploads/2026/10/image-44-1024x738.png",
       "featured": false,
       "discovered": "2026-11-20T15:06:15+00:00"
@@ -2930,13 +2982,15 @@
       "url": "https://wargaming4grownups.blogspot.com/2026/10/normalising-my-normans.html",
       "title": "Normalising my Normans",
       "source": "grownups",
-      "summary": "A hobby journal entry covering Medieval from Wargaming for Grown Ups. Filed under Baueda, DBA, Normans.",
+      "summary": "A hobby journal entry covering Medieval from Wargaming for Grown Ups. Filed under Baueda, DBA, Normans. Topics include army lists.",
       "date": "2026-10-03T15:49:03.328000+00:00",
       "periods": [
         "Medieval"
       ],
       "type": "Hobby journal",
-      "interests": [],
+      "interests": [
+        "Army lists"
+      ],
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlE7f6ZSkAY2d7tQ1z0KIN8fEo5doFBAPUKtwv2k9X_OSpD7-XATL7FOY7wzZ0gQciZq6-0j4F3Bv8Ob_wEhB4j33KV20YX9gZYb-ViExOVszwVwMXBpY96lczofzPj20OdzmbouXlRrSj-40jFWJppePa_ZLVWmdv2waMLkARHWtVsP5ROUv18cm2UeNE/w640-h326/IMG_1044%5B1%5D.jpg",
       "featured": false,
       "discovered": "2026-11-20T02:16:22+00:00"
@@ -3927,13 +3981,15 @@
       "url": "https://wargaming4grownups.blogspot.com/2026/09/wars-of-roses-rules-game-were-not.html",
       "title": "Wars of the Roses rules - the game we're not playing. Probably.",
       "source": "grownups",
-      "summary": "A tabletop game report covering Medieval from Wargaming for Grown Ups. Filed under Armati, Wars of the Roses.",
+      "summary": "A tabletop game report covering Medieval from Wargaming for Grown Ups. Filed under Armati, Wars of the Roses. Topics include army lists.",
       "date": "2026-09-12T10:56:55.738000+00:00",
       "periods": [
         "Medieval"
       ],
       "type": "Battle report",
-      "interests": [],
+      "interests": [
+        "Army lists"
+      ],
       "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhxdBADiB77oKDf71rZafixvdi_-15Dg852-8-xp9VavWjzOGbOyOOuA-nITPTwhvi9HBV8OVMpsnVQN6xdlUYBUM-mkREsGyHr7YESCCrj60XRfYkpfew-r8ZB9akHHAOkykscNfOq7wUQaQVtpEOuIuoHSk9UCrM-apyrE2SuKb65siQ8LGEX8rRXtL8o=w640-h360",
       "featured": false,
       "discovered": "2026-11-20T02:16:22+00:00"
@@ -5867,14 +5923,16 @@
       "url": "https://wargamesatlantic.com/blogs/news/two-new-decline-and-fall-sets-releasing-friday-7-24",
       "title": "Two New Decline and Fall Sets Releasing Friday 7/24!",
       "source": "wargamesatlantic",
-      "summary": "A hobby news update covering Ancients and Medieval from Wargames Atlantic.",
+      "summary": "A hobby news update covering Ancients and Medieval from Wargames Atlantic. Topics include army lists.",
       "date": "2026-07-17T00:44:49+00:00",
       "periods": [
         "Ancients",
         "Medieval"
       ],
       "type": "Hobby news",
-      "interests": [],
+      "interests": [
+        "Army lists"
+      ],
       "image": "https://cdn.shopify.com/s/files/1/0078/4764/1186/files/Late-Roman-Legionaries-_2_-_-Lorica-Squamata_d59114c4-cb51-4285-85ff-38d6a910a9d2.png?v=1783611773",
       "featured": false,
       "discovered": "2026-11-20T15:06:15+00:00"
@@ -5950,13 +6008,15 @@
       "url": "https://independentwargamesgroup.blogspot.com/2026/07/scourage-of-princes.html",
       "title": "Scourage of Princes.",
       "source": "independent",
-      "summary": "A hobby journal entry covering Renaissance from Independent Wargames Group.",
+      "summary": "A hobby journal entry covering Renaissance from Independent Wargames Group. Topics include italian wars.",
       "date": "2026-07-14T18:37:40.791000+00:00",
       "periods": [
         "Renaissance"
       ],
       "type": "Hobby journal",
-      "interests": [],
+      "interests": [
+        "Italian Wars"
+      ],
       "image": "https://blogger.googleusercontent.com/img/a/AVvXsEhIcenKP8mQHOu_gLcxzw7dP9JrvdNBzPhhn2KQv2jMAIy5jR4fjT21fdSRLB7dcgcGkHFAA84hORjOMka5SFjMuD2oBhN7Jm1dnjpzYasvoAoor32AYBNFNMMNuc7-BAjCVUttbDhBa8rJa_X9Z0kp2_PzHg0s63SDFof9lhEdUrMSPXgqmR1oc9gXNSbc=w280-h400",
       "featured": false,
       "discovered": "2026-11-20T15:06:15+00:00"
@@ -7639,13 +7699,15 @@
       "url": "https://www.karwansaraypublishers.com/blogs/wss-blog/into-the-rift-the-armies-assemble",
       "title": "Into the Rift: The armies assemble!",
       "source": "wss",
-      "summary": "A hobby journal entry from Wargames, Soldiers & Strategy.",
+      "summary": "A hobby journal entry from Wargames, Soldiers & Strategy. Topics include army lists.",
       "date": "2026-04-07T16:00:02+00:00",
       "periods": [
         "Mixed & general"
       ],
       "type": "Hobby journal",
-      "interests": [],
+      "interests": [
+        "Army lists"
+      ],
       "image": "https://cdn.shopify.com/s/files/1/0296/7067/0384/files/final.jpg?v=1775499336",
       "featured": false,
       "discovered": "2026-11-20T15:06:15+00:00"
@@ -9073,13 +9135,14 @@
       "url": "https://shaun-wargaming-minis.blogspot.com/2025/01/dominion-of-spear-rules-5-games-and.html",
       "title": "Dominion of the Spear rules - 5 games and a short review",
       "source": "shaun",
-      "summary": "A tabletop game report covering Ancients from Shaun's Wargaming with Miniatures. Filed under battle report, dominion of the spear. Topics include fast play.",
+      "summary": "A tabletop game report covering Ancients from Shaun's Wargaming with Miniatures. Filed under battle report, dominion of the spear. Topics include army lists, fast play.",
       "date": "2025-01-05T07:27:00.001000+00:00",
       "periods": [
         "Ancients"
       ],
       "type": "Battle report",
       "interests": [
+        "Army lists",
         "Fast play"
       ],
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy3iex6DusVaI9SgYF2FcsWNeWA3Nw_-KBERfZEiIn7cKBYeWK73dcya1g_9mmlzITbxXgrbRIT0pmI3c06grlJD-Za1qlcPjQtjFSubHkmnuKOjvhy7vwkpuTrqCk6LUb6OXEV8kEm5bJUSR8wqGA1ja7w0T__wCm8679hO0hbmUCFN7N8p-Qrayo-wEN/w349-h400/20250102_144324%201%200.jpg",
