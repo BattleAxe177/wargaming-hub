@@ -1,0 +1,17 @@
+name: Article feedback browser checks
+on:
+  push:
+    branches: [article-feedback]
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: node --check docs/assets/app.js
+      - run: python scripts/validate_snapshots.py
+      - run: pip install playwright
+      - run: playwright install --with-deps chromium
+      - run: python test_feedback.py
