@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "items": [
     {
       "title": "Scourge of Princes: Army Builder",
@@ -333,6 +333,129 @@
         "1/600",
         "Ironclads",
         "Rigging"
+      ]
+    },
+    {
+      "title": "Operation Martlet - BIG Bolt Action",
+      "source": "Dust, Tears & Dice",
+      "sourceUrl": "https://dusttears.blogspot.com/",
+      "url": "https://dusttears.blogspot.com/2026/11/operation-martlet-big-bolt-action.html",
+      "date": "2026-11-03",
+      "summary": "A Normandy club game follows the British advance through St Nicolas Farm toward Rauray. Modified Bolt Action activations let large formations move together instead of requiring an unwieldy dice bag; concealed German positions and dwindling Shermans shape the attack.",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Normandy",
+        "Operation Martlet",
+        "Bolt Action"
+      ]
+    },
+    {
+      "title": "Rematch With Vol at Salem Church",
+      "source": "Palouse Wargaming Journal",
+      "sourceUrl": "https://palousewargamingjournal.blogspot.com/",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/rematch-with-vol-at-salem-church.html",
+      "date": "2026-11-04",
+      "summary": "A second Salem Church game reverses the first narrow Confederate victory. Federal assaults briefly seize the church, counterattacks break two Union brigades, and a final coordinated push wrecks Semmes' brigade—a revealing test of ACW scenario balance.",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Salem Church",
+        "Scenario balance",
+        "ACW"
+      ]
+    },
+    {
+      "title": "King, Republic & Empire",
+      "source": "Across the Table",
+      "sourceUrl": "https://thewargamesroom.wordpress.com/",
+      "url": "https://thewargamesroom.wordpress.com/2026/11/15/king-republic-empire/",
+      "date": "2026-11-15",
+      "summary": "Seven players gather for a fast-moving 15mm DBA evening spanning Wars of the Roses armies, Republican Romans against Epirotes, and Seleucids against Rome. Rotating matchups provide several distinct tactical puzzles in one session.",
+      "periods": [
+        "Ancients",
+        "Medieval"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "DBA",
+        "15mm",
+        "Republican Rome"
+      ]
+    },
+    {
+      "title": "Restless Natives: One of my earlier attempts to write a set of Colonial wargame rules",
+      "source": "Wargaming Miscellany",
+      "sourceUrl": "https://wargamingmiscellany.blogspot.com/",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/restless-natives-one-of-my-earlier.html",
+      "date": "2026-11-01",
+      "summary": "Bob Cordery revisits a colonial ruleset designed for a sub-two-hour game on a 4-by-3-foot table. Playing cards govern activation, while event cards add bursts of movement, firepower and rallies; a smaller-table revision is under consideration.",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Fast-play rules",
+        "Card activation",
+        "Small tables"
+      ]
+    },
+    {
+      "title": "October 2026 Report",
+      "source": "Westbury Wargamers",
+      "sourceUrl": "https://westburywargamers.com/",
+      "url": "https://westburywargamers.com/2026/11/01/october-2026-report/",
+      "date": "2026-11-01",
+      "summary": "An unusually varied club diary covers Modern Spearhead, a Carlist Wars crossroads battle, linked Viking raids, samurai and Elchingen. Especially useful is the example of branching skirmish scenarios where the first raid's outcome determines the follow-up.",
+      "periods": [
+        "Modern",
+        "19th Century",
+        "Medieval",
+        "Napoleonic"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Linked scenarios",
+        "Modern Spearhead",
+        "Campaign ideas"
+      ]
+    },
+    {
+      "title": "Impudent Mortal Brick Walls for Toys for Tots",
+      "source": "The Wachtmeister's Patrol",
+      "sourceUrl": "https://wachtmeisterspatrol.com/",
+      "url": "https://wachtmeisterspatrol.com/2026/10/28/impudent-mortal-brick-walls-for-toys-for-tots/",
+      "date": "2026-10-28",
+      "summary": "A quick terrain-painting sequence turns brick wall sections into weathered cover: red primer, mottled brown sprays, a black-and-white oil wash, flock and aged posters. The methods transfer readily to ruined historical town walls.",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Terrain",
+        "Brick walls",
+        "Weathering"
+      ]
+    },
+    {
+      "title": "The Battle of Wittenberg, 2nd October 1760 (The Game)",
+      "source": "Jemima Fawr's Miniature Wargames Blog",
+      "sourceUrl": "https://www.jemimafawr.co.uk/",
+      "url": "https://www.jemimafawr.co.uk/2026/11/01/the-battle-of-wittenberg-2nd-october-1760-the-game/",
+      "date": "2026-11-01",
+      "summary": "The follow-up to the published Wittenberg scenario puts Prussian redoubts under pressure from the larger Reichsarmee. The 15mm Tricorn refight shows how artillery, delayed orders and shifting flank threats can make an unequal battle interesting.",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Seven Years War",
+        "Tricorn",
+        "Scenario design"
       ]
     }
   ]
