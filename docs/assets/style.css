@@ -99,3 +99,9 @@ footer p{margin:4px 0}
 .follow-source{border:1px solid #9cae9b;background:transparent;color:#234c3a;border-radius:5px;min-height:44px;padding:4px 9px;font-size:.875rem;font-weight:650;cursor:pointer}
 .follow-source[aria-pressed=true]{background:#e2eadd;border-color:#a3b5a4}
 .card-top{flex-wrap:wrap}.follow-source{margin-left:auto}
+
+.rating-controls{display:flex;flex-wrap:wrap;gap:6px}
+.rating-controls button{min-height:44px;padding:4px 8px;border:1px solid var(--line);border-radius:5px;background:transparent;color:var(--accent);font:inherit;font-size:.875rem}
+.rating-controls button[aria-pressed=true]{border-color:currentColor;background:#e2eadd;font-weight:700}
+.rating-controls button[data-rating=dislike][aria-pressed=true]{background:#f4e4df;color:#752f22}
+.rating-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}

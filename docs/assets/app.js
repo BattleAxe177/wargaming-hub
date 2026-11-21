@@ -17,17 +17,57 @@ const calendarDateLabel = new Intl.DateTimeFormat(undefined, {dateStyle: "medium
 const formatDate = (date) => (date.length === 10 ? calendarDateLabel : dateLabel).format(new Date(date));
 const STORAGE = "wargaming-hub:v1";
 
+function articleKey(raw) {
+  if (typeof raw !== "string" || !raw || raw.length > 4096) return "";
+  try {
+    const url = new URL(raw);
+    if (!["http:", "https:"].includes(url.protocol) || url.username || url.password) return "";
+    for (const name of [...url.searchParams.keys()]) {
+      if (/^(utm_.*|fbclid|gclid|m)$/i.test(name)) url.searchParams.delete(name);
+    }
+    url.searchParams.sort();
+    return "https://" + url.host + (url.pathname.replace(/\/+$/, "") || "/") + url.search;
+  } catch {
+    return "";
+  }
+}
+
+function articleSignals(item) {
+  const labels = values => Array.isArray(values) ? [...new Set(values.filter(value =>
+    typeof value === "string" && value.length <= 120))].slice(0, 24) : [];
+  return {
+    source: typeof item.source === "string" ? item.source.slice(0, 250) : "",
+    periods: labels(item.periods), type: typeof item.type === "string" ? item.type.slice(0, 120) : "",
+    interests: labels(item.interests)
+  };
+}
+
+function mergeRatings(ratings, entries) {
+  for (const item of entries) {
+    const key = articleKey(item?.url);
+    if (!key || !["like", "dislike", null].includes(item.rating) || typeof item.updatedAt !== "string") continue;
+    const time = Date.parse(item.updatedAt);
+    if (!Number.isFinite(time) || time <= Date.parse(ratings.get(key)?.updatedAt ?? "")) continue;
+    ratings.set(key, {
+      url: key, title: typeof item.title === "string" ? item.title.slice(0, 500) : "",
+      ...articleSignals(item), rating: item.rating, updatedAt: new Date(time).toISOString()
+    });
+  }
+  return ratings;
+}
+
 function loadState() {
   try {
     const state = JSON.parse(localStorage.getItem(STORAGE)) || {};
     return {
       saved: new Map(Object.entries(state.saved || {})),
+      ratings: mergeRatings(new Map(), Array.isArray(state.ratings) ? state.ratings : []),
       followed: new Set(state.followed || []),
       discoveredSources: new Map(Object.entries(state.discoveredSources || {})),
       seenThrough: typeof state.seenThrough === "string" ? state.seenThrough : ""
     };
   } catch {
-    return {saved: new Map(), followed: new Set(), discoveredSources: new Map(), seenThrough: ""};
+    return {saved: new Map(), ratings: new Map(), followed: new Set(), discoveredSources: new Map(), seenThrough: ""};
   }
 }
 
@@ -42,7 +82,7 @@ let limit = FEED_PAGE_SIZE;
 function persist() {
   try {
     localStorage.setItem(STORAGE, JSON.stringify({
-      saved: Object.fromEntries(state.saved), followed: [...state.followed],
+      saved: Object.fromEntries(state.saved), ratings: [...state.ratings.values()], followed: [...state.followed],
       discoveredSources: Object.fromEntries(state.discoveredSources), seenThrough: state.seenThrough
     }));
   } catch {
@@ -126,6 +166,32 @@ function followSourceButton(item) {
   return button;
 }
 
+function bindRatingControls(node, item) {
+  const key = articleKey(item.url);
+  const buttons = [...node.querySelectorAll("[data-rating]")];
+  const update = () => {
+    for (const button of buttons) {
+      button.setAttribute("aria-pressed", String(state.ratings.get(key)?.rating === button.dataset.rating));
+    }
+  };
+  for (const button of buttons) {
+    const choice = button.dataset.rating;
+    button.setAttribute("aria-label", (choice === "like" ? "Like: " : "Dislike: ") + item.title);
+    button.disabled = !key;
+    button.onclick = () => {
+      const previous = state.ratings.get(key);
+      const time = Math.max(Date.now(), (Date.parse(previous?.updatedAt ?? "") || 0) + 1);
+      mergeRatings(state.ratings, [{
+        ...item, url: key, rating: previous?.rating === choice ? null : choice,
+        updatedAt: new Date(time).toISOString()
+      }]);
+      persist();
+      update();
+    };
+  }
+  update();
+}
+
 function articleCard(item, discover, featured) {
   const node = $("article-template").content.cloneNode(true);
   const tags = node.querySelector(".tags");
@@ -196,6 +262,7 @@ function articleCard(item, discover, featured) {
     } else updateButton();
   };
   updateButton();
+  bindRatingControls(node, item);
   if (activeView() === "ai-discover") {
     const follow = followSourceButton(item);
     if (follow) node.querySelector(".card-top").append(follow);
@@ -207,6 +274,7 @@ function sourceCard(source) {
   const node = $("article-template").content.cloneNode(true);
   tag(node.querySelector(".tags"), source.kind);
   node.querySelector(".byline").remove();
+  node.querySelector(".rating-controls").remove();
   const title = node.querySelector("h3 a");
   title.textContent = source.name;
   title.href = source.site;
@@ -283,16 +351,44 @@ async function loadAiEdition() {
 }
 
 function rankFeed(records) {
-  const savedTopics = new Set(
-    [...state.saved.values()].flatMap(item => item.interests || [])
-  );
+  const savedTopics = new Set();
+  const savedPeriods = new Set();
+  const savedTypes = new Set();
+  for (const saved of state.saved.values()) {
+    const signals = articleSignals(saved);
+    signals.interests.forEach(topic => savedTopics.add(topic));
+    signals.periods.forEach(period => savedPeriods.add(period));
+    if (signals.type) savedTypes.add(signals.type);
+  }
+  const sourceIds = new Map([...sources.values()].map(source => [source.name.toLowerCase(), source.id]));
+  const feedback = [...state.ratings.values()].filter(entry => entry.rating).map(entry => ({
+    ...entry, source: sourceIds.get(entry.source.toLowerCase()) || entry.source
+  }));
   const hour = 60 * 60 * 1000;
   return records.map(item => {
-    const topics = new Set(item.interests.filter(topic => savedTopics.has(topic)));
-    const topicBoost = Math.min(topics.size, 2) * 12;
-    const followBoost = state.followed.has(item.source) ? 6 : 0;
+    const signals = articleSignals(item);
+    const topics = signals.interests.filter(topic => savedTopics.has(topic));
+    const saveBoost = Math.min(topics.length, 2) * 12
+      + (signals.periods.some(period => period !== "Mixed & general" && savedPeriods.has(period)) ? 2 : 0)
+      + (savedTypes.has(signals.type) ? 2 : 0);
+    const followBoost = state.followed.has(item.source) ? 10 : 0;
     const forumDelay = sources.get(item.source)?.kind === "Forum" ? 12 : 0;
-    return {item, priority: Date.parse(item.date) + (topicBoost + followBoost - forumDelay) * hour};
+    let likeBoost = 0;
+    let dislikePenalty = 0;
+    for (const entry of feedback) {
+      const sharedTopics = signals.interests.filter(topic => entry.interests.includes(topic)).length;
+      const samePeriod = signals.periods.some(period => period !== "Mixed & general" && entry.periods.includes(period));
+      const sameType = Boolean(signals.type && signals.type === entry.type);
+      const sameSource = Boolean(signals.source && signals.source === entry.source);
+      const context = Number(samePeriod) + Number(sameType) + Number(sameSource);
+      if (entry.rating === "like") {
+        likeBoost = Math.max(likeBoost, Math.min(12, sharedTopics * 6 + context * 2));
+      } else if (sharedTopics >= 2 || (sharedTopics && context) || context === 3) {
+        dislikePenalty = Math.max(dislikePenalty, Math.min(12, sharedTopics * 5 + context * 2));
+      }
+    }
+    const priority = Date.parse(item.date) + (saveBoost + followBoost + likeBoost - dislikePenalty - forumDelay) * hour;
+    return {item, priority};
   }).sort((a, b) => b.priority - a.priority).map(({item}) => item);
 }
 
@@ -323,7 +419,8 @@ function exportPreferences() {
   const preferences = {
     format: "wargaming-hub-preferences", version: 1,
     exportedAt: new Date().toISOString(),
-    note: "Saves and follows are explicit interests. This export contains no click history.",
+    note: "Ratings, saves, and follows are explicit preferences. This export contains no click history.",
+    articleRatings: [...state.ratings.values()],
     followedSources: [...state.followed].map(id => ({id, name: sources?.get(id)?.name || id})),
     savedArticles,
     discoveredSources: [...state.discoveredSources.entries()].map(([site, info]) => ({
@@ -352,6 +449,7 @@ async function importPreferences(file) {
       !Array.isArray(preferences.savedArticles)) {
     throw new Error("Not a valid Wargaming Hub preferences file.");
   }
+  if (Array.isArray(preferences.articleRatings)) mergeRatings(state.ratings, preferences.articleRatings);
   for (const entry of preferences.followedSources.slice(0,1000)) {
     if (typeof entry?.id === "string" && entry.id.length < 200)
       state.followed.add(entry.id);
