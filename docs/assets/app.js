@@ -282,6 +282,20 @@ async function loadAiEdition() {
   if (activeView() === "ai-discover") render();
 }
 
+function rankFeed(records) {
+  const savedTopics = new Set(
+    [...state.saved.values()].flatMap(item => item.interests || [])
+  );
+  const hour = 60 * 60 * 1000;
+  return records.map(item => {
+    const topics = new Set(item.interests.filter(topic => savedTopics.has(topic)));
+    const topicBoost = Math.min(topics.size, 2) * 12;
+    const followBoost = state.followed.has(item.source) ? 6 : 0;
+    const forumDelay = sources.get(item.source)?.kind === "Forum" ? 12 : 0;
+    return {item, priority: Date.parse(item.date) + (topicBoost + followBoost - forumDelay) * hour};
+  }).sort((a, b) => b.priority - a.priority).map(({item}) => item);
+}
+
 function balanceFirstPage(records) {
   const selected = [];
   const deferred = [];
@@ -393,12 +407,7 @@ function render() {
   );
   let records = view === "sources" ? snapshot.sources : view === "discover" ? discovery(filtered) : filtered;
   if (view === "feed" && !$("kind").value && !$("following").checked) {
-    const forums = records.filter((item) => sources.get(item.source)?.kind === "Forum");
-    const journals = records.filter((item) => sources.get(item.source)?.kind !== "Forum");
-    records = [...journals, ...forums].sort((a, b) => {
-      const priority = (item) => Date.parse(item.date) - (sources.get(item.source)?.kind === "Forum" ? 43200000 : 0);
-      return priority(b) - priority(a);
-    });
+    records = rankFeed(records);
   }
   const filterActive = $("period").value || $("kind").value || $("following").checked || $("fresh").checked;
   const featured = view === "feed" && !filterActive && records.find((item) =>
