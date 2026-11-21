@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T11:20:19+00:00",
+  "updated": "2026-11-21T19:25:20+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,38 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/the-role-of-choice-in-writing-battle.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/the-role-of-choice-in-writing-battle.html",
+      "title": "The Role of Choice in Writing Battle Reports",
+      "source": "palouse",
+      "summary": "A tabletop game report from Palouse Wargaming Journal. Filed under Battle Report, Blogging, Ramblings.",
+      "date": "2026-11-21T14:27:05.157000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoq9c_JNCSRZXF6Xw_4qjagV0Z4Ok9u2bkko9mQu72mtEbXZd_qX0ienHxPMy_fc5DS0JbEekWrnpNno3IAhLRMnCU1Y8T4SEO2HZKskaW8R-0bLHI64Z7tVm8y5jfQzQZ8P1n8D1NZq01xsjZYUpefl8E3dSVv_oaJJVGuXhhlX2N50DF9eHYo9tLKpPA/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-21T19:25:20+00:00"
+    },
+    {
+      "id": "https://altefritz.blogspot.com/2026/11/black-friday-week-sale-begins-today.html",
+      "url": "https://altefritz.blogspot.com/2026/11/black-friday-week-sale-begins-today.html",
+      "title": "Black Friday Week Sale Begins Today!",
+      "source": "fritz",
+      "summary": "A hobby news update covering 18th Century from Der Alte Fritz Journal.",
+      "date": "2026-11-21T12:00:00+00:00",
+      "periods": [
+        "18th Century"
+      ],
+      "type": "Hobby news",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC5GJJaGZpPuUVFai5Tiuu1e0K5pZ8eIOS1CrrEfj0A49XRMBO9IW8HeMNkCrqsEaVLG0lkGO6MJX1ubkhzIaGoOE7P89za2VeF_9rg__59RQqPBrvbjn48KIVD6BhbTN838lrdSH7bh91uLsW1WXIfDGau44igA20_f0wbRzMgPTfVTwfMbBCmBj0Q6U/w381-h400/IMG_5324.jpeg",
+      "featured": false,
+      "discovered": "2026-11-21T19:25:20+00:00"
+    },
     {
       "id": "https://bloodybigbattles.blogspot.com/2026/11/a-perennial-favourite-1st-battle-of.html",
       "url": "https://bloodybigbattles.blogspot.com/2026/11/a-perennial-favourite-1st-battle-of.html",
