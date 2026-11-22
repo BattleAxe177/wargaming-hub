@@ -38,3 +38,7 @@ Run `python scripts/validate_snapshots.py` and `node --check docs/assets/app.js`
 
 - [Configure GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [GitHub Actions schedule behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
+
+### Daily AI Discover publishing
+
+Submit edition-only changes from an `ai-discover/` branch to `main`. Wait for the `AI Discover / candidate` commit status to pass for the exact pull request head before merging. The check runs the snapshot validator and JavaScript syntax check in GitHub Actions. Then verify `AI Discover / production` on the exact merge commit. That status requires a successful Pages deployment and a byte-for-byte match between the deployed public edition and the checked-in JSON. If a status fails or never arrives, report the blocker and the run link. Keep prior Git revisions available for rollback.
