@@ -1,0 +1,40 @@
+name: Validate AI Discover candidate
+on:
+  pull_request:
+    branches: [main]
+    paths: ['docs/assets/ai-discover.json']
+
+jobs:
+  validate:
+    if: github.event.pull_request.head.repo.full_name == github.repository && startsWith(github.head_ref, 'ai-discover/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      statuses: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate editorial-only changes and snapshots
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          test "$(git diff --name-only "$BASE_SHA...$HEAD_SHA")" = docs/assets/ai-discover.json
+          node --check docs/assets/app.js
+          python scripts/validate_snapshots.py
+      - name: Report validation on the candidate commit
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          RESULT: ${{ job.status }}
+        run: |
+          state=failure
+          if [[ "$RESULT" == success ]]; then state=success; fi
+          gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$HEAD_SHA" \
+            -f state="$state" -f context="AI Discover / candidate" \
+            -f target_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
