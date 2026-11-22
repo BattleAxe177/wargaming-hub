@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T01:24:07+00:00",
+  "updated": "2026-11-22T11:37:54+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,40 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://bloodybigbattles.blogspot.com/2026/11/napoleonic-battlemaps.html",
+      "url": "https://bloodybigbattles.blogspot.com/2026/11/napoleonic-battlemaps.html",
+      "title": "Napoleonic battlemaps",
+      "source": "bloodybig",
+      "summary": "A hobby journal entry covering Napoleonic from Bloody Big BATTLES!. Filed under Napoleonic, terrain. Topics include scenario design.",
+      "date": "2026-11-22T10:11:22.349000+00:00",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKgxE9NbxsBy7Rtkz2lnK3qINegwKHtsZ0IYky63a5E3nGxxBSoQ8ZDngqrcgDCMKZ-QmK9exFaDWiy_wMYv5ftDFaWlf68wjS59Qv88ju1D_Zm9nzYnZijDdC1dPJ-C7gB1_EaFVGN4DY_UuxMIWq6URzbIbX7UlKTK7BI0Htzx0dFTLIJlGZ_7zT/w519-h237/Battlemap%20-%20Austerlitz.png",
+      "featured": false,
+      "discovered": "2026-11-22T11:37:54+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/new-youtube-video-wargaming-interwar.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/new-youtube-video-wargaming-interwar.html",
+      "title": "New YouTube video: Wargaming the interwar period",
+      "source": "misc",
+      "summary": "A hobby journal entry covering Interwar from Wargaming Miscellany. Filed under Early 20th Century, Interbellum, YouTube.",
+      "date": "2026-11-22T09:00:00+00:00",
+      "periods": [
+        "Interwar"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB9NAuVJZKxMRWNgccnu7cNgoIC3z9Zaj-fex1F0CWeJYGScNevyADgr67iZBfB3mxMrb8yAC2sq0OB7UJfTGPx7stD8VLAFof8IcVviPOUREl4fPa0SmzB7iP6mN9b0hmh-CXMuBslHbeYcuZqxyLxh85vT4fEfyxQRn8YBvoYzI91mcpCLmqOjjzZ0U/s400/Interwar%20Wargaming.jpg",
+      "featured": false,
+      "discovered": "2026-11-22T11:37:54+00:00"
+    },
     {
       "id": "https://sgtsteiner.blogspot.com/2026/11/no-easy-ground-solo-try-pictastic.html",
       "url": "https://sgtsteiner.blogspot.com/2026/11/no-easy-ground-solo-try-pictastic.html",
