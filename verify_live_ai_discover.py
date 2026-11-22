@@ -1,6 +1,7 @@
 import json
 import re
 from pathlib import Path
+from functools import cmp_to_key
 from playwright.sync_api import expect, sync_playwright
 
 edition = json.loads(Path("docs/assets/ai-discover.json").read_text())
@@ -10,6 +11,15 @@ def start(context):
     page.goto(site + "#ai-discover")
     expect(page.locator(".card").first.get_by_role("heading")).to_have_text("Ticinus River 218 BC - Command and Colors Ancients Game", timeout=20000)
     return page
+
+def compare(a, b):
+    for field in ("discoveredAt", "date"):
+        x, y = a.get(field) or "", b.get(field) or ""
+        if x != y:
+            return -1 if x > y else 1
+    return (a["url"] > b["url"]) - (a["url"] < b["url"])
+
+ordered = sorted(edition["items"], key=cmp_to_key(compare))
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
@@ -29,11 +39,11 @@ with sync_playwright() as p:
     expect(page.locator(".tag.new")).to_have_count(8)
     assert page.locator(".card h3 a").all_text_contents() == top
     page.get_by_role("combobox",name="Historical period").select_option("Ancients")
-    expected = [title for title in top if any(e["title"]==title and "Ancients" in e["periods"] for e in edition["items"])]
-    assert page.locator(".card h3 a").all_text_contents() == expected
+    expected = [e["title"] for e in ordered if "Ancients" in e["periods"]]
+    expect(page.locator(".card h3 a")).to_have_text(expected)
     page.get_by_role("combobox",name="Content type").select_option("Battle report")
     expected = [title for title in expected if any(e["title"]==title and e["type"]=="Battle report" for e in edition["items"])]
-    assert page.locator(".card h3 a").all_text_contents() == expected
+    expect(page.locator(".card h3 a")).to_have_text(expected)
     card = page.locator(".card").first
     for label in ("Like:", "Dislike:", "Save:"):
         button = card.get_by_role("button",name=re.compile("^"+label))
