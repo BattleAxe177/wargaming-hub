@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T19:25:20+00:00",
+  "updated": "2026-11-22T01:24:07+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,56 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://sgtsteiner.blogspot.com/2026/11/no-easy-ground-solo-try-pictastic.html",
+      "url": "https://sgtsteiner.blogspot.com/2026/11/no-easy-ground-solo-try-pictastic.html",
+      "title": "No Easy Ground - a solo try (pictastic)",
+      "source": "sgtsteiner",
+      "summary": "A post on tabletop scenarios or rules covering World War II from Sgt Steiner's Wargaming Blog. Filed under Miniatures, No Easy Ground, Solo. Topics include scenario design.",
+      "date": "2026-11-21T23:26:14.168000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0Iu7F9a2IS3jx9kO3T9VyfhZdIJYFG4nQAgqj-R2FMPwMt6udvfzpIHLd1NVxEahWSF6oSiHyakYyMMxdUO3KOu8rRwO5CL5GmCP4sCJHcn4SRNNIOgUqg0RC5j11l40pxijfBt3jfJ-VSHa41a7QjOKgd-0N0j9egMWF2xFQPmWRHfnx-Jp5/w283-h400/product_CoreRulebook_FrontCover635x900.jpg",
+      "featured": false,
+      "discovered": "2026-11-22T01:24:07+00:00"
+    },
+    {
+      "id": "https://gridbasedwargaming.blogspot.com/2026/11/anglo-zulu-forces-on-tabletop-and-new.html",
+      "url": "https://gridbasedwargaming.blogspot.com/2026/11/anglo-zulu-forces-on-tabletop-and-new.html",
+      "title": "Anglo-Zulu forces on the tabletop and new backboard",
+      "source": "grid",
+      "summary": "A hobby bench update covering 19th Century from Grid Based Wargaming. Filed under Anglo-Zulu War, Painting, Terrain.",
+      "date": "2026-11-21T22:58:41.137000+00:00",
+      "periods": [
+        "19th Century"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1nSO6aTofRA635Ps4rSNQfRNh0sd2JKPUJ_9DoTSIX84lTCPFvAX3ynCFkj4CJfDUOR6QeRpUUohJWYpamHBhzhQkHIQMxzK817Lm73B4JLKdyaOiZYUgVplXoaElrsG6VkzuF_tWEHF6-Q2AYCVCGPjwSZrbLq5v2Qf8fC0cfffx1zVK95XzJmo6LS4E/w400-h346/IMG_3989.jpeg",
+      "featured": false,
+      "discovered": "2026-11-22T01:24:07+00:00"
+    },
+    {
+      "id": "https://www.youtube.com/shorts/X5ST6ZEOpCw",
+      "url": "https://www.youtube.com/shorts/X5ST6ZEOpCw",
+      "title": "The Secret Behind Daniel Morgan's Victory at Cowpens #americanrevolution #history #banastretarleton",
+      "source": "marksgameroom",
+      "summary": "A tabletop wargaming video from Mark’s Game Room.",
+      "date": "2026-11-21T22:48:28+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "image": "https://i1.ytimg.com/vi/X5ST6ZEOpCw/hqdefault.jpg",
+      "featured": false,
+      "discovered": "2026-11-22T01:24:07+00:00"
+    },
     {
       "id": "https://palousewargamingjournal.blogspot.com/2026/11/the-role-of-choice-in-writing-battle.html",
       "url": "https://palousewargamingjournal.blogspot.com/2026/11/the-role-of-choice-in-writing-battle.html",
