@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T13:51:45+00:00",
+  "updated": "2026-11-22T19:48:46+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -198,8 +198,28 @@
       "kind": "Independent blog"
     }
   ],
-  "failures": [],
+  "failures": [
+    "warlord-community"
+  ],
   "items": [
+    {
+      "id": "https://dusttears.blogspot.com/2026/11/thomas-tank-engine-chinese-nationalists.html",
+      "url": "https://dusttears.blogspot.com/2026/11/thomas-tank-engine-chinese-nationalists.html",
+      "title": "Thomas the Tank & Engine - Chinese Nationalists.",
+      "source": "dusttears",
+      "summary": "A hobby bench update covering World War II from Dust, Tears & Dice. Filed under 3D Prints, Battlefield in a box, Bolt Action Rules. Topics include scenario design.",
+      "date": "2026-11-22T17:52:23.057000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnmMosJcj-taCGeLAayBfVF6gx7CvD3st1ySQ-fKk-GjxquL84bF8USmGsccajrx4Hhyphenhyphen6fgbhHGb2yNtFoY5ERQKGD-BZEY3SKDDHreQDfeZOo3ibTbKfTV8VVKdNFiUfO-6irdiLN9g3h-A0gzDi8qamcMymEpmBhP1VGZVr-Sr0wmDdfYvZxLtt5RQ/w400-h300/IMG_6127.jpeg",
+      "featured": false,
+      "discovered": "2026-11-22T19:48:46+00:00"
+    },
     {
       "id": "https://bloodybigbattles.blogspot.com/2026/11/napoleonic-battlemaps.html",
       "url": "https://bloodybigbattles.blogspot.com/2026/11/napoleonic-battlemaps.html",
