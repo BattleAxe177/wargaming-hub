@@ -64,10 +64,11 @@ function loadState() {
       ratings: mergeRatings(new Map(), Array.isArray(state.ratings) ? state.ratings : []),
       followed: new Set(state.followed || []),
       discoveredSources: new Map(Object.entries(state.discoveredSources || {})),
+      aiSeenThrough: discoveryTime(state.aiSeenThrough) === null ? null : state.aiSeenThrough,
       seenThrough: typeof state.seenThrough === "string" ? state.seenThrough : ""
     };
   } catch {
-    return {saved: new Map(), ratings: new Map(), followed: new Set(), discoveredSources: new Map(), seenThrough: ""};
+    return {saved: new Map(), ratings: new Map(), followed: new Set(), discoveredSources: new Map(), aiSeenThrough: null, seenThrough: ""};
   }
 }
 
@@ -83,7 +84,8 @@ function persist() {
   try {
     localStorage.setItem(STORAGE, JSON.stringify({
       saved: Object.fromEntries(state.saved), ratings: [...state.ratings.values()], followed: [...state.followed],
-      discoveredSources: Object.fromEntries(state.discoveredSources), seenThrough: state.seenThrough
+      discoveredSources: Object.fromEntries(state.discoveredSources),
+      aiSeenThrough: state.aiSeenThrough, seenThrough: state.seenThrough
     }));
   } catch {
     $("storage-note").hidden = false;
@@ -192,7 +194,7 @@ function bindRatingControls(node, item) {
   update();
 }
 
-function articleCard(item, discover, featured) {
+function articleCard(item, discover, featured, aiView = false) {
   const node = $("article-template").content.cloneNode(true);
   const tags = node.querySelector(".tags");
   if (featured) {
@@ -201,7 +203,7 @@ function articleCard(item, discover, featured) {
   }
   for (const period of item.periods) tag(tags, period);
   tag(tags, item.type);
-  if (isNew(item)) tag(tags, "New", "new");
+  if (aiView ? isNewDiscovery(item) : isNew(item)) tag(tags, "New", "new");
   const sourceName = sources.get(item.source)?.name || item.sourceName || item.source;
   node.querySelector(".byline").textContent = item.date ? sourceName + " · " + formatDate(item.date) : sourceName;
   const title = node.querySelector("h3 a");
@@ -327,23 +329,54 @@ function discovery(items) {
   ];
 }
 
+function discoveryTime(value) {
+  if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(value)) return null;
+  const time = Date.parse(value);
+  return Number.isFinite(time) && new Date(time).toISOString().replace(".000Z", "Z") === value ? time : null;
+}
+
+function compareDiscoveries(a, b) {
+  const byDiscovery = (discoveryTime(b.discoveredAt) ?? -Infinity) - (discoveryTime(a.discoveredAt) ?? -Infinity);
+  const aPublished = Date.parse(a.date);
+  const bPublished = Date.parse(b.date);
+  const byPublication = (Number.isFinite(bPublished) ? bPublished : -Infinity) - (Number.isFinite(aPublished) ? aPublished : -Infinity);
+  const aKey = articleKey(a.url);
+  const bKey = articleKey(b.url);
+  return byDiscovery || byPublication || (aKey < bKey ? -1 : Number(aKey > bKey));
+}
+
+function isNewDiscovery(item) {
+  const discovered = discoveryTime(item.discoveredAt);
+  const seen = discoveryTime(state.aiSeenThrough);
+  return discovered !== null && seen !== null && discovered > seen;
+}
+
+function acknowledgeDiscoveries() {
+  const latest = aiEdition?.items.find(item => discoveryTime(item.discoveredAt) !== null)?.discoveredAt;
+  if (latest && (!state.aiSeenThrough || latest > state.aiSeenThrough)) {
+    state.aiSeenThrough = latest;
+    persist();
+  }
+}
+
 async function loadAiEdition() {
   try {
-    const response = await fetch("./assets/ai-discover.json");
+    const response = await fetch("./assets/ai-discover.json", {cache: "no-cache"});
     if (!response.ok) throw new Error("AI edition unavailable");
     const edition = await response.json();
     const seen = new Set();
     const items = [];
     for (const item of edition.items) {
-      if (typeof item.url !== "string" || !/^https:\/\//i.test(item.url) || seen.has(item.url)) continue;
-      seen.add(item.url);
+      const key = articleKey(item.url);
+      if (!key || !/^https:\/\//i.test(item.url) || seen.has(key)) continue;
+      seen.add(key);
       items.push({
         ...item, id: item.url,
         date: typeof item.date === "string" && Number.isFinite(Date.parse(item.date)) ? item.date : null,
         image: (typeof item.image === "string" && /^https:\/\//i.test(item.image)) ? item.image : undefined
       });
     }
-    aiEdition = {...edition, items};
+    aiEdition = {...edition, items: items.sort(compareDiscoveries)};
   } catch {
     aiUnavailable = true;
   }
@@ -486,6 +519,8 @@ function render() {
   $("filters").hidden = view === "sources";
   $("feed-toggles").hidden = aiView;
   $("mark-read").hidden = view !== "feed" || !snapshot.items.some(isNew);
+  if (aiView && aiEdition && !state.aiSeenThrough) acknowledgeDiscoveries();
+  $("mark-ai-seen").hidden = !aiView || !aiEdition?.items.some(isNewDiscovery);
   const failed = snapshot.failures.length;
   $("updated").textContent = aiView
     ? (aiEdition?.updated ? "Edition " + formatDate(aiEdition.updated) : "")
@@ -518,7 +553,7 @@ function render() {
   $("more").hidden = records.length <= limit;
   const results = $("results");
   results.replaceChildren(...records.slice(0, limit).map((item) =>
-    view === "sources" ? sourceCard(item) : articleCard(item, view === "discover", item === featured)));
+    view === "sources" ? sourceCard(item) : articleCard(item, view === "discover", item === featured, aiView)));
   if (!records.length) {
     const empty = document.createElement("p");
     empty.className = "empty";
@@ -548,6 +583,7 @@ async function initialize() {
       $("results").children[next]?.querySelector("h3 a")?.focus();
     };
     $("mark-read").onclick = () => { state.seenThrough = snapshot.updated; persist(); render(); $("view-title").focus(); };
+    $("mark-ai-seen").onclick = () => { acknowledgeDiscoveries(); render(); $("view-title").focus(); };
     window.addEventListener("hashchange", () => {
       limit = initialLimit();
       for (const field of $("filters").querySelectorAll("select")) field.value = "";

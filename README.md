@@ -39,6 +39,10 @@ Run `python scripts/validate_snapshots.py` and `node --check docs/assets/app.js`
 - [Configure GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [GitHub Actions schedule behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
 
+AI Discover displays articles by their first Hub discovery time, newest first, with publication date and canonical URL as tie-breakers. The article's `date` is the original publication date. Use UTC ISO 8601 seconds (`YYYY-MM-DDTHH:MM:SSZ`) for `discoveredAt`. The migration used the first main-branch edition containing each article. Keep the timestamp when retaining, editing, or returning an article. Keep retired URLs and their original timestamps in the edition's `discoveryHistory` object so future runs can distinguish them from genuinely new finds. If a legacy date cannot be verified, use `null`; those articles sort after dated discoveries and receive no New badge.
+
+Your first AI Discover visit on each browser establishes a baseline through the latest discovery. Later discoveries show a New badge until you choose **Mark discoveries as seen**. The acknowledgement is local to that browser. Preferences exports continue to carry your explicit preferences; the acknowledgement stays on the device.
+
 ### Daily AI Discover publishing
 
 Submit edition-only changes from an `ai-discover/` branch to `main`. Wait for the `AI Discover / candidate` commit status to pass for the exact pull request head before merging. The check runs the snapshot validator and JavaScript syntax check in GitHub Actions. Then verify `AI Discover / production` on the exact merge commit. That status requires a successful Pages deployment and a byte-for-byte match between the deployed public edition and the checked-in JSON. If a status fails or never arrives, report the blocker and the run link. Keep prior Git revisions available for rollback.

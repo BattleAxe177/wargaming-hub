@@ -25,7 +25,9 @@ jobs:
         run: |
           test "$(git diff --name-only "$BASE_SHA...$HEAD_SHA")" = docs/assets/ai-discover.json
           node --check docs/assets/app.js
-          python scripts/validate_snapshots.py
+          git show "$BASE_SHA:docs/assets/ai-discover.json" > "$RUNNER_TEMP/previous-ai-discover.json"
+          python scripts/validate_snapshots.py --previous "$RUNNER_TEMP/previous-ai-discover.json"
+          node --test tests/ai-discover.test.cjs
       - name: Report validation on the candidate commit
         if: always()
         env:
