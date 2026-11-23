@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T19:48:46+00:00",
+  "updated": "2026-11-23T01:49:06+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -198,9 +198,7 @@
       "kind": "Independent blog"
     }
   ],
-  "failures": [
-    "warlord-community"
-  ],
+  "failures": [],
   "items": [
     {
       "id": "https://dusttears.blogspot.com/2026/11/thomas-tank-engine-chinese-nationalists.html",
