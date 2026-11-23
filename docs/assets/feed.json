@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T01:49:06+00:00",
+  "updated": "2026-11-23T13:06:00+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,24 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/the-next-portable-wargame-compendium_01534031978.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/the-next-portable-wargame-compendium_01534031978.html",
+      "title": "The next Portable Wargame Compendium: Yet another progress report",
+      "source": "misc",
+      "summary": "A hobby journal entry covering Ancients from Wargaming Miscellany. Filed under Ancients, Campaigns, Dominion of .... Topics include small tables.",
+      "date": "2026-11-23T09:37:00+00:00",
+      "periods": [
+        "Ancients"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Small tables"
+      ],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-23T13:06:00+00:00"
+    },
     {
       "id": "https://dusttears.blogspot.com/2026/11/thomas-tank-engine-chinese-nationalists.html",
       "url": "https://dusttears.blogspot.com/2026/11/thomas-tank-engine-chinese-nationalists.html",
