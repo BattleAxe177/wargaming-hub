@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23T13:50:27Z",
   "items": [
     {
       "title": "Ticinus River 218 BC - Command and Colors Ancients Game",
@@ -648,6 +648,61 @@
         "Art de la Guerre"
       ],
       "discoveredAt": "2026-11-20T18:57:45Z"
+    },
+    {
+      "title": "Painting Challenge: Late November Update",
+      "source": "Vis Lardica",
+      "sourceUrl": "https://www.vislardica.com/",
+      "url": "https://www.vislardica.com/blog/2026/11/20/painting-challenge-late-november-update",
+      "date": "2026-11-20",
+      "summary": "A varied historical miniature painting roundup includes 20mm Shermans prepared for Burma, British airborne figures, medieval mounted serjeants and small village terrain, with practical notes on figure storage.",
+      "periods": [
+        "World War II",
+        "Medieval"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "WWII",
+        "Painting",
+        "Terrain"
+      ],
+      "discoveredAt": "2026-11-23T13:50:27Z"
+    },
+    {
+      "title": "Destroyed Forest Terrain for Toys for Tots",
+      "source": "The Wachtmeister's Patrol",
+      "sourceUrl": "https://wachtmeisterspatrol.com/",
+      "url": "https://wachtmeisterspatrol.com/2026/11/02/destroyed-forest-terrain-for-toys-for-tots/",
+      "date": "2026-11-02",
+      "summary": "A quick terrain-painting project transforms 3D-printed ruined woodland using wet-blended muddy earth and UV-resin water effects. The techniques offer ideas for building atmospheric scatter terrain.",
+      "periods": [
+        "General"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "3D printing",
+        "Terrain",
+        "Painting"
+      ],
+      "discoveredAt": "2026-11-23T13:50:27Z"
+    },
+    {
+      "title": "Ten Knights for Greathelm Medieval Skirmish Game",
+      "source": "Lead Legionaries",
+      "sourceUrl": "https://leadlegionaries.blogspot.com/",
+      "url": "https://leadlegionaries.blogspot.com/2026/11/ten-knights-for-greathelm-medieval.html",
+      "date": "2026-11-21",
+      "summary": "A medieval skirmish project paints ten Footsore and Gripping Beast foot knights in contrasting liveries for Greathelm, including shield motifs, metallic highlights and practical batch-painting lessons.",
+      "periods": [
+        "Medieval"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Skirmish",
+        "Painting",
+        "Dark Ages"
+      ],
+      "discoveredAt": "2026-11-23T13:50:27Z"
     }
   ],
   "discoveryHistory": {
