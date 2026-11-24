@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T13:53:53+00:00",
+  "updated": "2026-11-24T23:56:20+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,58 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://battlefieldswarriors.blogspot.com/2026/11/update.html",
+      "url": "https://battlefieldswarriors.blogspot.com/2026/11/update.html",
+      "title": "Update",
+      "source": "battlefields",
+      "summary": "A hobby journal entry from Battlefields & Warriors.",
+      "date": "2026-11-24T19:56:31.440000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-24T23:56:20+00:00"
+    },
+    {
+      "id": "https://elenderilsblog.blogspot.com/2026/11/adventures-with-ai.html",
+      "url": "https://elenderilsblog.blogspot.com/2026/11/adventures-with-ai.html",
+      "title": "Adventures with AI",
+      "source": "smallperfect",
+      "summary": "A hobby journal entry from Small but Perfectly Formed. Filed under 6mm wargaming, Game Design, Hobby Tools. Topics include small scale.",
+      "date": "2026-11-24T16:05:40.956000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Small scale"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixDTrFF6iX04keVsg7aDzb1eYecSCz3uOac3BkOT-uFqpy0Mb-bwjILiE8ni9wG2KTqncsRBR7KPMthW3EtX1rt-TUW4bxy3Als68qdXN5AiIMi4b3jiDunG9fKnuFdanrkgOtLfKKd3BlqgWvhapkSOJ1EiaTP4rbMhqJuANXOoA5hSRW0tj9bCzMyKk/w501-h293/image.png",
+      "featured": false,
+      "discovered": "2026-11-24T23:56:20+00:00"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=sZ9ZPhmXBOg",
+      "url": "https://www.youtube.com/watch?v=sZ9ZPhmXBOg",
+      "title": "The Rangers Who Saved Omaha",
+      "source": "littlewarstv",
+      "summary": "A tabletop wargaming video covering World War II from Little Wars TV. Topics include normandy.",
+      "date": "2026-11-24T16:00:39+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Normandy"
+      ],
+      "image": "https://i4.ytimg.com/vi/sZ9ZPhmXBOg/hqdefault.jpg",
+      "featured": false,
+      "discovered": "2026-11-24T23:56:20+00:00"
+    },
     {
       "id": "https://palousewargamingjournal.blogspot.com/2026/11/the-little-battlefield.html",
       "url": "https://palousewargamingjournal.blogspot.com/2026/11/the-little-battlefield.html",
