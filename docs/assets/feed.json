@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T02:18:16+00:00",
+  "updated": "2026-11-24T13:53:53+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,41 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/the-little-battlefield.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/the-little-battlefield.html",
+      "title": "The Little Battlefield",
+      "source": "palouse",
+      "summary": "A hobby bench update from Palouse Wargaming Journal. Filed under Miscellany, The Little Battlefield.",
+      "date": "2026-11-24T11:49:16.333000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxqFzYDIwP5fIAC5a6TCaGuh7TrW3juqp8F8K3X0p8IQq3nYQa6Mwz-m75MB32Acn_O7NQupUZM9-ozeVyBq1AHSk6FC24xUgdMSCvfkL8lUAOzIgSb7zmugsiitEV8dUyMmWbu_QMeb5_rKT5mvvi9s80IuQdqIq8nCyl-QIS6ZN5sOIefsCWEbh1smWG/s72-w400-h134-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-24T13:53:53+00:00"
+    },
+    {
+      "id": "https://lecoqfou.blogspot.com/2026/11/more-teeny-tiny-italian-wars.html",
+      "url": "https://lecoqfou.blogspot.com/2026/11/more-teeny-tiny-italian-wars.html",
+      "title": "More Teeny Tiny Italian Wars",
+      "source": "lecoqfou",
+      "summary": "A hobby bench update covering Renaissance from Le Coq Fou. Topics include small scale, italian wars.",
+      "date": "2026-11-24T02:43:06.911000+00:00",
+      "periods": [
+        "Renaissance"
+      ],
+      "type": "Painting & modeling",
+      "interests": [
+        "Small scale",
+        "Italian Wars"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFI0HfCQuo6Pj_XhCMfmCxceRS8ZmWFRNMDIs20e18fRsd0KsecO24N4a2zpTsnSVWHnYXOX9VACRbHf9IvJYhiX3jsnnn_Cokjpixvrvt_9guLI7gT4QSIt0P1JBJGf1bSeOoDjW0DwtGTlujqQrDjgDi0WHjq6R5FnTHx4lFoZKed7eJ2scxE1qzb_8t/s320/1000089944.jpg",
+      "featured": false,
+      "discovered": "2026-11-24T13:53:53+00:00"
+    },
     {
       "id": "https://wargamingmiscellany.blogspot.com/2026/11/the-next-portable-wargame-compendium_01534031978.html",
       "url": "https://wargamingmiscellany.blogspot.com/2026/11/the-next-portable-wargame-compendium_01534031978.html",
