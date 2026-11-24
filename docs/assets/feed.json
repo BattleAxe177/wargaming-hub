@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T13:06:00+00:00",
+  "updated": "2026-11-24T02:18:16+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -519,6 +519,22 @@
       "discovered": "2026-11-20T02:16:22+00:00"
     },
     {
+      "id": "https://battlegames.co.uk/caught-at-it",
+      "url": "https://battlegames.co.uk/caught-at-it",
+      "title": "Caught At It!",
+      "source": "battlegames",
+      "summary": "A hobby journal entry from Battlegames. Filed under Patreon.",
+      "date": "2026-11-18T20:40:09+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-24T02:18:16+00:00"
+    },
+    {
       "id": "https://grymauch.blogspot.com/2026/11/matapan-naval-battle-for-greece-march_01936499247.html",
       "url": "https://grymauch.blogspot.com/2026/11/matapan-naval-battle-for-greece-march_01936499247.html",
       "title": "Matapan: The Naval Battle for Greece. March 1941. Part 2",
@@ -717,6 +733,22 @@
       "image": "",
       "featured": false,
       "discovered": "2026-11-20T15:06:15+00:00"
+    },
+    {
+      "id": "https://battlegames.co.uk/strange-events-in-the-loftwaffe",
+      "url": "https://battlegames.co.uk/strange-events-in-the-loftwaffe",
+      "title": "Strange Events in the Loftwaffe",
+      "source": "battlegames",
+      "summary": "A hobby journal entry from Battlegames. Filed under Patreon.",
+      "date": "2026-11-17T09:35:10+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-24T02:18:16+00:00"
     },
     {
       "id": "http://wargameterrain.blogspot.com/2026/11/bigredbat-to-strongest-lust-for-glory.html",
