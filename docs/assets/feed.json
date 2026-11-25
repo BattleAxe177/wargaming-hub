@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T08:46:48+00:00",
+  "updated": "2026-11-25T19:23:38+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,56 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://bloodybigbattles.blogspot.com/2026/11/peachtree-creek-and-atlanta-acw.html",
+      "url": "https://bloodybigbattles.blogspot.com/2026/11/peachtree-creek-and-atlanta-acw.html",
+      "title": "Peachtree Creek and Atlanta (ACW)",
+      "source": "bloodybig",
+      "summary": "A hobby journal entry covering American Civil War from Bloody Big BATTLES!. Filed under 1864, ACW, American Civil War. Topics include scenario design.",
+      "date": "2026-11-25T11:05:16.648000+00:00",
+      "periods": [
+        "American Civil War"
+      ],
+      "type": "Hobby journal",
+      "interests": [
+        "Scenario design"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiun9mkNBMscDHrDmGSzv5CINyFBVPtV9BKXQaTxjg42b3yqtsYA38zD2DwFiOePVWe-Y0eeEnNCIgL6edcaCgjtzBjAps3N6Fncy0Bez6TIz81_M6YUonYnoFIrJy3orDVldvCuMiBSp_SXtMBQpX_sFSnpfgEd4f2U_OTgUfusl2FWdaKHVUk80iG/w574-h334/Atlanta.jpg",
+      "featured": false,
+      "discovered": "2026-11-25T19:23:38+00:00"
+    },
+    {
+      "id": "https://warlord-community.warlordgames.com/messing-around-with-boats-chris-victory-at-sea-fleet",
+      "url": "https://warlord-community.warlordgames.com/messing-around-with-boats-chris-victory-at-sea-fleet",
+      "title": "Messing Around With Boats – Chris’ Victory at Sea Fleet",
+      "source": "warlord-community",
+      "summary": "A hobby bench update from Warlord Games Community. Filed under Victory at Sea, Collecting, Painting.",
+      "date": "2026-11-25T10:56:55+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Painting & modeling",
+      "interests": [],
+      "image": "https://warlord-community.warlordgames.com/wp-content/uploads/2026/11/Victory-at-Seas-US-Navy-8-1024x654.jpg",
+      "featured": false,
+      "discovered": "2026-11-25T19:23:38+00:00"
+    },
+    {
+      "id": "https://wargamingmiscellany.blogspot.com/2026/11/nugget-386.html",
+      "url": "https://wargamingmiscellany.blogspot.com/2026/11/nugget-386.html",
+      "title": "Nugget 386",
+      "source": "misc",
+      "summary": "A hobby journal entry from Wargaming Miscellany. Filed under The Nugget, Wargame Developments, Wargames publications.",
+      "date": "2026-11-25T09:53:00+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "",
+      "featured": false,
+      "discovered": "2026-11-25T19:23:38+00:00"
+    },
     {
       "id": "https://battlefieldswarriors.blogspot.com/2026/11/update.html",
       "url": "https://battlefieldswarriors.blogspot.com/2026/11/update.html",
