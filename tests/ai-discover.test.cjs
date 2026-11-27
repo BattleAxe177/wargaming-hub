@@ -48,3 +48,13 @@ test("legacy preferences, first-visit baseline, persistent badges and acknowledg
   assert.equal(returning.run("isNewDiscovery(aiEdition.items[0])"), false);
   assert.equal(returning.saved.aiSeenThrough, fresh);
 });
+
+test("AI Discover hides regular-feed duplicates and keeps other posts from the source", () => {
+  const app = load();
+  const titles = app.run(`uniqueAiDiscoveries([
+    {url: "https://example.net/post?utm_source=editorial", title: "Duplicate"},
+    {url: "https://example.net/other-post", title: "Different article"},
+    {url: "https://elsewhere.net/post", title: "Other source"}
+  ], [{url: "http://example.net/post/?m=1#comments"}]).map(item => item.title).join(",")`);
+  assert.equal(titles, "Different article,Other source");
+});
