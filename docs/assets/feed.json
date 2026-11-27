@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T01:47:40+00:00",
+  "updated": "2026-11-27T12:41:38+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -201,6 +201,22 @@
   "failures": [],
   "items": [
     {
+      "id": "https://palousewargamingjournal.blogspot.com/2026/11/on-reliability-of-data-in-2026.html",
+      "url": "https://palousewargamingjournal.blogspot.com/2026/11/on-reliability-of-data-in-2026.html",
+      "title": "On the Reliability of Data in 2026",
+      "source": "palouse",
+      "summary": "A hobby journal entry covering World War I from Palouse Wargaming Journal. Filed under Analytics, Great Wargaming Survey.",
+      "date": "2026-11-27T08:00:00+00:00",
+      "periods": [
+        "World War I"
+      ],
+      "type": "Hobby journal",
+      "interests": [],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjd8CwL0KWtcNs7jieAIAG5lKTIYHafr9skTT7WEUZSEVh2oOKJqKpDjg-0_OxSSwgrUTGfxZkq34rQJb5vXOProXkGY9Z1dPSjRUaZ2GLZXJhWsNUb2TcpjShWEIs4YaOZ2ns6xApES-Ygv129wizN7Bk__Z2DmD5hyphenhyphenqkG1VVbJIsfVSzSpBHD3bvIOEH/s72-c/image.png",
+      "featured": false,
+      "discovered": "2026-11-27T12:41:38+00:00"
+    },
+    {
       "id": "https://sgtsteiner.blogspot.com/2026/11/hail-of-fire-normandy-game.html",
       "url": "https://sgtsteiner.blogspot.com/2026/11/hail-of-fire-normandy-game.html",
       "title": "Hail Of Fire - a Normandy game",
@@ -218,6 +234,25 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZNFaKcfIO9ADdtomiQBKqv9PUJtmv8__Vr2KBaUrKZwhPUrUpI8k9njkx9Lzsmj7CXY4idbErHwzqoPTYGpgEHH6pSe8UcJIpDfXXYjoQkw_3S5PH-xh0hezBYUZFwDD5UCbVfnh5s_4OGhs2nIQZTFHkg184_uK_WDOof9fn5o1O_1ceA-9R/w640-h296/20261126_141515.jpg",
       "featured": false,
       "discovered": "2026-11-27T01:47:40+00:00"
+    },
+    {
+      "id": "https://lecoqfou.blogspot.com/2026/11/teeny-tiny-garigliano-aar.html",
+      "url": "https://lecoqfou.blogspot.com/2026/11/teeny-tiny-garigliano-aar.html",
+      "title": "Teeny Tiny Garigliano (an AAR)",
+      "source": "lecoqfou",
+      "summary": "A tabletop game report from Le Coq Fou. Topics include scenario design, fast play.",
+      "date": "2026-11-26T18:48:21.608000+00:00",
+      "periods": [
+        "Mixed & general"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Scenario design",
+        "Fast play"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyXnz2XDw_rrwskHyhxWHs4qYkHwp8A9XpI8dG8xoX3EQ45KesTWZUCBitVjS7yjuxU6UQOD9hAcikC97t2SObWA-cKwZRVXaQ0KVT88jas9Zce2jSJOPEOQItoDRZiwrEcBuvJO9hkIkvqX-am_UA6BMsHkQ55LQo2anxOooxF573F7U-2zbsEjmK1uwh/s320/1000090334.jpg",
+      "featured": false,
+      "discovered": "2026-11-27T12:41:38+00:00"
     },
     {
       "id": "https://grymauch.blogspot.com/2026/11/matapan-naval-battle-for-greece-march_01335379376.html",
