@@ -1,6 +1,12 @@
 name: Refresh feed and publish Pages
 on:
   workflow_dispatch:
+    inputs:
+      candidate_issue:
+        description: Open AI Discover candidate issue to retry (optional)
+        type: string
+  issues:
+    types: [opened, reopened]
   schedule:
     - cron: '23 */3 * * *'
   push:
@@ -11,24 +17,64 @@ on:
       - 'sources.json'
       - 'docs/**'
 
+env:
+  CANDIDATE_ISSUE: ${{ github.event.issue.number || inputs.candidate_issue }}
+
 concurrency:
-  group: wargaming-hub-pages
+  group: >-
+    ${{ (github.event_name != 'issues' ||
+    (github.event.issue.user.login == github.repository_owner &&
+    startsWith(github.event.issue.title, 'AI Discover candidate — '))) &&
+    'wargaming-hub-pages' || github.run_id }}
   cancel-in-progress: false
 
 jobs:
   refresh:
-    if: vars.HUB_PUBLISH_ENABLED == 'true' && github.ref == 'refs/heads/main'
+    if: >-
+      vars.HUB_PUBLISH_ENABLED == 'true' && github.ref == 'refs/heads/main' &&
+      (github.event_name != 'issues' ||
+      (github.event.issue.user.login == github.repository_owner &&
+       startsWith(github.event.issue.title, 'AI Discover candidate — ')))
+    outputs:
+      added: ${{ steps.candidate.outputs.added }}
+      total: ${{ steps.candidate.outputs.total }}
+      mode: ${{ steps.candidate.outputs.mode }}
+      replay: ${{ steps.candidate.outputs.replay }}
+      sha: ${{ steps.candidate_commit.outputs.sha }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: read
     steps:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
+          ref: ${{ (github.event.issue.number || inputs.candidate_issue) && 'main' || github.sha }}
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+      - name: Integrate editorial candidate
+        id: candidate
+        if: env.CANDIDATE_ISSUE != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [[ "$CANDIDATE_ISSUE" =~ ^[1-9][0-9]*$ ]]
+          for attempt in 1 2 3; do
+            if gh issue view "$CANDIDATE_ISSUE" --repo "$GITHUB_REPOSITORY" \
+              --json author,state,title,body > "$RUNNER_TEMP/candidate.json"; then break; fi
+            [[ "$attempt" != 3 ]] || exit 1
+            sleep 5
+          done
+          cp docs/assets/ai-discover.json "$RUNNER_TEMP/prior-ai.json"
+          python scripts/integrate_ai_candidate.py "$RUNNER_TEMP/candidate.json" \
+            "$GITHUB_REPOSITORY_OWNER" docs/assets/ai-discover.json "$GITHUB_OUTPUT"
+          if git log -1 --format=%s --grep="^Publish AI Discover candidate #${CANDIDATE_ISSUE}$" | grep -q .; then
+            git restore docs/assets/ai-discover.json
+            printf '%s\n' "added=0" "total=$(jq '.items | length' "$RUNNER_TEMP/prior-ai.json")" "replay=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Decide whether to collect feeds
+        if: env.CANDIDATE_ISSUE == ''
         id: collect
         env:
           EVENT: ${{ github.event_name }}
@@ -43,7 +89,22 @@ jobs:
       - name: Validate snapshots
         run: |
           node --check docs/assets/app.js
-          python scripts/validate_snapshots.py
+          if [[ -n "$CANDIDATE_ISSUE" ]]; then
+            python scripts/validate_snapshots.py --previous "$RUNNER_TEMP/prior-ai.json"
+            node --test tests/ai-discover.test.cjs
+          else
+            python scripts/validate_snapshots.py
+          fi
+      - name: Commit validated editorial edition
+        id: candidate_commit
+        if: steps.candidate.outputs.added != '' && steps.candidate.outputs.added != '0'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/assets/ai-discover.json
+          git commit -m "Publish AI Discover candidate #${CANDIDATE_ISSUE}"
+          git push origin HEAD:main
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Persist feed history
         if: steps.collect.outputs.enabled == 'true'
         run: |
@@ -55,11 +116,13 @@ jobs:
             git push origin HEAD:main
           fi
       - uses: actions/upload-pages-artifact@v4
+        if: env.CANDIDATE_ISSUE == '' || steps.candidate_commit.outputs.sha != '' || steps.candidate.outputs.replay == 'true'
         with:
           path: docs
 
   publish:
     needs: refresh
+    if: (!github.event.issue.number && !inputs.candidate_issue) || needs.refresh.outputs.sha != '' || needs.refresh.outputs.replay == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -74,9 +137,11 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - uses: actions/checkout@v6
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' || env.CANDIDATE_ISSUE != ''
+        with:
+          ref: ${{ needs.refresh.outputs.sha || (env.CANDIDATE_ISSUE != '' && 'main') || github.sha }}
       - name: Verify the public AI Discover edition
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' || env.CANDIDATE_ISSUE != ''
         env:
           SITE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
@@ -102,3 +167,48 @@ jobs:
           gh api --method POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
             -f state="$state" -f context="AI Discover / production" \
             -f target_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+
+  candidate_report:
+    needs: [refresh, publish]
+    if: >-
+      always() && (github.event.issue.number || inputs.candidate_issue) &&
+      needs.refresh.result != 'skipped'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PREPARE: ${{ needs.refresh.result }}
+      DEPLOY: ${{ needs.publish.result }}
+      ADDED: ${{ needs.refresh.outputs.added }}
+      TOTAL: ${{ needs.refresh.outputs.total }}
+      MODE: ${{ needs.refresh.outputs.mode }}
+      REPLAY: ${{ needs.refresh.outputs.replay }}
+    steps:
+      - name: Report candidate outcome
+        run: |
+          [[ "$CANDIDATE_ISSUE" =~ ^[1-9][0-9]*$ ]]
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          close=false
+          if [[ "$DEPLOY" == success ]]; then
+            title="Published successfully"
+            detail="$ADDED genuinely new articles this attempt, $TOTAL live. Preference mode: $MODE. Public edition verified byte for byte."
+            if [[ "$REPLAY" == true ]]; then detail="$detail This was a recovery run for an already integrated candidate."; fi
+            close=true
+          elif [[ "$PREPARE" == success && "$ADDED" == 0 && "$REPLAY" != true ]]; then
+            title="No new qualifying content"
+            detail="All submitted URLs were already in the current edition or discovery history. No new deployment was needed."
+            close=true
+          else
+            title="Publication failed"
+            failed=$(gh run view "$GITHUB_RUN_ID" --repo "$GITHUB_REPOSITORY" --json jobs \
+              --jq '[.jobs[].steps[] | select(.conclusion == "failure") | .name] | unique | join(", ")' || true)
+            detail="Failed operation: ${failed:-see the preparation or deployment job}. The prior Pages deployment remains available if deployment failed; a verification failure requires checking the public edition. Retry this open issue with the workflow's candidate_issue input."
+          fi
+          {
+            printf '### %s\n\n%s\n\n[Workflow run](%s) · [Wargaming Hub](https://battleaxe177.github.io/wargaming-hub/#ai-discover)\n' "$title" "$detail" "$run"
+          } > "$RUNNER_TEMP/result.md"
+          cat "$RUNNER_TEMP/result.md" >> "$GITHUB_STEP_SUMMARY"
+          gh issue comment "$CANDIDATE_ISSUE" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/result.md"
+          if [[ "$close" == true ]]; then gh issue close "$CANDIDATE_ISSUE" --repo "$GITHUB_REPOSITORY"; fi

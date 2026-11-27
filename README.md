@@ -46,3 +46,7 @@ Your first AI Discover visit on each browser establishes a baseline through the 
 ### Daily AI Discover publishing
 
 Submit edition-only changes from an `ai-discover/` branch to `main`. Wait for the `AI Discover / candidate` commit status to pass for the exact pull request head before merging. The check runs the snapshot validator and JavaScript syntax check in GitHub Actions. Then verify `AI Discover / production` on the exact merge commit. That status requires a successful Pages deployment and a byte-for-byte match between the deployed public edition and the checked-in JSON. If a status fails or never arrives, report the blocker and the run link. Keep prior Git revisions available for rollback.
+
+### Single-submission editorial publishing
+
+The daily editor opens one owner-authored issue titled `AI Discover candidate — YYYY-MM-DD`. Its body is raw JSON with only `preferenceMode` (`latest`, `previous`, or `baseline`) and `items` (one to ten public article records in the existing format without `discoveredAt`). Never include private preferences. The Pages workflow integrates against current main, deduplicates against discovery history, rotates to 40, and runs the existing transition validator and regression tests before committing. It then verifies the live JSON and posts the result on the issue. For a failed submission, dispatch the Pages workflow on main with its open issue number. The old manual PR route is still available. A GitHub Actions deployment can succeed while its verification fails; inspect the linked run before claiming publication.
