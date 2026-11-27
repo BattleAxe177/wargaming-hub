@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T17:02:25+00:00",
+  "updated": "2026-11-27T01:47:40+00:00",
   "sources": [
     {
       "id": "yarkshire",
@@ -200,6 +200,25 @@
   ],
   "failures": [],
   "items": [
+    {
+      "id": "https://sgtsteiner.blogspot.com/2026/11/hail-of-fire-normandy-game.html",
+      "url": "https://sgtsteiner.blogspot.com/2026/11/hail-of-fire-normandy-game.html",
+      "title": "Hail Of Fire - a Normandy game",
+      "source": "sgtsteiner",
+      "summary": "A post on tabletop scenarios or rules covering World War II from Sgt Steiner's Wargaming Blog. Filed under Hail Of Fire, Miniatures, WWII. Topics include scenario design, normandy.",
+      "date": "2026-11-26T19:26:18.280000+00:00",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Scenario & rules",
+      "interests": [
+        "Scenario design",
+        "Normandy"
+      ],
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZNFaKcfIO9ADdtomiQBKqv9PUJtmv8__Vr2KBaUrKZwhPUrUpI8k9njkx9Lzsmj7CXY4idbErHwzqoPTYGpgEHH6pSe8UcJIpDfXXYjoQkw_3S5PH-xh0hezBYUZFwDD5UCbVfnh5s_4OGhs2nIQZTFHkg184_uK_WDOof9fn5o1O_1ceA-9R/w640-h296/20261126_141515.jpg",
+      "featured": false,
+      "discovered": "2026-11-27T01:47:40+00:00"
+    },
     {
       "id": "https://grymauch.blogspot.com/2026/11/matapan-naval-battle-for-greece-march_01335379376.html",
       "url": "https://grymauch.blogspot.com/2026/11/matapan-naval-battle-for-greece-march_01335379376.html",
