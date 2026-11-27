@@ -329,6 +329,11 @@ function discovery(items) {
   ];
 }
 
+function uniqueAiDiscoveries(editionItems, feedItems) {
+  const feedKeys = new Set(feedItems.map(item => articleKey(item.url)));
+  return editionItems.filter(item => !feedKeys.has(articleKey(item.url)));
+}
+
 function discoveryTime(value) {
   if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(value)) return null;
   const time = Date.parse(value);
@@ -520,7 +525,8 @@ function render() {
   $("feed-toggles").hidden = aiView;
   $("mark-read").hidden = view !== "feed" || !snapshot.items.some(isNew);
   if (aiView && aiEdition && !state.aiSeenThrough) acknowledgeDiscoveries();
-  $("mark-ai-seen").hidden = !aiView || !aiEdition?.items.some(isNewDiscovery);
+  const aiItems = aiView && aiEdition ? uniqueAiDiscoveries(aiEdition.items, snapshot.items) : [];
+  $("mark-ai-seen").hidden = !aiItems.some(isNewDiscovery);
   const failed = snapshot.failures.length;
   $("updated").textContent = aiView
     ? (aiEdition?.updated ? "Edition " + formatDate(aiEdition.updated) : "")
@@ -531,7 +537,7 @@ function render() {
     $("results").textContent = aiUnavailable ? "AI Discover couldn’t be loaded. Reload the page to try again." : "Loading AI Discover…";
     return;
   }
-  const items = aiView ? aiEdition.items : view === "saved" ? [...state.saved.values()].reverse() : snapshot.items;
+  const items = aiView ? aiItems : view === "saved" ? [...state.saved.values()].reverse() : snapshot.items;
   const filtered = items.filter((item) =>
     (!$("period").value || item.periods.includes($("period").value)) &&
     (!$("kind").value || item.type === $("kind").value) &&
@@ -559,7 +565,9 @@ function render() {
     empty.className = "empty";
     empty.textContent = view === "saved" && !state.saved.size
       ? "Save an article from the feed to start your reading list."
-      : "No articles match. Try changing the filters.";
+      : aiView && !aiItems.length
+        ? "There are no AI discoveries outside the regular feed in this edition."
+        : "No articles match. Try changing the filters.";
     results.append(empty);
   }
 }

@@ -193,12 +193,12 @@ jobs:
           close=false
           if [[ "$DEPLOY" == success ]]; then
             title="Published successfully"
-            detail="$ADDED genuinely new articles this attempt, $TOTAL live. Preference mode: $MODE. Public edition verified byte for byte."
+            detail="$ADDED genuinely new articles this attempt, $TOTAL in the edition before feed overlap is filtered. Preference mode: $MODE. Public edition verified byte for byte."
             if [[ "$REPLAY" == true ]]; then detail="$detail This was a recovery run for an already integrated candidate."; fi
             close=true
           elif [[ "$PREPARE" == success && "$ADDED" == 0 && "$REPLAY" != true ]]; then
             title="No new qualifying content"
-            detail="All submitted URLs were already in the current edition or discovery history. No new deployment was needed."
+            detail="All submitted URLs were already in the regular feed, current edition or discovery history. No new deployment was needed."
             close=true
           else
             title="Publication failed"

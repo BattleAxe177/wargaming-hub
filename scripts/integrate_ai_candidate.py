@@ -10,7 +10,7 @@ TITLE_PREFIX = "AI Discover candidate — "
 FIELDS = {"url", "title", "source", "date", "summary", "periods", "type", "interests", "image", "imageRights"}
 
 
-def integrate(previous, submission, stamp):
+def integrate(previous, submission, stamp, *, feed_items=()):
     require(isinstance(submission, dict) and set(submission) == {"preferenceMode", "items"},
             "Expected a JSON object with preferenceMode and items")
     mode = submission["preferenceMode"]
@@ -18,6 +18,7 @@ def integrate(previous, submission, stamp):
     items = submission["items"]
     require(isinstance(items, list) and 0 < len(items) <= 10, "Provide between 1 and 10 articles")
     seen = set(discoveries(previous))
+    seen.update(discovery_key(item["url"]) for item in feed_items)
     additions = []
     for item in items:
         require(isinstance(item, dict) and set(item) <= FIELDS, "Unexpected candidate article field")
@@ -52,7 +53,8 @@ def main():
     path = Path(edition_path)
     previous = json.loads(path.read_text(encoding="utf-8"))
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    result, count, mode = integrate(previous, json.loads(body), stamp)
+    feed = json.loads(path.with_name("feed.json").read_text(encoding="utf-8"))
+    result, count, mode = integrate(previous, json.loads(body), stamp, feed_items=feed["items"])
     if count:
         path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     with Path(output_path).open("a", encoding="utf-8") as outputs:
