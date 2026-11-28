@@ -1,6 +1,19 @@
 {
-  "updated": "2026-11-27T14:07:10Z",
+  "updated": "2026-11-28T14:40:02Z",
   "items": [
+    {
+      "url": "https://theuncivilservantblog.wordpress.com/2026/11/01/napoleonic-what-if-part-4/",
+      "title": "Napoleonic What-if (Part 4)",
+      "source": "The Uncivil Servant",
+      "date": "2026-11-01",
+      "summary": "The final session of a Napoleonic game using General de Armee 2 follows a French Guard attack on a wooded flank and a costly cavalry fight in the centre. The report tracks how failing brigade rallies opened gaps and how casualties decided the result when time ran out.",
+      "periods": [
+        "Napoleonic"
+      ],
+      "type": "Battle report",
+      "interests": [],
+      "discoveredAt": "2026-11-28T14:40:02Z"
+    },
     {
       "title": "Teeny Tiny Garigliano (an AAR)",
       "url": "https://lecoqfou.blogspot.com/2026/11/teeny-tiny-garigliano-aar.html",
@@ -665,23 +678,6 @@
         "Scenario design"
       ],
       "discoveredAt": "2026-11-20T18:57:45Z"
-    },
-    {
-      "title": "Teeny Tiny WW2",
-      "source": "Solo Slow Wargaming",
-      "url": "https://soloslowwargaming.blogspot.com/2026/10/teeny-tiny-ww2.html",
-      "date": "2026-10-12",
-      "summary": "A 2mm Hürtgen Forest game pits a US rifle company against machine-gun positions around a wooded hill. The report shows how resolving fire before movement makes suppression matter even on a table with no tanks.",
-      "periods": [
-        "World War II"
-      ],
-      "type": "Battle report",
-      "interests": [
-        "2mm",
-        "Small scale",
-        "Infantry"
-      ],
-      "discoveredAt": "2026-11-20T18:57:45Z"
     }
   ],
   "discoveryHistory": {
@@ -721,6 +717,7 @@
     "https://www.wfgamers.org.uk/resources/battle-scenarios/the-attack-on-breville-les-monts-11th-june-1944": "2026-11-20T18:57:45Z",
     "https://dusttears.blogspot.com/2026/11/pony-wars-buildings-6mm.html": "2026-11-20T14:26:10Z",
     "https://lecoqfou.blogspot.com/2026/11/condottiere.html": "2026-11-20T14:26:10Z",
-    "https://dusttears.blogspot.com/2026/11/operation-martlet-big-bolt-action.html": "2026-11-20T14:26:10Z"
+    "https://dusttears.blogspot.com/2026/11/operation-martlet-big-bolt-action.html": "2026-11-20T14:26:10Z",
+    "https://soloslowwargaming.blogspot.com/2026/10/teeny-tiny-ww2.html": "2026-11-20T18:57:45Z"
   }
 }
