@@ -1,6 +1,22 @@
 {
-  "updated": "2026-11-28T14:40:02Z",
+  "updated": "2026-11-28T14:44:53Z",
   "items": [
+    {
+      "url": "https://wargamerabbit.wordpress.com/2021/01/17/fow-coles-charge-1944/",
+      "title": "FOW Cole’s Charge 1944",
+      "source": "Wargamerabbit",
+      "date": "2021-01-17",
+      "summary": "Wargamerabbit refights the action at Normandy’s Ingouf Farm in 20mm using Flames of War, with US paratroopers advancing under first-turn smoke against Fallschirmjäger dug in around the farm and orchards. The report includes a scenario map and force lists, and explains the players’ twelve-turn limit for taking both objectives.",
+      "periods": [
+        "World War II"
+      ],
+      "type": "Battle report",
+      "interests": [
+        "Normandy",
+        "Scenario design"
+      ],
+      "discoveredAt": "2026-11-28T14:44:53Z"
+    },
     {
       "url": "https://theuncivilservantblog.wordpress.com/2026/11/01/napoleonic-what-if-part-4/",
       "title": "Napoleonic What-if (Part 4)",
@@ -662,22 +678,6 @@
         "preserveFrame": true
       },
       "discoveredAt": "2026-11-20T18:57:45Z"
-    },
-    {
-      "title": "The Battle of Wittenberg, 2nd October 1760 (The Scenario)",
-      "source": "Jemima Fawr’s Miniature Wargames Blog",
-      "url": "https://www.jemimafawr.co.uk/2026/10/14/the-battle-of-wittenberg-2nd-october-1760-the-scenario/",
-      "date": "2026-10-14",
-      "summary": "A Seven Years War scenario for Tricorn gives the outnumbered Prussians a defensible position and the Reichsarmee the challenge of bringing its strength to bear. The map, deployments, and historical background show how to turn a lopsided battle into a playable one.",
-      "periods": [
-        "18th Century"
-      ],
-      "type": "Scenario & rules",
-      "interests": [
-        "Seven Years War",
-        "Scenario design"
-      ],
-      "discoveredAt": "2026-11-20T18:57:45Z"
     }
   ],
   "discoveryHistory": {
@@ -718,6 +718,7 @@
     "https://dusttears.blogspot.com/2026/11/pony-wars-buildings-6mm.html": "2026-11-20T14:26:10Z",
     "https://lecoqfou.blogspot.com/2026/11/condottiere.html": "2026-11-20T14:26:10Z",
     "https://dusttears.blogspot.com/2026/11/operation-martlet-big-bolt-action.html": "2026-11-20T14:26:10Z",
-    "https://soloslowwargaming.blogspot.com/2026/10/teeny-tiny-ww2.html": "2026-11-20T18:57:45Z"
+    "https://soloslowwargaming.blogspot.com/2026/10/teeny-tiny-ww2.html": "2026-11-20T18:57:45Z",
+    "https://www.jemimafawr.co.uk/2026/10/14/the-battle-of-wittenberg-2nd-october-1760-the-scenario/": "2026-11-20T18:57:45Z"
   }
 }
